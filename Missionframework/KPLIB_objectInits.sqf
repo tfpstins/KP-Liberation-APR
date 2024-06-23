@@ -24,7 +24,7 @@
 */
 
 KPLIB_objectInits = [
-    // Set KP logo on white flag
+    // Set logo on white flag
     [
         ["Flag_White_F"],
         {_this setFlagTexture "res\flag_kp_co.paa";}
@@ -83,7 +83,19 @@ KPLIB_objectInits = [
         [KPLIB_b_smallStorage, KPLIB_b_largeStorage],
         {_this setVariable ["KPLIB_storage_type", 0, true];}
     ],
-
+    
+    // disable inventory action and ACE rename of resource crates
+    [
+        KPLIB_crates,
+        {
+            _this lockInventory true;
+            if (KPLIB_ace) then {
+                [_this, true, [0, 1.5, 0], 0] remoteExec ["ace_dragging_fnc_setCarryable"];
+                _this setVariable ["ace_cargo_noRename", true];
+            };
+        }
+    ],
+    
     // Add ACE variables to corresponding building types
     [
         [KPLIB_b_logiStation],
@@ -114,12 +126,40 @@ KPLIB_objectInits = [
     // Add valid vehicles to support module, if system is enabled
     [
         KPLIB_param_supportModule_artyVeh,
-        {if (KPLIB_param_supportModule > 0) then {KPLIB_param_supportModule_arty synchronizeObjectsAdd [_this];};}
+        {
+            if (KPLIB_param_supportModule > 0) then {
+                [_this] spawn {
+                    params ["_arty"];
+                    waitUntil {sleep 0.1; time > 0};
+                    [_arty] remoteExecCall ["KPLIB_fnc_addArtyToSupport", 0, _arty];
+                };
+            };
+        }
+    ],
+
+    // add fullheal action to huron/taru medical container (mobile fullHeal)
+    [
+        ["B_Slingload_01_Medevac_F", "Land_Pod_Heli_Transport_04_medevac_F"],
+        {
+            [_this] spawn {
+                params ["_medvacbox"];
+                waitUntil {sleep 0.1; time > 0};
+                [_medvacbox] remoteExecCall ["KPLIB_fnc_addActionsFullHeal", 0, _medvacbox];
+            };
+        }
+    ],
+
+    // Add VAM Workbench repairFacility compat in case it doesn't work the other way
+    [
+        ["Land_Workbench_01_F"], 
+        {
+            _this setVariable ["ace_isRepairFacility", 1, true];
+        }
     ],
 
     // Disable autocombat (if set in parameters) and fleeing
     [
-        ["Man"],
+        ["CAManBase"],
         {
             if (!(KPLIB_param_autodanger) && {(side _this) isEqualTo KPLIB_side_player}) then {
                 _this disableAI "AUTOCOMBAT";
