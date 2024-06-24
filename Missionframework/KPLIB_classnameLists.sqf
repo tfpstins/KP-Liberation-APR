@@ -12,6 +12,11 @@
 
 // Vehicle classnames which should be ignored on kp_fuel_consumption.
 kp_fuel_ignore_vehicles = [
+    "JGPT_EU",
+    "HMCS",
+    "HMCS_501",
+    "HMCS_VW1",
+	
     "gm_ge_army_bicycle_01_oli",
     "C_Cher90s_Civ_Bike",
     "RDS_MMT_Civ_01",
@@ -78,6 +83,11 @@ KPLIB_medical_vehicles = [
 
 // Building classnames which also function as ACE medical facilities.
 KPLIB_medical_facilities = [
+    "B_Slingload_01_Medevac_F",
+    "MASH",
+    "GUE_WarfareBFieldhHospital",
+    "USMC_WarfareBFieldhHospital",
+    "Land_MedicalTent_01_wdl_closed_F",
     "Land_Medevac_house_V1_F",
     "Land_Medevac_HQ_V1_F",
     "Land_MedicalTent_01_tropic_closed_F",
@@ -119,6 +129,7 @@ KPLIB_aiResupplySources = [
     "Misc_Cargo1B_military",
     "B_Truck_01_ammo_F",
     "BW_LKW15T_Ammo_F",
+    "CUP_B_nM1038_Ammo_USA_WDL",
     "CUP_B_Kamaz_Reammo_CDF",
     "CUP_B_MTVR_Ammo_USA",
     "CUP_B_MTVR_Ammo_USMC",
@@ -149,6 +160,13 @@ KPLIB_aiResupplySources = [
     "rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
     "rhsusf_M977A4_AMMO_usarmy_d",
     "rhsusf_M977A4_AMMO_usarmy_wd",
+    "Sparky_Japan_2035_Kamaz_Ammo_JGSDF",
+    "Sparky_JSDF_Overhaul_gac_JGSDF_35t_resupply",
+    "Sparky_JSDF_Overhaul_JSDF_JGSDF_Type87_ASV",
+    "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
+    "Sparky_JSDF_Overhaul_JSDF_JGSDF_Type99_ASV",
+    "UK3CB_B_MTVR_Reammo_WDL",
+    "UK3CB_LDF_B_T810_Reammo",
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
@@ -158,6 +176,7 @@ KPLIB_aiResupplySources = [
 
 // Everything that can repair other vehicles.
 vehicle_repair_sources = [
+    "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
     "B_APC_Tracked_01_CRV_F",
     "rhs_gaz66_repair_vmf",
     "B_Slingload_01_Repair_F",
@@ -205,6 +224,7 @@ vehicle_repair_sources = [
 
 // Everything that can rearm other vehicles.
 vehicle_rearm_sources = [
+    "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
     "B_APC_Tracked_01_CRV_F",
     "rhs_gaz66_ammo_vmf",
     "B_AFBiH_GAZ66_Ammo",
@@ -253,6 +273,7 @@ vehicle_rearm_sources = [
 // Everything that can refuel other vehicles.
 vehicle_refuel_sources = [
     "B_AFBiH_URAL_Fuel",
+    "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
     "B_APC_Tracked_01_CRV_F",
     "B_Slingload_01_Fuel_F",
     "RHS_Ural_Fuel_MSV_01",
@@ -307,6 +328,7 @@ boats_names = [
     "B_T_Boat_Armed_01_minigun_F",
     "B_T_Boat_Transport_01_F",
     "CUP_B_LCU1600_USMC",
+    "CUP_B_Frigate_ANZAC",
     "CUP_B_MK10_GB",
     "CUP_B_RHIB_USMC",
     "CUP_B_RHIB2Turret_USMC",
@@ -317,12 +339,16 @@ boats_names = [
     "rhsgref_hidf_rhib",
     "CUP_O_LCVP_VIV_SLA",
     "CUP_O_PBX_SLA",
+    "C_Scooter_Transport_01_F",
     "O_Boat_Armed_01_hmg_F",
     "O_Boat_Transport_01_F",
     "O_T_Boat_Armed_01_hmg_F",
     "O_T_Boat_Transport_01_F",
     "rhsusf_mkvsoc",
     "sfp_gruppbat",
+    "sfp_15_gruppbat",
+    "sfp_svavare2000",
+    "sfp_svavare2000_transport",
     "sfp_rbb_norrkoping",
     "sfp_strb90_rws",
     "sfp_strb90",
@@ -336,6 +362,49 @@ boats_names = [
 
 // Classnames of artillery vehicles, which should be added to the support module
 KPLIB_param_supportModule_artyVeh = [
+    "sfp_robotbil15",
+    "sfp_grkpbv90120",
+    "sfp_grk84",
+    "sfp_fh77",
+    
+    "Sparky_Japan_2035_Scorcher_JGSDF",
+    "Sparky_Japan_2035_MLRS_JGSDF",
+    
+    "Sparky_JSDF_Overhaul_Type74_105mm_SPG",
+    "Sparky_JSDF_Overhaul_Type75_155mm_SPG",
+    "Sparky_JSDF_Overhaul_Type75_130mm_MLRS",
+    "UK3CB_B_M270_MLRS_Cluster_WDL",
+    "UK3CB_B_M270_MLRS_HE_WDL",
+    "ua_ukr_2s3",
+    "UK3CB_GAF_B_2S1",
+    "APC_Wheeled_01_mortar_base_lxWS",
+    
+    "BWA3_Panzerhaubitze2000_Fleck",
+    "BWA3_MRS120_Fleck",
+    "B_Ship_MRLS_01_F",
+    "UK3CB_B_G_Pickup_Rocket",
+    "UK3CB_B_G_Pickup_rocket_arty",
+    "UK3CB_B_G_Hilux_Mortar",
+    "UK3CB_B_G_Hilux_Rocket",
+    "UK3CB_B_G_Hilux_Rocket_Arty",
+    "rhsgref_cdf_b_reg_BM21",
+    "UK3CB_LDF_B_T810_MLRS",
+    "UK3CB_LDF_B_RM70_MG",
+    "UK3CB_MDF_B_MTVR_MLRS",
+    
+    "PRACS_M101",
+    "PRACS_M102",
+    "PRACS_M114",
+    "PRACS_M198",
+    "PRACS_M1",
+    "PRACS_M115",
+    "B_TwinMortar_RF",
+    "tbd_2b25_gall",
+    "tbd_2b9_vasilek",
+    "tbd_mt12",
+    "tbd_m119",
+    "tbd_120mm_pm_43",
+    
     "B_G_Mortar_01_F",
     "B_MBT_01_arty_F",
     "B_MBT_01_mlrs_F",
@@ -344,6 +413,7 @@ KPLIB_param_supportModule_artyVeh = [
     "B_T_MBT_01_arty_F",
     "B_T_MBT_01_mlrs_F",
     "B_T_Mortar_01_F",
+    "CUP_I_2b14_82mm_AAF",
     "CUP_B_2b14_82mm_ACR",
     "CUP_B_2b14_82mm_CDF",
     "CUP_B_BM21_CDF",
@@ -430,6 +500,7 @@ KPLIB_param_supportModule_artyVeh = [
     "RHS_M252_USMC_D",
     "RHS_M252_USMC_WD",
     "RHS_M252_WD",
+    "rhsgref_cdf_b_reg_d30",
     "rhsusf_m109_usarmy",
     "rhsusf_m109d_usarmy",
     "rhsusf_M142_usarmy_D",
