@@ -16,7 +16,7 @@ kp_fuel_ignore_vehicles = [
     "HMCS",
     "HMCS_501",
     "HMCS_VW1",
-	
+    
     "gm_ge_army_bicycle_01_oli",
     "C_Cher90s_Civ_Bike",
     "RDS_MMT_Civ_01",
@@ -28,6 +28,9 @@ kp_fuel_ignore_vehicles = [
 
 // Vehicle classnames which also function as ACE medical vehicles.
 KPLIB_medical_vehicles = [
+    "PRACS_BMR_AMB",
+    "PRACS_M250_AMB",
+    "PRACS_Sa330_Puma_MED",
     "B_T_Truck_01_medical_F",
     "B_Truck_01_medical_F",
     "C_Van_02_medevac_F",
@@ -113,6 +116,13 @@ KPLIB_medical_facilities = [
 
 // Classnames of ACE crates
 KPLIB_ace_crates = [
+    "BWA3_box_120mm_Mo_Combo",
+    "BWA3_box_120mm_Mo_HE",
+    "BWA3_box_120mm_Mo_HE_annz",
+    "BWA3_box_120mm_Mo_HE_dpz",
+    "BWA3_box_120mm_Mo_Illum",
+    "BWA3_box_120mm_Mo_Smoke",
+    
     "ACE_Box_82mm_Mo_Combo",
     "ACE_Box_82mm_Mo_HE",
     "ACE_Box_82mm_Mo_Illum",
@@ -122,6 +132,10 @@ KPLIB_ace_crates = [
 
 // Everything the AI troups should be able to resupply from.
 KPLIB_aiResupplySources = [
+    "cwr3_b_uk_fv620_reammo",
+    "PRACS_M88",
+    "PRACS_M250_Ammo",
+    "PRACS_m548_ammo",
     "B_APC_Tracked_01_CRV_F",
     "B_Slingload_01_Ammo_F",
     "B_T_APC_Tracked_01_CRV_F",
@@ -176,6 +190,9 @@ KPLIB_aiResupplySources = [
 
 // Everything that can repair other vehicles.
 vehicle_repair_sources = [
+    "cwr3_b_uk_fv620_repair",
+    "PRACS_M88",
+    "PRACS_M250_Repair",
     "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
     "B_APC_Tracked_01_CRV_F",
     "rhs_gaz66_repair_vmf",
@@ -224,6 +241,10 @@ vehicle_repair_sources = [
 
 // Everything that can rearm other vehicles.
 vehicle_rearm_sources = [
+    "cwr3_b_uk_fv620_reammo",
+    "PRACS_M88",
+    "PRACS_M250_Ammo",
+    "PRACS_m548_ammo",
     "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
     "B_APC_Tracked_01_CRV_F",
     "rhs_gaz66_ammo_vmf",
@@ -272,6 +293,10 @@ vehicle_rearm_sources = [
 
 // Everything that can refuel other vehicles.
 vehicle_refuel_sources = [
+    "cwr3_b_uk_fv620_refuel",
+    "PRACS_M88",
+    "PRACS_M250_fuel",
+    "PRACS_m548_fuel",
     "B_AFBiH_URAL_Fuel",
     "Sparky_JSDF_Overhaul_JSDF_JGSDF_type90_Recovery",
     "B_APC_Tracked_01_CRV_F",
