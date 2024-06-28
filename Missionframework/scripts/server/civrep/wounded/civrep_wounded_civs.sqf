@@ -57,8 +57,8 @@ while {true} do {
                     [_civx, "AinjPpneMstpSnonWnonDnon_kneel"] remoteExecCall ["switchMove"];
                     [_civx, "AinjPpneMstpSnonWnonDnon_kneel"] remoteExecCall ["playMoveNow"];
                     sleep 2;
-                    _civ doFollow leader group _civ;
-                    _civ stop false;
+                    _civx doFollow leader group _civx;
+                    _civx stop false;
                     _civx enableAI "ALL";
                     [4, [(name _civx)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
                     [KPLIB_cr_wounded_gain] call F_cr_changeCR;
