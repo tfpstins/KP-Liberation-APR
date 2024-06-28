@@ -2356,8 +2356,11 @@
             <Chinesesimp>附身</Chinesesimp>
             <Chinese>取代</Chinese>
             <Turkish>Değiştir</Turkish>
-            <Portuguese>Substituir</Portuguese>.
-            <Korean>분대원 교체</Korean><Czech>Nahradit</Czech><Japanese>置き換え</Japanese></Key>
+            <Portuguese>Substituir</Portuguese>
+            <Korean>분대원 교체</Korean>
+            <Czech>Nahradit</Czech>
+            <Japanese>置き換え</Japanese>
+        </Key>
         <Key ID="STR_DEPLOY_ON_MEMBER_TOOLTIP">
             <Original>You will deploy on the selected squad member and replace them while keeping your current loadout.</Original>
             <French>Vous allez vous déployer à la place du member d'escouade selectionné tout en conservant votre équipement actuel.</French>
