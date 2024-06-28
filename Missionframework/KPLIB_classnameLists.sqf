@@ -673,8 +673,6 @@ KPLIB_collisionIgnoreObjects = [
     "Land_Sign_WarningMilAreaSmall_F",
     "Land_Sign_WarningMilitaryVehicles_F",
     "Land_Razorwire_F",
-    "Sign_Sphere100cm_F",
-    "Land_ClutterCutter_large_F",
     "Land_HighVoltageColumnWire_F",
     "Land_PowerLine_01_wire_50m_F",    
     "Land_PowerLine_01_wire_50m_main_F",    
