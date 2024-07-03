@@ -125,7 +125,7 @@ KPLIB_objectInits = [
             [_this] spawn {
                 params ["_fuelTruck"];
                 waitUntil {sleep 0.1; time > 0};
-                if (getNumber (configfile >> "CfgVehicles" >> (typeOf _fuelTruck) >> "ace_refuel_fuelCargo") > 0) then {
+                if (getNumber (configfile >> "CfgVehicles" >> (typeOf _fuelTruck) >> "ace_refuel_fuelCargo") <= 0) then {
                     [_fuelTruck, 3000] remoteExecCall ["ace_refuel_fnc_makeSource", 0, _fuelTruck];
                 };
             };
