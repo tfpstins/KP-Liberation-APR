@@ -24,7 +24,7 @@ params [
 if (KPLIB_civrep_debug > 0) then {[format ["globalMsg called on: %1 - Parameters: [%2, %3]", debug_source, _msgType, _data], "CIVREP"] remoteExecCall ["KPLIB_fnc_log", 2];};
 
 switch (_msgType) do {
-    case 0: {systemChat localize "STR_CR_VEHICLEMSG";};
+    case 0: {systemChat (format [localize "STR_CR_VEHICLEMSG", (_data select 0)]);};
     case 1: {systemChat (format [localize "STR_CR_BUILDINGMSG", (_data select 0)]);};
     case 2: {systemChat (format [localize "STR_CR_KILLMSG", (_data select 0), (_data select 1)]);};
     case 3: {systemChat (format [localize "STR_CR_RESISTANCE_KILLMSG", (_data select 0), (_data select 1)]);};
