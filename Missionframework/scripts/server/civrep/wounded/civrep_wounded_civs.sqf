@@ -17,6 +17,7 @@ for "_i" from 1 to _count do {
     private _civ = [selectRandom KPLIB_c_units, _pos, _grp] call KPLIB_fnc_createManagedUnit;
     _civ setDamage 0.75;
     _civs pushBack _civ;
+};
 
 waitUntil {count _civs isEqualTo _count};
 if (KPLIB_civrep_debug > 0) then {[format ["civrep_wounded_civs.sqf -> Spawned %1 wounded civilians at %2", _count, markerText _sector], "CIVREP"] remoteExecCall ["KPLIB_fnc_log", 2];};
@@ -39,16 +40,13 @@ _waypoint setWaypointType "HOLD";
     _marker setMarkerColor "ColorCIV";
     _marker setMarkerAlpha 0.35;
     _markers pushBack _marker;
-};
 } forEach _civs;
 
-private _units_near = [markerPos _sector, 300, KPLIB_side_player] call KPLIB_fnc_getUnitsCount;
 private _range = KPLIB_range_sectorCapture*2; // default 350m
 private _units_near = [markerPos _sector, _range, KPLIB_side_player] call KPLIB_fnc_getUnitsCount;
 private _healed_civs = [];
 
 while {true} do {
-    _units_near = [markerPos _sector, 300, KPLIB_side_player] call KPLIB_fnc_getUnitsCount;
     _units_near = [markerPos _sector, _range, KPLIB_side_player] call KPLIB_fnc_getUnitsCount;
     if (_units_near isEqualTo 0) exitWith {
         if (KPLIB_civrep_debug > 0) then {["civrep_wounded_civs.sqf -> no near blufor units. exit heal wait loop", "CIVREP"] remoteExecCall ["KPLIB_fnc_log", 2]};
@@ -64,6 +62,7 @@ while {true} do {
                 _healed_civs pushBack _civx;
                 removeAllActions _civx;
                 if (alive _civx) then {
+                    private _nearestPlayer = player;
                     private _minDistance = 100;
                     {
                         private _playerx = _x;
@@ -80,7 +79,6 @@ while {true} do {
                     _civx doFollow leader group _civx;
                     _civx stop false;
                     _civx enableAI "ALL";
-                    [4, [(name _civx)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
                     [4, [(name _civx), (name _nearestPlayer)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
                     [KPLIB_cr_wounded_gain] call F_cr_changeCR;
                     stats_civilians_healed = stats_civilians_healed +1;
