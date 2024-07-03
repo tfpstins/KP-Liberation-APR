@@ -2,6 +2,8 @@ scriptName "civinfo_escort";
 
 params ["_informant"];
 
+waitUntil {sleep 0.5; local _unit};
+
 if (KPLIB_civinfo_debug > 0) then {[format ["civinfo_escort called on: %1 - Parameters: [%2]", debug_source, _informant], "CIVINFO"] remoteExecCall ["KPLIB_fnc_log", 2];};
 
 private _is_near_fob = false;

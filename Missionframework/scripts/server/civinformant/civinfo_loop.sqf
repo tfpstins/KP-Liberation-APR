@@ -87,20 +87,6 @@ while {true} do {
         private _isCuffed = _informant getVariable ["ace_captives_isHandcuffed", false];
         KPLIB_civinfo_under_control = false;
         if (_isCaptured || _isCuffed) then {
-            if (KPLIB_ace) then {
-                private _isCuffed = _informant getVariable ["ace_captives_isHandcuffed", false];
-                if !(_isCuffed) then {
-                    ["ace_captives_setSurrendered", [_informant, false], _informant] remoteExecCall ["CBA_fnc_targetEvent", 2];
-                };
-            } else {
-                _informant setCaptive false;
-                _informant enableAI "ANIM";
-                _informant enableAI "MOVE";
-                sleep 1;
-                _informant playmove "AmovPercMstpSsurWnonDnon_AmovPercMstpSnonWnonDnon";
-                sleep 2;
-            };
-            
             private _capturedPlayer = _informant getVariable ["KPLIB_prisonner_whois", objNull];
             if (isNull _capturedPlayer) then {
                 private _players = allPlayers;
@@ -116,13 +102,25 @@ while {true} do {
                 _CapturedPlayer = _nearestPlayer;
             };
             _informant setVariable ["KPLIB_prisonner_whois", _capturedPlayer];
-            group _informant setGroupOwner owner _capturedPlayer;
             [[_informant], group _capturedPlayer] remoteExecCall ["joinSilent"];
+            if (KPLIB_ace) then {
+                private _isCuffed = _informant getVariable ["ace_captives_isHandcuffed", false];
+                if !(_isCuffed) then {
+                    ["ace_captives_setSurrendered", [_informant, false], _informant] remoteExecCall ["CBA_fnc_targetEvent", 2];
+                };
+            } else {
+                _informant setCaptive false;
+                _informant enableAI "ANIM";
+                _informant enableAI "MOVE";
+                sleep 1;
+                _informant playmove "AmovPercMstpSsurWnonDnon_AmovPercMstpSnonWnonDnon";
+                sleep 2;
+            };
             if (KPLIB_civinfo_debug > 0) then {[format ["civinfo_loop civilian joined to group: %1", name _capturedPlayer], "CIVINFO"] remoteExecCall ["KPLIB_fnc_log", 2];};
             doStop _informant;
             _informant doFollow _capturedPlayer;
 
-            [_informant] remoteExec ["civinfo_escort",2];
+            [_informant] remoteExec ["civinfo_escort", _informant];
             [7, [0,0,0], _capturedPlayer] remoteExec ["civinfo_notifications"];
         };
         
