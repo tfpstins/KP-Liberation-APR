@@ -17,6 +17,12 @@ for "_i" from 1 to _count do {
     private _civ = [selectRandom KPLIB_c_units, _pos, _grp] call KPLIB_fnc_createManagedUnit;
     _civ setDamage 0.75;
     _civs pushBack _civ;
+    private _marker = createMarker ["wounded_marker_" + str _i, [((_pos select 0) - 20 + (random 40)),((_pos select 1) - 20 + (random 40))]];
+    _marker setMarkerShape "ELLIPSE";
+    _marker setMarkerSize [25,25];
+    _marker setMarkerColor "ColorCIV";
+    _marker setMarkerAlpha 0.35;
+    _markers pushBack _marker;
 };
 
 waitUntil {count _civs isEqualTo _count};
@@ -34,12 +40,6 @@ _waypoint setWaypointType "HOLD";
     _civx setDir (random 360);
     _civx call F_cr_woundedAnim;
     if (KPLIB_ace_med) then {[_civx] remoteExec ["KPLIB_fnc_crAddAceAction"];};
-    private _marker = createMarker ["wounded_marker_" + str _i, [((_pos select 0) - 20 + (random 40)),((_pos select 1) - 20 + (random 40))]];
-    _marker setMarkerShape "ELLIPSE";
-    _marker setMarkerSize [25,25];
-    _marker setMarkerColor "ColorCIV";
-    _marker setMarkerAlpha 0.35;
-    _markers pushBack _marker;
 } forEach _civs;
 
 private _range = KPLIB_range_sectorCapture*2; // default 350m
