@@ -10,6 +10,7 @@ This fork is a uniquely modified version of [KP Liberation](https://github.com/K
 
 ### Recommended Add-ons
 - [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
+- [LAMBS Danger.fsm](https://steamcommunity.com/sharedfiles/filedetails/?id=1858075458)
 
 ### Presets
 The included presets are outdated. We recommend using customizations to create your own presets. This fork serves as a base for customizing missions.
