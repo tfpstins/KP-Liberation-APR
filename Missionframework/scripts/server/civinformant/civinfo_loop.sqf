@@ -126,11 +126,11 @@ while {true} do {
         
         waitUntil {!alive _informant || _timeover};
         
-        if (!alive _informant && !KPLIB_civinfo_under_control) then {
+        if (!alive _informant && !KPLIB_civinfo_under_control) exitWith {
             if (KPLIB_civinfo_debug > 0) then {[format ["civinfo_loop is reset by: %1 - Informant isn't alive", debug_source], "CIVINFO"] remoteExecCall ["KPLIB_fnc_log", 2];};
             [3] remoteExec ["civinfo_notifications"];
         };
-        if (_timeover) then {
+        if (_timeover) exitWith {
             if (isNull objectParent _informant) then {deleteVehicle _informant} else {(objectParent _informant) deleteVehicleCrew _informant};
             if (KPLIB_civinfo_debug > 0) then {["Informant despawned", "CIVINFO"] remoteExecCall ["KPLIB_fnc_log", 2];};
             [2] remoteExec ["civinfo_notifications"];
