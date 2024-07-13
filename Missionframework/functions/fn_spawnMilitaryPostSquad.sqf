@@ -31,6 +31,7 @@ if (_allPosts isEqualTo []) exitWith {[]};
 
 // Spawn units
 private _grp = createGroup [KPLIB_side_enemy, true];
+_grp setVariable ["acex_headless_blacklist", true, true];
 private _unit = objNull;
 private _units = [];
 {
