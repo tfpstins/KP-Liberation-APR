@@ -156,13 +156,6 @@ if !(isNil "KPLIB_o_turrets_AA") then {
     _base_staticDefence pushBack _staticDefenceAA_2;
 };
 
-{
-    if (_x isEqualTo "Turret_Array_Empty") exitWith {};
-    _staticDefence = [[(_base_position#0) - (random 50) + (random 150),(_base_position#1) - (random 50) + (random 150),0], _x] call KPLIB_fnc_spawnVehicle;
-} forEach _staticAA;
-
-_objectives_alive = true;
-
 secondary_objective_position = _base_position;
 secondary_objective_position_marker = [(((secondary_objective_position select 0) + 800) - random 1600), (((secondary_objective_position select 1) + 800) - random 1600), 0];
 publicVariable "secondary_objective_position_marker";
