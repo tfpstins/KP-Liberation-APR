@@ -99,7 +99,7 @@ for [{_idx=0}, {_idx < _sentryMax}, {_idx=_idx+1}] do {
     [KPLIB_o_sentry, _base_sentry_pos, _grpsentry, "PRIVATE", 0.5] call KPLIB_fnc_createManagedUnit;
 };
 
-while {(count (waypoints _grpsentry)) != 0} do {deleteWaypoint ((waypoints _grpsentry) select 0);};
+{ deleteWaypoint _x } forEachReversed waypoints _grpsentry;
 private _waypoint = [];
 {
     _waypoint = _grpsentry addWaypoint [[((_base_position select 0) + (_x select 0)), ((_base_position select 1) + (_x select 1)), 0], -1];
