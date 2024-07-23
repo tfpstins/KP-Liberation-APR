@@ -111,7 +111,7 @@
             <Portuguese>Mobilizar</Portuguese>
             <Korean>배치</Korean>
             <Czech>Výsadek</Czech>
-            <Japanese>展開</Japanese>
+            <Japanese>出撃</Japanese>
         </Key>
         <Key ID="STR_Deploy_InProgress">
             <Original>Deployment in progress ...</Original>
@@ -126,7 +126,7 @@
             <Portuguese>Mobilização em andamento...</Portuguese>
             <Korean>배치중입니다...</Korean>
             <Czech>Probíhá Výsadek...</Czech>
-            <Japanese>戦地へ展開中です ...</Japanese>
+            <Japanese>戦地へ出撃中です ...</Japanese>
         </Key>
         <Key ID="STR_CLOSE">
             <Original>Close</Original>
@@ -765,7 +765,7 @@
             <Portuguese>MOBILIZAÇÃO</Portuguese>
             <Korean>배치될 전초기지 선택</Korean>
             <Czech>VÝSADEK</Czech>
-            <Japanese>展開</Japanese>
+            <Japanese>出撃</Japanese>
         </Key>
         <Key ID="STR_DEPLOY_BUTTON">
             <Original>Deploy</Original>
@@ -780,7 +780,7 @@
             <Portuguese>Mobilizar</Portuguese>
             <Korean>배치</Korean>
             <Czech>Výsadek</Czech>
-            <Japanese>展開</Japanese>
+            <Japanese>出撃</Japanese>
         </Key>
         <Key ID="STR_DEPLOY_ACTION">
             <Original>-- REDEPLOY --</Original>
@@ -795,7 +795,7 @@
             <Portuguese>-- REMOBILIZAR --</Portuguese>
             <Korean>-- 재배치 --</Korean>
             <Czech>-- ZNOVUNASAZENÍ --</Czech>
-            <Japanese>-- 再展開 --</Japanese>
+            <Japanese>-- 再出撃 --</Japanese>
         </Key>
         <Key ID="STR_BUILD_CREW">
             <Original>Build (Crew)</Original>
@@ -1849,7 +1849,7 @@
             <Portuguese>Introdução cinemática de mobilização</Portuguese>
             <Korean>배포 영상</Korean>
             <Czech>Filmové scéna</Czech>
-            <Japanese>展開時の演出</Japanese>
+            <Japanese>出撃時の演出</Japanese>
         </Key>
         <Key ID="STR_PARAMS_ENABLED">
             <Original>Enabled</Original>
@@ -2359,7 +2359,7 @@
             <Portuguese>Substituir</Portuguese>
             <Korean>분대원 교체</Korean>
             <Czech>Nahradit</Czech>
-            <Japanese>置き換え</Japanese>
+            <Japanese>置き換わる</Japanese>
         </Key>
         <Key ID="STR_DEPLOY_ON_MEMBER_TOOLTIP">
             <Original>You will deploy on the selected squad member and replace them while keeping your current loadout.</Original>
@@ -2373,7 +2373,7 @@
             <Turkish>Şuanki ekipmanınız ile seçilen kişinin yerinde doğacaksınız.</Turkish>
             <Portuguese>Você irá reaparecer no membro selecionado e o substituir enquanto mantém seu equipamento atual.</Portuguese>
             <Czech>Budeš nasazen na místo člena družstva a nahradíš ho se svým aktuálním vybavením.</Czech>
-            <Japanese>選択した分隊員の装備をあなたの装備で置き換えます。</Japanese>
+            <Japanese>選択した分隊員と置き換わる形で現在の装備を維持したまま出撃します。</Japanese>
         </Key>
         <Key ID="STR_REMOVE_MEMBER">
             <Original>Remove</Original>
@@ -3344,7 +3344,7 @@
             <Turkish>Atlama süreci devam ediyor...</Turkish>
             <Portuguese>Mobilização em andamento...</Portuguese>
             <Czech>Probíhá výsadek...</Czech>
-            <Japanese>戦地へ展開中です ...</Japanese>
+            <Japanese>戦地へ出撃中です ...</Japanese>
         </Key>
         <Key ID="STR_WHITELIST_PARAM">
             <Original>Use the commander whitelist</Original>
@@ -3584,7 +3584,7 @@
             <Portuguese>Local para mobilização:</Portuguese>
             <Korean>재투입 위치:</Korean>
             <Czech>Lokace pro výsadek:</Czech>
-            <Japanese>展開地点:</Japanese>
+            <Japanese>出撃地点:</Japanese>
         </Key>
         <Key ID="STR_AGGRESSIVITY_PARAM">
             <Original>OPFOR aggressivity</Original>
@@ -4528,7 +4528,7 @@
             <Portuguese>-- Mudar alinhamento</Portuguese>
             <Korean>-- 땅에 맞춰 정렬</Korean>
             <Czech>-- Změnit zarovnání</Czech>
-            <Japanese>-- 位置を変更</Japanese>
+            <Japanese>-- アライメント方式を変更</Japanese>
         </Key>
         <Key ID="STR_CANCEL_ERROR">
             <Original>Not enough free storage space</Original>
@@ -4556,7 +4556,7 @@
             <Portuguese>Você não pode reciclar objetos pré inseridos</Portuguese>
             <Korean>사전에 배치된 객체들은 재활용 할 수 없습니다.</Korean>
             <Czech>Nelze rozebrat představené objekty</Czech>
-            <Japanese>最初から設置されているオブジェクトは解体できません。</Japanese>
+            <Japanese>ミッション開始時から設置済のオブジェクトは解体できません。</Japanese>
         </Key>
         <Key ID="STR_NORECBUILDING_ERROR">
             <Original>Can't recycle:\nNo Salvage Depot in FOB area</Original>
@@ -5455,7 +5455,7 @@
             <Portuguese>&lt;br/&gt;&lt;br/&gt;Você iniciará a campanha abordo do porta-aviões USS Fredom ou na base operacional Chimera, instalações que o inimigo não se atreverá a atacar. Sua primeira escolha será definir onde irá mobilizar. Primeiramente somente poderá mobilizar na sua posição inicial, entretanto, conforme progredir, mais alternativas se tornarão disponíveis, como a Base de Operações Avançadas (FOB) e os respawns móveis.&lt;br/&gt; &lt;br/&gt;Em sua posição inicial, você poderá escolher seu equipamento através de um arsenal completo. Você terá à sua disposição sua primeira FOB transportável, dentro de um contêiner. Também estará disponível o transporte aéreo de callsign Spartan-01 e mais alguns helicópteros de transporte.&lt;br/&gt; &lt;br/&gt;Você deverá mover o mencionado contêiner utilizando a Spartan-01 (ou escolha começar com a primeira FOB já construída). Você poderá mobilizar esta FOB para onde desejar (desde que esteja a 1km do ponto inicial e a 300 metros de qualquer setor). Assim, depende apenas de você escolher o local ideal para iniciar sua campanha ofensiva.&lt;br/&gt; &lt;br/&gt;</Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;최초의 작전 기지는 적이 절대로 건드리지 못할 안전지대로, 아군의 반격 나팔 소리의 첫 음표이기도 하며, 이번 반격 작전의 출발점이 될 것이다. 처음에는 작전 기지만 배치할 수 있었으나, 반격작전이 진행됨에 따라 FOB(전초기지) 또는 재투입차량에도 배치될 것이다.&lt;br/&gt; &lt;br/&gt;또한 최초의 작전 기지에서 '무기고'를 이용하여 무장을 갖출수 있고, 이미 건설된 건초기지가 있거나 또는 전초기지(FOB)차량을 1대 찾을 수 있을 것이다. 또한 운이 좋다면 재투입차량 또는 트럭이나 공중 탑재 장비등도 찾을 수 있을 것이다.&lt;br/&gt; &lt;br/&gt;당신이 처음으로 해야할 일은 무장을 갖추고, 이미 건설된 건초기지가 있다면 거기에서부터, 만약 전초기지(FOB)차량이 있다면 그 것을 찾아 FOB(전초기지)를 적당한 곳(최초의 작전기지로부터 1km, 도시로부터 300m 떨어진 곳)에 설치해야 한다. 이 지점이 바로 첫번째 반격이 시작되는 곳으로 반격을 시작하는 지점은 전적으로 당신의 선택에 달려 있다.&lt;br/&gt; &lt;br/&gt;만약 당신이 반격작전이 진행중인 상황에서 투입된다면, 먼저 지도를 살펴보라. 현재 아군이 어디서 전투중인지 알 것이다. 아군에게 무전으로 물어보거나 채팅으로 물어보면서 전투에 참여하라. 행운을 빈다.&lt;br/&gt; &lt;br/&gt;</Korean>
             <Czech>&lt;br/&gt;&lt;br/&gt;Zahájíte kampaň buď na palubě USS Freedom, nebo na základně Chimera, v bezpečných zónách, které se nepřítel neodváží zaútočit. První volbou je vybrat, kam chcete nasadit. Zpočátku se můžete nasadit pouze na vaší výchozí pozici, ale jak postupujete, budou k dispozici další možnosti, jako jsou Forward Operating Bases (FOB) a mobilní respawns.&lt;br/&gt; &lt;br/&gt;Na své počáteční pozici si můžete vybrat vybavení z kompletního Arsenalu. Také najdete svůj první FOB zabalený v kontejneru, vrtulník Spartan-01 a několik dalších malých transportních vrtulníků.&lt;br/&gt; &lt;br/&gt;Budete se muset přepravit s pomocí Spartan-01 (nebo se rozhodnete začít  s první postavenou FOB již postavenou). Tento první FOB můžete nasadit kamkoli budete chtít (pokud jste 1 km od výchozí pozice a 300 m od jakéhokoli sektoru), takže je na vás, abyste vybrali správné místo pro zahájení ofenzivy.&lt;br/&gt; &lt;br/&gt;</Czech>
-            <Japanese>&lt;br/&gt;&lt;br/&gt;あなたは、USS Freedomに乗り込むか、もしくはキメラ基地にいる状態からキャンペーンを開始します。これらは敵が攻撃しない安全地帯です。最初に、展開地点を選ぶことができます。最初は初期地点のみでの展開しかできませんが、キャンペーンを進めるにつれて、前線基地(FOB)やモバイルリスポーンなど、より多くの選択肢が利用可能になります。&lt;br/&gt;&lt;br/&gt;初期地点では、完全なアーセナルから装備を選ぶことができます。また、最初のFOBが含まれたコンテナ、スパルタン-01ヘリコプター、およびいくつかの小型輸送ヘリコプターを見つけることができます。&lt;br/&gt;&lt;br/&gt;あなたは、スパルタン-01でそのコンテナを輸送しなければなりません (または最初のFOBをすでに建てた状態でスタートすることもできます)。この最初のFOBは、任意の場所に展開することができます (ただし、初期地点から1km以上かつ各セクターから300m以上離れている必要があります)。キャンペーン攻勢を開始するための適切な場所を選択するのはあなた次第です。&lt;br/&gt;&lt;br/&gt;</Japanese>
+            <Japanese>&lt;br/&gt;&lt;br/&gt;あなたは、USS Freedomに乗り込むか、もしくはキメラ基地にいる状態からキャンペーンを開始します。これらは敵が攻撃しない安全地帯です。最初に、出撃地点を選ぶことができます。始めは初期地点でしか出撃できませんが、キャンペーンを進めるにつれて、前線基地(FOB)やモバイルリスポーンなど、より多くの選択肢が利用可能になります。&lt;br/&gt;&lt;br/&gt;初期地点では、完全なアーセナルから装備を選ぶことができます。また、最初のFOBが含まれたコンテナ、スパルタン-01ヘリコプター、およびいくつかの小型輸送ヘリコプターを見つけることができます。&lt;br/&gt;&lt;br/&gt;あなたは、スパルタン-01でそのコンテナを輸送しなければなりません (または最初のFOBをすでに建てた状態でスタートすることもできます)。この最初のFOBは、任意の場所に展開することができます (ただし、初期地点から1km以上かつ各セクターから300m以上離れている必要があります)。キャンペーン攻勢を開始するための適切な場所を選択するのはあなた次第です。&lt;br/&gt;&lt;br/&gt;</Japanese>
         </Key>
         <Key ID="STR_TUTO_TITLE3">
             <Original>3. Objective</Original>
@@ -5623,7 +5623,7 @@
             <Portuguese>&lt;br/&gt;&lt;br/&gt;Para construir uma nova FOB, acesse o menu de construção, selecione a aba de logística e então construir FOB no conteiner ou uma FOB transportável (é a mesma coisa, mas com rodas). Em seguida, poderá posicionar sua linda e nova FOB (transportável ou no conteiner) onde desejar. No entanto, esteja ciente de que não poderá construir a FOB dentro de 1km da sua posição inicial, dentro de 300 metros de qualquer setor ou dentro de 2km de outra FOB.&lt;br/&gt; &lt;br/&gt;Seria simplesmente redundante!&lt;br/&gt; &lt;br/&gt;</Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;최초 작전 기지 또는 이미 건설된 전초기지의 건설(배치)메뉴에서 FOB container 또는 FOB truck을 찾을 수 있을 것이다. FOB truck을 선택하여 생산한 후 배치하고 싶은 지역으로 이동하여 건설(설치)하면 된다.&lt;br/&gt; &lt;br/&gt;단, 최초 작전기지로 부터 1Km, 거점으로부터 300m, 다른 전초기지로부터 2Km 이내에는 설치를 할 수 없다.&lt;br/&gt; &lt;br/&gt;7항 건설(배치)에서 설명하였듯이 전초기지를 건설하게 되면 제일 먼저 소형 또는 대형 저장 창고부터 건설해야 한다. 이 후 AI 수송부대를 이용하여 각 거점 또는 후방의 전초기지에 보관중인 군수물자를 운반, 필요한 장비를 건설(배치) 하면 된다.&lt;br/&gt; &lt;br/&gt;주의! 지역 민간인들의 지지가 없다면 적 민병대가 출현하여 아군 AI 수송부대를 습격, 군수물자를 파괴하거나 도난 당할 수 있으니 작전시 민간인을 학살하거나 재산을 약탈하지 않는다.&lt;br/&gt; &lt;br/&gt;</Korean>
             <Czech>&lt;br/&gt;&lt;br/&gt;K postavení nového FOB, jděte do stavebního menu a pote do logistické záložky, poté postavte FOB kontejner nebo FOB náklaďák (to je to samé ale na kolech).&lt;br/&gt; &lt;br/&gt;Poté přesuňte kontejner na místo kde rozložíte z brusu nové FOB. Mějte se však na pozoru, FOB nelze postavit uvnitř obsazeného sektoru nebo ve vzdálenosti 2km od jiného FOB a 1km od startovní základny.&lt;br/&gt; &lt;br/&gt;To by bylo prostě zbytečné!&lt;br/&gt; &lt;br/&gt;</Czech>
-            <Japanese>&lt;br/&gt;&lt;br/&gt;新しいFOBを建設するには、建造メニューに移動し、物流タブでFOBコンテナまたはFOBトラック（同じ性能、ただし自走可能）を建造します。次に、FOBコンテナ/トラックを展開したい場所に配置します。ただし、開始位置から1km以内、セクターから300m以内、他のFOBから2km以内にFOBを建設することはできないことに注意してください。&lt;br/&gt; &lt;br/&gt;それは予算が下りません！&lt;br/&gt; &lt;br/&gt;</Japanese>
+            <Japanese>&lt;br/&gt;&lt;br/&gt;新しいFOBを建設するには、建造メニューに移動し、物流タブでFOBコンテナまたはFOBトラック（同じ性能、ただし自走可能）を建造します。次に、FOBコンテナ/トラックを設置したい場所に配置します。ただし、開始位置から1km以内、セクターから300m以内、他のFOBから2km以内にFOBを建設することはできないことに注意してください。&lt;br/&gt; &lt;br/&gt;それは予算が下りません！&lt;br/&gt; &lt;br/&gt;</Japanese>
         </Key>
         <Key ID="STR_TUTO_TITLE9">
             <Original>9. Secondary Objectives</Original>
