@@ -86,7 +86,7 @@ while {true} do {
         
         private _isCaptured = _informant getVariable ["KPLIB_prisonner_captured", false];
         private _isCuffed = _informant getVariable ["ace_captives_isHandcuffed", false];
-        KPLIB_civinfo_under_control = false;
+        private _under_control = false;
         if (_isCaptured || _isCuffed) then {
             private _capturedPlayer = _informant getVariable ["KPLIB_prisonner_whois", objNull];
             if (isNull _capturedPlayer) then {
@@ -122,12 +122,13 @@ while {true} do {
             _informant doFollow _capturedPlayer;
 
             [_informant] remoteExec ["civinfo_escort", _informant];
+            _under_control = true;
             [7, [0,0,0], _capturedPlayer] remoteExec ["civinfo_notifications"];
         };
         
         waitUntil {!alive _informant || _timeover};
         
-        if (!alive _informant && !KPLIB_civinfo_under_control) exitWith {
+        if (!alive _informant && _under_control) exitWith {
             if (KPLIB_civinfo_debug > 0) then {[format ["civinfo_loop is reset by: %1 - Informant isn't alive", debug_source], "CIVINFO"] remoteExecCall ["KPLIB_fnc_log", 2];};
             [3] remoteExec ["civinfo_notifications"];
         };
