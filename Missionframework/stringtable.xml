@@ -2595,7 +2595,7 @@
             <Portuguese>Mobilizar Grupo de Combate</Portuguese>
             <Korean>분대 배치</Korean>
             <Czech>Výsadek družstva</Czech>
-            <Japanese>分隊配置</Japanese>
+            <Japanese>分隊員位置に出撃</Japanese>
         </Key>
         <Key ID="STR_REMOVE_OK">
             <Original>You have deleted the selected squad member.</Original>
@@ -4766,7 +4766,7 @@
             <Portuguese>Tempo restante:</Portuguese>
             <Korean>남은 시간:</Korean>
             <Czech>Zbývající čas:</Czech>
-            <Japanese>生産所要時間:</Japanese>
+            <Japanese>所要時間:</Japanese>
         </Key>
         <Key ID="STR_PRODUCTION_NOTIMER">
             <Original>No production</Original>
@@ -4808,7 +4808,7 @@
             <Portuguese>Instalações disponíveis</Portuguese>
             <Korean>가용 공장</Korean>
             <Czech>Dostupné továrny</Czech>
-            <Japanese>工場が利用可能</Japanese>
+            <Japanese>利用可能な工場</Japanese>
         </Key>
         <Key ID="STR_PRODUCTION_STORAGEDETAIL">
             <Original>Stock Overview</Original>
@@ -4822,7 +4822,7 @@
             <Portuguese>Visão geral do armazém</Portuguese>
             <Korean>보관내역</Korean>
             <Czech>Stav skladů</Czech>
-            <Japanese>備蓄状態</Japanese>
+            <Japanese>倉庫の備蓄状況</Japanese>
         </Key>
         <Key ID="STR_PRODUCTION_CRATE">
             <Original>%1 Crate</Original>
@@ -4948,7 +4948,7 @@
             <Portuguese>É necessária uma fábrica não construída neste setor</Portuguese>
             <Korean>이 지역에는 생산에 필요한 공장이 없습니다.</Korean>
             <Czech>Továrna nemůže být postavena v sektoru.</Czech>
-            <Japanese>必要な工場がセクターに建築されていません。</Japanese>
+            <Japanese>生産に必要な設備が セクターに建築されていません。</Japanese>
         </Key>
         <Key ID="STR_PRODUCTION_FACBUILD_ERROR">
             <Original>Not enough resources.\n\nYou need:\n%1 Supplies\n%2 Ammo\n%3 Fuel</Original>
@@ -5284,7 +5284,7 @@
             <Portuguese>Sem recursos suficientes</Portuguese>
             <Korean>군수물자가 충분하지 않습니다.</Korean>
             <Czech>Nedostatek surovin</Czech>
-            <Japanese>資源不足</Japanese>
+            <Japanese>資源が不足しています</Japanese>
         </Key>
         <Key ID="STR_LOGISTIC_ROUTETITLE">
             <Original>Mission planning</Original>
@@ -5312,7 +5312,7 @@
             <Portuguese>Destino A</Portuguese>
             <Korean>출발지역-A-</Korean>
             <Czech>Cíl A</Czech>
-            <Japanese>出発地(A)</Japanese>
+            <Japanese>目的地点 A</Japanese>
         </Key>
         <Key ID="STR_LOGISTIC_LABELB">
             <Original>Destination B</Original>
@@ -5326,7 +5326,7 @@
             <Portuguese>Destino B</Portuguese>
             <Korean>도착지역-B-</Korean>
             <Czech>Cíl B</Czech>
-            <Japanese>目的地(B)</Japanese>
+            <Japanese>目的地点 B</Japanese>
         </Key>
         <Key ID="STR_LOGISTIC_TT_SUPPLY">
             <Original>Supplies value from here to the other destination. (only whole numbers)</Original>
@@ -5340,7 +5340,7 @@
             <Portuguese>Valores de suprimento daqui para o outro destino. (apenas valores inteiros)</Portuguese>
             <Korean>출발지에서 도착지로 운반되는 보급품(S) 수량(정수만 입력)</Korean>
             <Czech>Hodnota zásob odtud do cílového místa. (pouze celá čísla)</Czech>
-            <Japanese>輸送したいサプライの数(そこにある資源の数まで)</Japanese>
+            <Japanese>ここから次の目的地点まで輸送したいサプライの数 (整数で入力)</Japanese>
         </Key>
         <Key ID="STR_LOGISTIC_TT_AMMO">
             <Original>Ammo value from here to the other destination. (only whole numbers)</Original>
@@ -5354,7 +5354,7 @@
             <Portuguese>Valores de munição daqui para o outro destino. (apenas valores inteiros)</Portuguese>
             <Korean>출발지에서 도착지로 운반되는 탄약(A) 수량(정수만 입력)</Korean>
             <Czech>Hodnota munice odtud do cílového místa. (pouze celá čísla)</Czech>
-            <Japanese>輸送したい弾薬の数(そこにある資源の数まで)</Japanese>
+            <Japanese>ここから次の目的地点まで輸送したい弾薬の数 (整数で入力)</Japanese>
         </Key>
         <Key ID="STR_LOGISTIC_TT_FUEL">
             <Original>Fuel value from here to the other destination. (only whole numbers)</Original>
@@ -5368,7 +5368,7 @@
             <Portuguese>Valores de combustível daqui para o outro destino. (apenas valores inteiros)</Portuguese>
             <Korean>출발지에서 도착지로 운반되는 연료(F) 수량(정수만 입력)</Korean>
             <Czech>Hodnota paliva odtud do cílového místa. (pouze celá čísla)</Czech>
-            <Japanese>輸送したい燃料の数(そこにある資源の数まで)</Japanese>
+            <Japanese>ここから次の目的地点まで輸送したい燃料の数 (整数で入力)</Japanese>
         </Key>
         <Key ID="STR_LOGISTIC_SAVE_ERROR">
             <Original>Your mission is not possible.</Original>
