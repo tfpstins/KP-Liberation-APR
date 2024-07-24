@@ -1476,7 +1476,7 @@
         </Key>
         <Key ID="STR_NOTIFICATION_BINGO_FUEL_COMPLETE_TEXT">
             <Original>Fuel have been delivered. The factory was thanked and produced several resources!</Original>
-            <Japanese>燃料の輸送に成功した。 工場は感謝しいくつかの資源を生産しました!</Japanese>
+            <Japanese>燃料の輸送に成功した。 工場は感謝し、いくつかの資源を生産しました!</Japanese>
         </Key>
         <Key ID="STR_NOTIFICATION_BINGO_FUEL_NO_ROOM">
             <Original>No friendly factory in the area to deliver fuel to. Liberate one!</Original>
@@ -1537,7 +1537,7 @@
             <Portuguese>OBJETIVO SECUNDÁRIO</Portuguese>
             <Korean>부차적인 임무</Korean>
             <Czech>VEDLEJŠÍ ÚKOL</Czech>
-            <Japanese>副次目標</Japanese>
+            <Japanese>副次任務</Japanese>
         </Key>
         <Key ID="STR_NOTIFICATION_SECONDARY_TEXT">
             <Original>Hostile FOB destroyed</Original>
@@ -3824,7 +3824,7 @@
             <Portuguese>-- OBJETIVOS SECUNDÁRIOS</Portuguese>
             <Korean>-- 부차적인 작전목표</Korean>
             <Czech>-- VEDLEJŠÍ ÚKOLY</Czech>
-            <Japanese>-- 副次目標</Japanese>
+            <Japanese>-- 副次任務</Japanese>
         </Key>
         <Key ID="STR_SECONDARY_OBJECTIVES_TITLE">
             <Original>SECONDARY OBJECTIVES</Original>
@@ -3839,7 +3839,7 @@
             <Portuguese>OBJETIVOS SECUNDÁRIOS</Portuguese>
             <Korean>부차적인 작전목표</Korean>
             <Czech>VEDLEJŠÍ ÚKOLY</Czech>
-            <Japanese>副次目標</Japanese>
+            <Japanese>副次任務</Japanese>
         </Key>
         <Key ID="STR_SECONDARY_OBJECTIVES_START">
             <Original>Start</Original>
@@ -3869,7 +3869,7 @@
             <Portuguese>Inteligência atual: %1</Portuguese>
             <Korean>현재 정보: %1</Korean>
             <Czech>Zpravodajské body: %1</Czech>
-            <Japanese>現在の情報: %1</Japanese>
+            <Japanese>現在の情報ポイント: %1</Japanese>
         </Key>
         <Key ID="STR_SECONDARY_NOT_ENOUGH_INTEL">
             <Original>Insufficient intel points</Original>
@@ -3899,7 +3899,7 @@
             <Portuguese>A missão secundária já está em andamento</Portuguese>
             <Korean>이미 진행중인 부차적인 작전목표가 있습니다.</Korean>
             <Czech>Vedlejší mise již probíhá</Czech>
-            <Japanese>副次目標作戦はすでに遂行中です</Japanese>
+            <Japanese>副次任務作戦はすでに遂行中です</Japanese>
         </Key>
         <Key ID="STR_NOTIFICATION_INCOMING_TEXT">
             <Original>Hostile forces are heading towards %1.</Original>
@@ -3976,6 +3976,14 @@
             <Czech>OPFOR Konvoj poblíž %1.</Czech>
             <Japanese>敵輸送部隊を %1 付近に発見。</Japanese>
         </Key>
+        <Key ID="STR_SECONDARY_LOGIMISSION_WAITING">
+            <Original>%4 in area: %1/%2\nNext check will run after %3 seconds...</Original>
+            <Japanese>エリア内の %4 の数: %1/%2\n %3 秒後に次のチェックが行われます...</Japanese>
+        </Key>
+        <Key ID="STR_SECONDARY_LOGIMISSION_CHECKING">
+            <Original>%3 in area: %1/%2\nChecking...</Original>
+            <Japanese>エリア内の %3 の数: %1/%2\nチェック中...</Japanese>
+        </Key>
         <Key ID="STR_TUTO_GOTIT">
             <Original>Got it!</Original>
             <French>J'ai pigé!</French>
@@ -4049,7 +4057,7 @@
             <Portuguese>&lt;t size='1.3' color='#ffa000'&gt;CAÇA À FOB&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;As forças de oposição (FOROP) utilizam um conjunto de pequenas bases de logística situadas além do fronte de batalha. Destruindo tais recursos desestabilizaria consideravelmente suas linhas de suprimento e afetaria sua capacidade de reagir às nossas ações.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Sua missão é destruir todas as fontes de recurso (caminhões, contêineres) que estão no objetivo, a qualquer custo. Infelizmente, nossa inteligência não foi capaz de fornecer dados da localização precisa da base. Dessa forma, você deverá localizar o objetivo dentro da zona vermelha identificada em seu mapa.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: Alerta das forças de oposição reduzidos em 40%.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Portuguese>
             <Korean>&lt;t size='1.3' color='#ffa000'&gt;병참기지 기습&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;현재 적군은 후방지역에 병참 기지를 운영하고 있습니다. 이 병참 기지를 파괴하면 전방 적군의 작전 수행능력을 저하시켜 아군의 작전 행동에 대응할 수 있는 역량이 약해질 것입니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;아군의 작전 목표는 모든 군수물자을 파괴하는 것입니다.(트럭, 컨테이너 등) 아쉽게도 아군 정찰팀이 해당지역을 정찰하였으나 찾지 못하여 정확한 위치를 제공할 수 없기 때문에 당신의 지도에 표기된 빨간 영역 안에 위치한 적군 병참 기지를 찾아야 합니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;소모되는 정보 점수: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;보상: 경고 수준이 40% 감소합니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Korean>
             <Czech>&lt;t size='1.3' color='#ffa000'&gt;HON NA FOB&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Jednotky OPFOR používají řadu menších logistických základen za hlavní linii. Zničení těchto prostředků výrazně naruší zásobováni OPFOR jednotek a naruší jejich schopnost reagovat na naše akce.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Cílem mise je zničit všechny zásobovací prostředky (náklaďáky, kontejnery) libovolnými prostředky. Bohužel naše rozvědka není schopna vám poskytnout přesnou polohou pro základny, budete ji muset najít v červené zóně na mapě.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cena: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Odměna: Snížení bojové pohotovosti OPFOR o 40%&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Czech>
-            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;前線基地攻撃&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;敵軍部隊は小規模な物流基地を後方に設置している。 これらの資源を破壊すれば敵補給船への打撃を与え、敵軍の警戒度を下げることが出来るはずだ。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は目標に存在するすべての補給用品(トラックやコンテナ)の破壊だ。 残念ながら我々の情報網では敵基地の正確な位置を特定するには至らなかった。 諸君には赤い範囲内で目標を捜索し、破壊してほしい。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 敵部隊警戒度が40%低下。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
+            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;前線基地攻撃&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;敵軍部隊は小規模な物流基地を後方に設置している。 これらの資源を破壊すれば敵補給船への打撃を与え、敵軍の警戒度を下げることが出来るはずだ。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は目標に存在するすべての補給用品(トラックやコンテナ)の破壊だ。 残念ながら我々の情報網では敵基地の正確な位置を特定するには至らなかった。 諸君には赤い範囲内で目標を捜索し、破壊してほしい。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 15&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 敵部隊警戒度が 40% 低下。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
         </Key>
         <Key ID="STR_SECONDARY_MISSION1">
             <Original>Convoy Hijack</Original>
@@ -4079,7 +4087,7 @@
             <Portuguese>&lt;t size='1.3' color='#ffa000'&gt;INTERCEPTAÇÃO DE COMBOIO&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;As forças de oposição (FOROP) utilizam comboios terrestres para reabastecer suas posições defensivas. Interceptando um desses comboios afetaria efetivamente suas linhas de suprimento, e poderíamos usar a ocasião para recuperar uma grande quantidade de munições.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Sua missão é deter o comboio das forças de oposição utilizando qualquer meio possível. Você pode destruí-lo ou sequestrá-lo para recuperar toda a munição que conseguir transportar. O alvo será identificado em coordenadas específicas no seu mapa.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: Nível de alerta das forças de oposição reduzido em 15%.&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa aliada: Toda a munição que conseguir.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Portuguese>
             <Korean>&lt;t size='1.3' color='#ffa000'&gt;수송부대 무력화&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;현재 적군은 수송부대를 동원하여 그들의 방어 거점에 군수물자를 수송하고 있습니다. 수송부대 중 하나를 공격하여 그들의 보급선을 끊고, 많은 양의 군수물자를 노획하십시요.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;아군의 임무는 수단과 방법을 가리지 않고 적 수송부대를 멈추게 하는 것입니다. 군수물자를 파괴할 것인지, 노획하여 아군의 군수물자로 확보할 것인지는 당신의 선택입니다. 당신의 지도에 위치가 표시될 것입니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;소모되는 정보 점수: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;보상: 경고 수준이 15% 감소합니다.&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;추가 보상: 수송부대에서 노획할 수 있는 모든 군수물자.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Korean>
             <Czech>&lt;t size='1.3' color='#ffa000'&gt;PŘEPADENÍ KONVOJE&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Jednotky OPFOR používají konvoje k zásobení obraných pozic. Přerušením jediného konvoje můžete efektivně narušit zásobování, a také můžeme využít teto příležitosti k získání značného množství munice.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Cílem mise je zastavit konvoj libovolnými prostředky. Můžete je zničit nebo zajmout a získat tak munici. Pozice konvoje bude zaznačena do mapy.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cena: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Odměna: Bojová pohotovost OPFOR snížena o 15%&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Vedlejší odměna: Veškerá munice kterou zvládnete odnést.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Czech>
-            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;輸送車列強襲&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;敵軍部隊は車列を用い防衛地点への補給を行っている。 この車列を襲撃すれば奴らの補給網に打撃を与えられるだろう。 そのうえ、敵の資源を接収することが出来るかもしれない。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は敵軍補給車列をいかなる手を使ってでも停止させることだ。 車両を破壊、もしくは強奪し資源を基地へ持ち帰れ。 目標は発見され次第マップに記載される。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 敵部隊警戒度が 15%低下。&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;副次報酬: 手に入れた資源全て。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
+            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;輸送車列強襲&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;敵軍部隊は車列を用い防衛地点への補給を行っている。 この車列を襲撃すれば奴らの補給網に打撃を与えられるだろう。 そのうえ、敵の資源を接収することが出来るかもしれない。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は敵軍補給車列をいかなる手を使ってでも停止させることだ。 車両を破壊、もしくは強奪し資源を基地へ持ち帰れ。 目標は発見され次第マップに記載される。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 敵部隊警戒度が 15% 低下。&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;副次報酬: 手に入れた資源全て。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
         </Key>
         <!-- Added in v0.922 -->
         <Key ID="STR_PARAM_BLUFOR_DEFENDERS">
@@ -4185,7 +4193,7 @@
             <Portuguese>&lt;t size='1.3' color='#ffa000'&gt;BUSCA E RESGATE&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Perdemos contato com um helicóptero de reconhecimento presente em uma missão atrás das linhas inimigas. Acreditamos que o helicóptero foi abatido por forças hostis.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;O helicóptero pode ter feito um pouso forçado em local próximo de sua última posição conhecida. Sua missão é recuperar a tripulação do helicóptero e sua preciosa inteligência. Forças hostis podem tê-los localizado primeiro, portanto seja rápido, cuidadoso e esteja pronto para engajar o inimigo.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: 20 pontos de inteligência (10 para cada membro vivo da tripulação).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Portuguese>
             <Korean>&lt;t size='1.3' color='#ffa000'&gt;수색 및 구출&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;적군 후방지역에서 정찰임무를 수행하던 아군 정찰기와 교신이 끊어졌습니다. 현 상황으로 판단할때 적군에게 격추당한 것 같습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;아군의 임무는 마지막 교신 위치를 중심으로 아군 정찰기의 흔적을 찾는 것입니다. 적군이 먼저 발견하기전에 아군 정찰기의 흔적을 찾아 승무원 구출 및 다른 정보들을 획득, 복귀해야 합니다. 교전이 벌어질 수 있습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;소요되는 정보 점수: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;보상: 정보 점수가 20점 추가됩니다. 또한 구출한 인원 1명당 정보 점수가 10점 추가됩니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Korean>
             <Czech>&lt;t size='1.3' color='#ffa000'&gt;ZÁCHRANNÁ MISE&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Ztratili jsme kontakt s průzkumným vrtulníkem za nepřátelskými liniemi. Věříme že ji sestřelily nepřátelské jednotky.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Vrtulník mohl havarovat kdekoliv ve velké vzdálenosti od místa kde jsme s ní ztratily kontakt. Cílem mise je najít a zachránit přeživší posádku. Nepřátelské jednotky tam mohou být jako první, proto musíme jednat rychle, opatrně a být připraveni k boji.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cena: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Odměna: 20 zpravodajských bodů (10 za každého člena posádky).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Czech>
-            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;捜索救難&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;我々の偵察ヘリコプターとの連絡が敵前線の後方で断たれた。 恐らく敵軍部隊に撃墜させられたものと思われる。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;ヘリコプターは最後に連絡のあったこの地域のどこかに不時着した可能性がある。 諸君の任務はヘリコプター乗員を救出し彼らの入手した情報を回収することだ。 恐らく敵軍部隊は彼らを先に発見し拘束している可能性がある。 そのため注意深く・素早い救助が必要となる。 交戦することを想定せよ。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 20 情報ポイント 。(乗員一人当たり10ポイント)&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
+            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;捜索救難&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;我々の偵察ヘリコプターとの連絡が敵前線の後方で断たれた。 恐らく敵軍部隊に撃墜させられたものと思われる。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;ヘリコプターは最後に連絡のあったこの地域のどこかに不時着した可能性がある。 諸君の任務はヘリコプター乗員を救出し彼らの入手した情報を回収することだ。 恐らく敵軍部隊は彼らを先に発見し拘束している可能性がある。 そのため注意深く・素早い救助が必要となる。 交戦することを想定せよ。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 20 情報ポイント (乗員一人当たり10ポイント)&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
         </Key>
         <Key ID="STR_SECONDARY_MISSION3">
             <Original>Humanitarian Aid</Original>
@@ -4200,7 +4208,7 @@
             <Original>Bingo Fuel</Original>
         </Key>
         <Key ID="STR_SECONDARY_BRIEFING4">
-            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;燃料切れ&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;我々の占領した友好的な工場が燃料を要請している。 燃料があれば工場は我々の為に各種の資源をすぐさま生産してくれるだろう。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は要請のあった工場に我々の燃料を輸送し、譲渡することだ。 資源は200燃料 (最低2箱) 必要となる。 車両に物資を積み込み目標地点に向かい到着したら荷下ろしすれば良い。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;br/&gt;200 燃料(最低2箱)&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: ランダムな資源最大6個。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\humaid_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
+            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;燃料切れ&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;我々の占領した友好的な工場が燃料を要請している。 燃料があれば工場は我々の為に各種の資源をすぐさま生産してくれるだろう。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は要請のあった工場に我々の燃料を輸送し、譲渡することだ。 資源は200燃料 (最低2箱) 必要となる。 車両に物資を積み込み目標地点に向かい到着したら荷下ろしすれば良い。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;br/&gt;200 燃料 (最低2箱)&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: ランダムな資源最大6個。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\humaid_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
             <Original>&lt;t size='1.3' color='#ffa000'&gt;BINGO FUEL&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Our occupied friendly factories are requesting fuel. With fuel, the factories will quickly produce various resources for us.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Your mission is to transport and deliver our fuel to the requested sector. Resources required are 200 fuel (2 crates). Load the fuel onto the vehicle, head to the target location, and unload upon arrival.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;br/&gt;200 Fuel (2 crates)&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: 6x Random resources.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\humaid_obj.jpg'/&gt;&lt;/t&gt;</Original>
         </Key>
         <Key ID="STR_SECONDARY_MISSION5">
@@ -4208,7 +4216,7 @@
             <Original>Outpost Rearming</Original>
         </Key>
         <Key ID="STR_SECONDARY_BRIEFING5">
-            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;前哨基地補給&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;友軍の軍事基地が弾薬を要請している。 弾薬があれば敵軍の注意や戦力を分散し、敵の警戒度を減少させることが出来るかもしれない。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は要請のあった軍事基地に我々の弾薬を輸送し、譲渡することだ。 資源は200弾薬 (最低2箱) 必要となる。 車両に物資を積み込み目標地点に向かい到着したら荷下ろしすれば良い。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;br/&gt;200 弾薬(最低2箱)&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 敵部隊警戒度が 8ポイント低下。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\humaid_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
+            <Japanese>&lt;t size='1.3' color='#ffa000'&gt;前哨基地補給&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;友軍の軍事基地が弾薬を要請している。 弾薬があれば敵軍の注意や戦力を分散し、敵の警戒度を減少させることが出来るかもしれない。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;諸君の任務は要請のあった軍事基地に我々の弾薬を輸送し、譲渡することだ。 資源は200弾薬 (最低2箱) 必要となる。 車両に物資を積み込み目標地点に向かい到着したら荷下ろしすれば良い。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;費用: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;br/&gt;200 弾薬 (最低2箱)&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;報酬: 敵部隊警戒度が 8ポイント 低下。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\humaid_obj.jpg'/&gt;&lt;/t&gt;</Japanese>
             <Original>&lt;t size='1.3' color='#ffa000'&gt;OUTPOST REARMING&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Friendly military outpost request ammunition. Ammunition may help to disperse the attention and forces of OPFOR and reduce the OPFOR alert level.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Your mission is to transport and deliver our ammunition to the requested sector. Resources required are 200 ammunition (2 crates). Load the ammunitions onto the vehicle, head to the target location, and unload upon arrival.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;br/&gt;200 Ammunition (2 crates)&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: OPFOR alert level reduced by 8pt&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\humaid_obj.jpg'/&gt;&lt;/t&gt;</Original>
         </Key>
         <!-- Added in v0.924 -->
@@ -5567,7 +5575,7 @@
             <Portuguese>&lt;br/&gt;&lt;br/&gt;O inimigo não irá permitir a conquista de seu território sem uma reação. Quando iniciar sua campanha, forças hostis serão apenas compostas por guarnições dentro de bases militares. No entanto, ao liberar mais setores, as forças inimigas chamarão mais reforços e equipamentos para tentar te combater.&lt;br/&gt; &lt;br/&gt;Para limitar a capacidade operacional das forças de oposição, você deverá cumprir objetivos secundários que consistem na destruição de bases logísticas e no assalto aos comboios inimigos. Isto não é obrigatório para lograr êxito na campanha, todavia se o nível de alerta for ignorado por muito tempo, você enfrentará uma forte resistência inimiga.&lt;br/&gt; &lt;br/&gt;</Portuguese>
             <Korean>&lt;br/&gt;&lt;br/&gt;처음 반격 작전을 시작할 때에 적군들은 우리를 우습게 여길 것이다! 하지만 작전이 진행될 수록 적군들은 우리를 위험하게 느끼게 될 것이고 점점 더 많은 적군부대와 부딛치게 될 것이다.&lt;br/&gt; &lt;br/&gt;적군의 작전 능력을 억제하려면, 부차적인 임무수행을 통해 적의 후방보급기지를 파괴하거나, 보급차량을 습격, 전방으로 향하는 군수물자를 파괴하여야 한다.&lt;br/&gt; &lt;br/&gt;만약에 강력한 적군과 부딛치는 것을 두려워하지 않는다면, 부차적인 임무는 무시하고 오로지 적진을 향해 돌격하라!!!&lt;br/&gt; &lt;br/&gt;</Korean>
             <Czech>&lt;br/&gt;&lt;br/&gt;Jednotky OPFOR vás nenechají obsazovat nové sektory bez jakékoliv reakce. Na začátku kampaně jsou nepřátelé schováni pouze v nepřátelských základnách. Nebezpečí však vzrůstá s každým obsazeným sektorem, jednotky OPFOR si častěji přivolají posily, vozidla a jiné vybavení proti vám.&lt;br/&gt; &lt;br/&gt;Ke snížení nebezpečí musíte plnit vedlejší mise, například zničení logistické základny. Tohle není nutné k vyhrání kampaně a však pokud budete ignorovat vzrůstající nebezpečí, mohou přijít velké problémy.&lt;br/&gt; &lt;br/&gt;</Czech>
-            <Japanese>&lt;br/&gt;&lt;br/&gt;敵はあなたが新たなセクターを解放することを許さず、必ず反応してくるでしょう。キャンペーンを開始すると、敵軍は最初、軍事基地の駐屯部隊で構成されています。しかし、我々がますます脅威となり、より多くのセクターを解放すると、敵軍は反撃のためにより多くの増援と装備を要請するようになります。&lt;br/&gt;&lt;br/&gt;敵の作戦能力を制限するために、物流基地を破壊したり、輸送車列を襲撃するといった副次目標を達成する必要があります。これはキャンペーンを勝利するために必要なことではありませんが、警戒度を無視し続けると、かなりの抵抗に遭うことになります。&lt;br/&gt;&lt;br/&gt;</Japanese>
+            <Japanese>&lt;br/&gt;&lt;br/&gt;敵はあなたが新たなセクターを解放することを許さず、必ず反応してくるでしょう。キャンペーンを開始すると、敵軍は最初、軍事基地の駐屯部隊で構成されています。しかし、我々がますます脅威となり、より多くのセクターを解放すると、敵軍は反撃のためにより多くの増援と装備を要請するようになります。&lt;br/&gt;&lt;br/&gt;敵の作戦能力を制限するために、物流基地を破壊したり、輸送車列を襲撃するといった副次任務を達成する必要があります。これはキャンペーンを勝利するために必要なことではありませんが、警戒度を無視し続けると、かなりの抵抗に遭うことになります。&lt;br/&gt;&lt;br/&gt;</Japanese>
         </Key>
         <Key ID="STR_TUTO_TITLE7">
             <Original>7. Construction</Original>
@@ -5638,7 +5646,7 @@
             <Portuguese>9. Objetivos Secundários</Portuguese>
             <Korean>9. 부차적인 임무</Korean>
             <Czech>9. Vedlejší úkoly</Czech>
-            <Japanese>9. 副次目標</Japanese>
+            <Japanese>9. 副次任務</Japanese>
         </Key>
         <Key ID="STR_TUTO_TEXT9">
             <Original>&lt;br/&gt;&lt;br/&gt;When you capture sectors, sometimes the few hostiles forces remaining will surrender. You can then capture those prisoners and take them back to a nearby FOB to be interrogated.&lt;br/&gt; &lt;br/&gt;That interrogation, executed in the utmost respect of the Geneva Convention, will allow you to obtain information which can be used to reveal the rough position of an enemy logistics base, enemy convoy or friendly search and rescue.&lt;br/&gt; &lt;br/&gt;After going there you will need to find the exact position of your target, then use any means at your disposal to complete your objective. Succeeding at this task will be rewarded, reducing the alert level consequently and with it the efficiency of all hostile forces.&lt;br/&gt; &lt;br/&gt;</Original>
@@ -7409,7 +7417,7 @@
             <Portuguese>Objetivos secundários alcançados: %1</Portuguese>
             <Korean>부차적인 임무 달성 : %1</Korean>
             <Czech>Dosažené sekundární cíle: %1</Czech>
-            <Japanese>完了した副次目標の数: %1</Japanese>
+            <Japanese>完了した副次任務の数: %1</Japanese>
         </Key>
         <Key ID="STR_STATS_PRISONERS">
             <Original>Prisoners captured: %1</Original>
