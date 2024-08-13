@@ -1,8 +1,8 @@
 /*
     File: bwmod.sqf
-    Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
-    Date: 2020-05-03
-    Last Update: 2020-05-11
+    Author: TFP Liberation Dev Team 
+    Date: 2024-08-13
+    Last Update: 2024-08-13
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -10,11 +10,13 @@
 
     Needed:
         - BWMod - https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537
-
-    Optional:
-        - ACE  - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
-        - ACRE - https://steamcommunity.com/sharedfiles/filedetails/?id=751965892
+        - RHSUSAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
+        - 3CB - https://steamcommunity.com/workshop/filedetails/?id=1673456286
+        - Tier One Weapons - https://steamcommunity.com/workshop/filedetails/?id=2268351256
+        - ACE  - https://steamcommunity.com/workshop/filedetails/?id=463939057
         - TFAR - https://steamcommunity.com/sharedfiles/filedetails/?id=894678801
+        - FIR AWS - https://steamcommunity.com/workshop/filedetails/?id=366425329
+    Optional:
 */
 
 KPLIB_arsenalWeapons = [
