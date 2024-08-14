@@ -11,6 +11,7 @@
     Needed Mods:
         - BWMod - https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537
         - RHS USAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
+        - Redd'n'Tank Vehicles - https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626
 		- ace - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
 	    - Project Lightning - F-35B Armaverse Version - https://steamcommunity.com/sharedfiles/filedetails/?id=1600293139
         - Project Tornado - https://steamcommunity.com/sharedfiles/filedetails/?id=2499043863
