@@ -11,7 +11,6 @@
     Needed Mods:
         - BWMod - https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537
         - RHS USAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
-        - Redd'n'Tank Vehicles - https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626
 		- ace - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
 	    - Project Lightning - F-35B Armaverse Version - https://steamcommunity.com/sharedfiles/filedetails/?id=1600293139
         - Project Tornado - https://steamcommunity.com/sharedfiles/filedetails/?id=2499043863
@@ -186,6 +185,7 @@ KPLIB_b_objectsDeco = [
     ["Land_ToolTrolley_02_F",0,0,0],
     ["Land_WeldingTrolley_01_F",0,0,0],
     ["Land_Workbench_01_F",0,0,0],
+	["Land_RepairDepot_01_green_F",0,0,0],
     ["Land_GasTank_01_blue_F",0,0,0],
     ["Land_GasTank_01_khaki_F",0,0,0],
     ["Land_GasTank_01_yellow_F",0,0,0],
@@ -381,7 +381,6 @@ KPLIB_b_vehToUnlock = [
 	"rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "BWA3_Tiger_RMK_Universal",                                         // UH Tiger RMK (Universal)
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
-    "B_T_UAV_03_dynamicLoadout_F",                                      // MQ-12 Falcon
     "B_UAV_05_F",                                                       // UCAV Sentinel
     "Tornado_AWS_camo_ger",                                             // Panavia Tornado IDS (GER Camo)
     "FIR_F35B_MFG1"                                                     // F-35B Lightning II
