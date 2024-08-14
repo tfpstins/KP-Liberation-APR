@@ -184,15 +184,15 @@ KPLIB_o_turrets_GMG = [
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_AT = [
-    "LOP_ISTS_OPF_Static_AT4"
+    "LOP_ISTS_OPF_Static_AT4"                                           //Metis (AT)
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_AA = [
-    "LOP_ISTS_OPF_Static_ZU23"
+    "LOP_ISTS_OPF_Static_ZU23"                                          //Zu-23 AA Gun
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_MORTAR = [
-    "UK3CB_MEI_O_2b14_82mm"
+    "UK3CB_MEI_O_2b14_82mm"                                             //82mm Podnos Mortar
 ];
