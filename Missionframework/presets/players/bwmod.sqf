@@ -2,7 +2,7 @@
     File: bwmod.sqf
     Author: TFP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2024-08-08
-    Last Update: 2024-08-08
+    Last Update: 2024-08-14
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -34,7 +34,7 @@ KPLIB_b_crewUnit = "BWA3_Crew_Fleck";                                          /
 KPLIB_b_heliPilotUnit = "BWA3_Helipilot";                                      // This defines the pilot for helicopters.
 KPLIB_b_addHeli = "RHS_MELB_MH6M";                                             // These are the additional helicopters which spawn on the Freedom or at Chimera base.
 KPLIB_b_addBoat = "B_W_Boat_Transport_01_F";                                   // These are the boats which spawn at the stern of the Freedom.
-KPLIB_b_logiTruck = "rhsusf_M977A4_BKIT_usarmy_wd";                            // These are the trucks which are used in the logistic convoy system.
+KPLIB_b_logiTruck = "rnt_lkw_7t_mil_gl_kat_i_transport_fleck";                 // These are the trucks which are used in the logistic convoy system.
 KPLIB_b_smallStorage = "ContainmentArea_02_sand_F";                            // A small storage area for resources.
 KPLIB_b_largeStorage = "ContainmentArea_01_sand_F";                            // A large storage area for resources.
 KPLIB_b_logiStation = "Land_RepairDepot_01_tan_F";                             // The building defined to unlock FOB recycling functionality.
@@ -95,25 +95,29 @@ KPLIB_b_vehLight = [
     ["rhsusf_M1220_M2_usarmy_wd",120,40,60],                            // M1220 (M2)
     ["rhsusf_M1220_MK19_usarmy_wd",120,60,60],                          // M1220 (Mk19)
     ["rhsusf_M1230a1_usarmy_wd",120,0,60],                              // M1230A1 (MEDEVAC)
-    ["rhsusf_M1083A1P2_B_WD_fmtv_usarmy",125,0,75],                     // M1083A1P2 Transport
-    ["rhsusf_M1083A1P2_B_M2_WD_fmtv_usarmy",125,40,75],                 // M1083A1P2 Transport (Armed)
-    ["rhsusf_M977A4_BKIT_usarmy_wd",125,0,75],                          // M977A4 BKIT
-    ["rhsusf_M977A4_BKIT_M2_usarmy_wd",125,40,75],                      // M977A4 BKIT (HMG)
+    ["rnt_lkw_5t_mil_gl_kat_i_transport_fleck",125,0,75],               // LKW 5t mil gl KAT 1 (Transport)
+    ["rnt_lkw_7t_mil_gl_kat_i_transport_fleck",125,0,75],               // LKW 7t mil gl KAT 1 (Transport)
     ["B_W_Boat_Transport_01_F",100,0,25],                               // Assault Boat
     ["B_T_Boat_Armed_01_minigun_F",200,80,75],                          // Speedboat Minigun
     ["rhsusf_mkvsoc",250,200,100]                                       // Mk.V SOCOM
 ];
 
 KPLIB_b_vehHeavy = [
-    ["rhsusf_m113_usarmy",200,40,100],                                  // M113A3 (M2)
-    ["rhsusf_m113_usarmy_MK19",200,60,100],                             // M113A3 (Mk19)
-    ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
+    ["Redd_Tank_Fuchs_1A4_Jg_Flecktarn",200,50,100],                    // Fuchs 1A4 Infantry (MG3)
+    ["Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn",200,60,100],              // Fuchs 1A4 Infantry (MG3/MILAN)
+    ["Redd_Tank_Fuchs_1A4_San_Flecktarn",200,0,100],                    // Fuchs 1A4 (Medical)
+    ["Redd_Tank_Fuchs_1A4_Pi_Flecktarn",200,0,100],                     // Fuchs 1A4 Engineer	
+    ["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",300,200,100],                // Weisel 1A4 MK20	
+    ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",300,220,100],                 // Weisel 1A2 TOW
     ["UK3CB_B_M270_MLRS_Cluster_WDL",400,200,100],                      // MLRS (Cluster)
-    ["UK3CB_B_M270_MLRS_HE_WDL",450,200,100],                           // MLRS (HE)	
-    ["BWA3_Puma_Fleck",300,225,150],                                    // IFV Puma
+    ["UK3CB_B_M270_MLRS_HE_WDL",450,200,100],                           // MLRS (HE)
+    ["rnt_sppz_2a2_luchs_flecktarn",250,225,150],                       // Recon Tank 2A2 "Luchs"(MG3/20MM)
+    ["Redd_Marder_1A5_Flecktarn",280,225,150],                          // Spz Marder 1A5 IFV
+    ["BWA3_Puma_Fleck",300,225,150],                                    // Spz Puma IFV
+    ["Redd_Tank_Gepard_1A2_Flecktarn",300,225,150],                     // Gepard 1A2
     ["BWA3_Skorpion_Fleck",250,225,150],                                // Mine Scattering System Skorpion
     ["BWA3_Leopard2_Fleck",500,400,250],                                // MBT Leopard 2A6M
-    ["BWA3_Panzerhaubitze2000_Fleck",600,1250,300]                      // Panzerhaubitze 2000
+    ["BWA3_Panzerhaubitze2000_Fleck",600,1250,250]                      // Panzerhaubitze 2000
 ];
 
 KPLIB_b_vehAir = [
@@ -123,7 +127,6 @@ KPLIB_b_vehAir = [
     ["BWA3_NH90_TTH_Fleck",250,0,150],                                  // NH-90 TTH (Unarmed)
     ["BWA3_NH90_TTH_M3M_Fleck",250,0,150],                              // NH-90 TTH (M3M)
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
-    ["B_W_UAV_03_dynamicLoadout_F",450,500,250],                        // MQ-12 Falcon
     ["B_UAV_05_F",500,500,200],                                         // UCAV Sentinel
     ["Tornado_AWS_camo_ger",1250,1500,450],                             // Panavia Tornado IDS (GER Camo)	
     ["FIR_F35B_MFG1",1500,1500,450]                                     // F-35B Lightning II
@@ -132,14 +135,15 @@ KPLIB_b_vehAir = [
 KPLIB_b_vehStatic = [
     ["RHS_M2StaticMG_MiniTripod_USMC_WD",25,40,0],                      // Mk2 HMG .50
     ["RHS_M2StaticMG_WD",25,40,0],                                      // Mk2 HMG .50 (Raised)
-    ["RHS_MK19_TriPod_WD",25,60,0],                                     // Mk19 GMG 20mm
+    ["rnt_mg3_static",25,40,0],                                         // MG3 (Tripod)
+    ["rnt_gmw_static",25,60,0],                                         // GMW (Tripod)
+    ["Redd_Milan_Static",45,100,0],                                     // MILAN TOW (AT)	
     ["BWA3_MELLS_static_Fleck",50,100,0],                               // MELLS TOW (AT)
     ["RHS_Stinger_AA_pod_USMC_WD",50,100,0],                            // Stinger (AA)
-    ["RHS_M252_WD",80,150,0],                                           // Mk6 Mortar
     ["BWA3_MRS120_FleckBWA3_MRS120_Fleck",80,150,0],                    // Mortar 120mm	
     ["RHS_M119_WD",100,200,0],                                          // M119A2
-    ["B_Radar_System_01_F",250,500,0],                                  // AN/MPQ-105 Radar	
-    ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
+    ["rnt_mantis_radar",250,500,0],                                     // Mantis Sensor	
+    ["rnt_mantis_base",250,500,0]                                       // Mantis GDF-020
 ];
 
 KPLIB_b_objectsDeco = [
@@ -261,10 +265,7 @@ KPLIB_b_vehSupport = [
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
-    ["ACE_Track",10,0,0],
-    ["rhsusf_M1083A1P2_B_WD_fmtv_usarmy",125,0,75],                     // M1083A1P2 Transport
-    ["rhsusf_M1083A1P2_B_M2_WD_fmtv_usarmy",125,40,75],                 // M1083A1P2 Transport (Armed)
-    ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy",100,0,50],               // M1083A1P2 (Flatbed)	
+    ["ACE_Track",10,0,0],	
     ["rnt_lkw_7t_mil_gl_kat_i_mun_fleck",125,40,75],                    // LKW 7t mil gl KAT 1 (Ammo)	
     ["rnt_lkw_10t_mil_gl_kat_i_repair_fleck",150,0,75],                 // LKW 10t mil gl KAT 1 (Repair)
     ["rnt_lkw_5t_mil_gl_kat_i_fuel_fleck",150,0,75],                    // LKW 5t mil gl KAT 1 (Fuel)	
