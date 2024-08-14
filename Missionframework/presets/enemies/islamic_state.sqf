@@ -1,8 +1,8 @@
 /*
     File: islamic_state.sqf
-    Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
-    Date: 2017-12-09
-    Last Update: 2020-05-15
+    Author: TFP Liberation Dev Team
+    Date: 2024-08-15
+    Last Update: 2024-08-15
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -13,6 +13,7 @@
         - RHS AFRF
         - RHS GREF
         - RHS USAF
+		- 3CB
 
     Optional Mods:
         - None
@@ -165,6 +166,33 @@ KPLIB_o_helicopters = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 KPLIB_o_planes = [
-    "RHS_Su25SM_vvsc",                                                  // Su-25
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
+    "UK3CB_ADA_O_L39_AA",                                               // L-39 Albatross (AA)
+    "UK3CB_ADA_O_L39_CAS"                                               // L-39 Albatross (CAS)
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_HMG = [
+    "LOP_ISTS_OPF_Static_DSHKM",                                        //DShKM
+    "LOP_ISTS_OPF_Kord",                                                // KORD (Low mount)
+    "LOP_ISTS_OPF_Kord_High"	                                        // KORD (High Mount)
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_GMG = [
+    "LOP_ISTS_OPF_AGS30_TriPod"                                         // AGS-30(6P17)
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_AT = [
+    "LOP_ISTS_OPF_Static_AT4"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_AA = [
+    "LOP_ISTS_OPF_Static_ZU23"
+];
+
+// Enemy defence turrets that will be spawned in sectors.
+KPLIB_o_turrets_MORTAR = [
+    "UK3CB_MEI_O_2b14_82mm"
 ];
