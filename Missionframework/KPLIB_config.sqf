@@ -53,7 +53,7 @@
     29 = SFP (Desert)
     30 = LDF (Contact DLC)
 */
-KPLIB_presetPlayer = 0;
+KPLIB_presetPlayer = 4;
 
 /*
     ----- Enemy preset -----
@@ -121,7 +121,7 @@ KPLIB_presetCivilians = 0;
     8  = SFP arsenal preset
     9  = BWMod arsenal preset
 */
-KPLIB_presetArsenal = 0;
+KPLIB_presetArsenal = 9;
 
 
 /*
