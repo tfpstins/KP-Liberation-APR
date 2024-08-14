@@ -79,7 +79,7 @@ KPLIB_presetPlayer = 4;
     19 = CUP British Armed Forces (Desert)
     20 = CUP British Armed Forces (Woodland)
 */
-KPLIB_presetEnemy = 0;
+KPLIB_presetEnemy = 4;
 
 /*
     ----- Resistance preset -----
