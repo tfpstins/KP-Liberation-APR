@@ -75,6 +75,7 @@ KPLIB_medical_vehicles = [
     "rhsusf_M1230a1_usarmy_wd",
     "UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP",
     "UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM",
+	"Redd_Tank_Fuchs_1A4_San_Flecktarn",
     "uns_ch47a_medevac",
     "uns_H13_medevac_CAV",
     "uns_M577_amb",
@@ -94,6 +95,8 @@ KPLIB_medical_facilities = [
     "Land_Medevac_house_V1_F",
     "Land_Medevac_HQ_V1_F",
     "Land_MedicalTent_01_tropic_closed_F",
+	"Land_MedicalTent_01_NATO_generic_open_F",
+	"Land_MedicalTent_01_NATO_generic_outer_F",
     "Land_PartyTent_01_F",
     "LAND_uns_army_med",
     "LAND_uns_tent3mash",
@@ -188,6 +191,7 @@ KPLIB_aiResupplySources = [
     "rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
     "rhsusf_M977A4_AMMO_usarmy_d",
     "rhsusf_M977A4_AMMO_usarmy_wd",
+	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck",
     "Sparky_Japan_2035_Kamaz_Ammo_JGSDF",
     "Sparky_JSDF_Overhaul_gac_JGSDF_35t_resupply",
     "Sparky_JSDF_Overhaul_JSDF_JGSDF_Type87_ASV",
@@ -244,6 +248,7 @@ vehicle_repair_sources = [
     "rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",
     "rhsusf_M977A4_REPAIR_usarmy_d",
     "rhsusf_M977A4_REPAIR_usarmy_wd",
+	"rnt_lkw_10t_mil_gl_kat_i_repair_fleck",
     "sfp_tgb30_repair",
     "UNS_Hanger_repair",
     "uns_M113_ENG",
@@ -298,6 +303,7 @@ vehicle_rearm_sources = [
     "rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
     "rhsusf_M977A4_AMMO_usarmy_d",
     "rhsusf_M977A4_AMMO_usarmy_wd",
+	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck",	
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
@@ -349,6 +355,7 @@ vehicle_refuel_sources = [
     "rhsusf_M978A4_BKIT_usarmy_wd",
     "rhsusf_M978A4_usarmy_d",
     "rhsusf_M978A4_usarmy_wd",
+    "rnt_lkw_5t_mil_gl_kat_i_fuel_fleck",	
     "sfp_tgb40_fuel",
     "uns_M113_ENG",
     "uns_M35A2_fuel",
@@ -397,7 +404,9 @@ boats_names = [
     "uns_pbr",
     "UNS_Zodiac_W",
     "B_Lifeboat",
-    "vn_b_boat_05_01"
+    "vn_b_boat_05_01",
+	"B_W_Boat_Transport_01_F",
+	"B_T_Boat_Armed_01_minigun_F"
 ];
 
 // Classnames of artillery vehicles, which should be added to the support module
