@@ -99,13 +99,13 @@ class Params {
         title = $STR_WEATHER_PARAM;
         values[] = {1, 2, 3};
         texts[] = {$STR_WEATHER_PARAM1, $STR_WEATHER_PARAM2, $STR_WEATHER_PARAM3};
-        default = 2;
+        default = 3;
     };
     class VanillaFog {
         title = $STR_FOG_PARAM;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 0;
+        default = 1;
     };
     class ResourcesMultiplier {
         title = $STR_PARAMS_RESOURCESMULTIPLIER;
@@ -327,7 +327,7 @@ class Params {
         title = $STR_PARAM_COMMANDERZEUS;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class LimitedZeus {
         title = $STR_PARAM_LIMITEDZEUS;
@@ -339,7 +339,7 @@ class Params {
         title = $STR_PARAM_ZEUSADDENEMIES;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 0;
+        default = 1;
     };
     class HighCommand {
         title = $STR_PARAM_HIGHCOMMAND;
