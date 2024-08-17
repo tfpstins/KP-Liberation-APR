@@ -422,6 +422,9 @@ KPLIB_arsenalItems = [
     "BWA3_Uniform2_sleeves_Fleck",                                  // BW Uniform (Flecktarn, Sleeves)
     "BWA3_Uniform2_sleeves_Multi",                                  // BW Uniform (Multitarn, Sleeves)
     "BWA3_Uniform2_sleeves_Tropen",                                 // BW Uniform (Tropentarn, Sleeves)
+    "USP_PCU_G3C_MX_MCT_M81",                                       // PCU/G3C MX (MCT-M81)
+    "USP_TSHIRT_G3C_KP",                                            // Tshirt2/G3C KP (BLK)
+    "USP_TSHIRT2_G3C_KP_MX_GRN_MCT",                                // Tshirt2/G3C KP/MX (GRN-MCT)
     "FIR_Fighter_Pilot_JASDF_Nomex3",                               // FIR Pilot 1	
     "FIR_Fighter_Pilot_JASDF_Nomex4",                               // FIR Pilot 2	
 
@@ -460,6 +463,12 @@ KPLIB_arsenalItems = [
     "BWA3_OpsCore_FastMT_Tropen",                                   // Ops-Core FAST Helmet (Tropentarn,Cover)
     "BWA3_OpsCore_FastMT_Peltor_Tropen",                            // Ops-Core FAST Helmet (Tropentarn,Peltor)
     "BWA3_OpsCore_FastMT_SOF_Tropen",                               // Ops-Core FAST Helmet (Tropentarn,SOF)
+    "USP_OPSCORE_FASTMTC_M81_CSW",                                  // Ops-Core FAST MT Covered CT/SF/CW (M81)
+    "USP_OPSCORE_FASTMTC_TGS_CSW",                                  // Ops-Core FAST MT Covered CT/SF/CW (TGS)
+    "USP_OPSCORE_FASTMTC_FLECKTARN_CSW",                            // Ops-Core FAST MT Covered CT/SF/CW (FLECK)
+    "USP_OPSCORE_FASTMTC_M81_CGSW",                                 // Ops-Core FAST MT Covered CT/GG/SF/CW (M81)
+    "USP_OPSCORE_FASTMTC_TGS_CGSW",                                 // Ops-Core FAST MT Covered CT/GG/SF/CW (TGS)
+    "USP_OPSCORE_FASTMTC_FLECKTARN_CGSW",                           // Ops-Core FAST MT Covered CT/GG/SF/CW (FLECK)
     "BWA3_TopOwl",                                                  // TopOwl	
     "BWA3_TopOwl_nvg",                                              // TopOwl (NVG)
     "FIR_hgu26p",                                                   // HGU26/P	
@@ -513,7 +522,22 @@ KPLIB_arsenalItems = [
     "UK3CB_G_Bandanna_aviator_brown_check",                         // Bandanna (Aviator Brown Pattern)
     "G_Bandanna_Skull1",                                            // Bandanna (Skull)
     "G_Bandanna_Syndikat1",                                         // Bandanna (Skull/Syndikat)
-    "G_Bandanna_Skull2",                                            // Bandanna (Skull/Ornamental)		
+    "G_Bandanna_Skull2",                                            // Bandanna (Skull/Ornamental)
+    "USP_BALACLAVA_M81",                                            // Bandanna (M81)
+    "USP_BALACLAVA_MCT",                                            // Bandanna (MCT)
+    "USP_BALACLAVA_RGR",                                            // Bandanna (RGR)
+    "USP_BALACLAVA_AOR2",                                           // Bandanna (AOR2)
+    "USP_BALACLAVA_BLK",                                            // Bandanna (BLK)
+    "USP_BALACLAVA_ESS_SMG1_AOR2",                                  // Bandanna/ESS/SMG (AOR2)
+    "USP_BALACLAVA_ESS_SMG1_M81",                                   // Bandanna/ESS/SMG (M81)
+    "USP_BALACLAVA_ESS_SMG1_MCT",                                   // Bandanna/ESS/SMG (MCT)
+    "USP_BALACLAVA_OAK_AOR2",                                       // Bandanna OAK (AOR2)
+    "USP_BALACLAVA_OAK_M81",                                        // Bandanna OAK (M81)
+    "USP_BALACLAVA_OAK_MCT",                                        // Bandanna OAK (MCT)
+    "USP_FM12_BLK",                                                 // Avon FM12 NBC (BLK)
+    "USP_FM12_BLK3",                                                // Avon FM12 NBC (BLK-RED)
+    "USP_GP21_BLK",                                                 // Tambowmash GP21 (BLK)
+    "USP_GP21_BLK3",                                                // Tambowmash GP21 (BLK-RED)
 
     // Vests
     "BWA3_Vest_Fleck",                                              // IdZ Vest (Flecktarn)
@@ -546,6 +570,9 @@ KPLIB_arsenalItems = [
     "BWA3_Vest_Rifleman_Multi",                                     // IdZ Vest (Multitarn) - Rifleman
     "BWA3_Vest_Rifleman_Tropen",                                    // IdZ Vest (Tropentarn) - Rifleman
     "BWA3_Vest_Tropen",                                             // IdZ Vest (Tropentarn)
+    "USP_CRYE_CPC_COMMS_MCT",                                       // Crye CPC Comms (MCT)
+    "USP_CRYE_CPC_COMMS_RGR",                                       // Crye CPC Comms (RGR)
+    "USP_EAGLE_MBAV_LOAD_MCT",                                      // Eagle MBAV Loadout (MCT)
     "FIR_pilot_vest",                                               // Pilot Survival Vest	
 
     // Items
