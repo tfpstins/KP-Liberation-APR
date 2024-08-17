@@ -27,9 +27,9 @@ class KPLIB {
         class crGlobalMsg               {};
         class doSave                    {};
         class fullHeal                  {};
-        class garbageClean              {};
         class fillStorage               {};
         class forceBluforCrew           {};
+        class garbageClean              {};
         class getAdaptiveVehicle        {};
         class getBluforRatio            {};
         class getCommander              {};
