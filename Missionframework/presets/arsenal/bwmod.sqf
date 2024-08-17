@@ -183,6 +183,7 @@ KPLIB_arsenalMagazines = [
     "BWA3_CarlGustav_Illum",                                        // 84mm Illum Rocket
     "BWA3_CarlGustav_Smoke",                                        // 84mm Smoke Rocket
     "BWA3_DM31AT_Mag",                                              // DM31AT Mine
+    "bwa3_mells_spikeLR_1rnd_MELLS_csw"                             // MELLS SpikeLR
     "BWA3_Fliegerfaust_Mag",                                        // Fliegerfaust 2 Missile
     "BWA3_PzF3_DM32",                                               // Bunkerfaust Rocket
     "BWA3_PzF3_Tandem",                                             // Panzerfaust 3 IT Rocket
@@ -195,6 +196,14 @@ KPLIB_arsenalMagazines = [
     "BWA3_1Rnd_120mm_Mo_Smoke_white",                               // DM65 Smoke-Shell
     "BWA3_1Rnd_120mm_Mo_shells",                                    // DM81 HE-Shell
     "BWA3_1Rnd_120mm_Mo_dpz_shells",                                // DM91 HE-Shell
+    "BWA3_DM25",                                                    // DM25 Smoke (White)
+    "BWA3_DM32_Blue",                                               // DM32A2B1 (Blue)
+    "BWA3_DM32_Green",                                              // DM32A2B1 (Green)
+    "BWA3_DM32_Orange",                                             // DM32A2B1 (Orange)
+    "BWA3_DM32_Purple",                                             // DM32A2B1 (Purple)
+    "BWA3_DM32_Red",                                                // DM32A2B1 (Red)
+    "BWA3_DM32_Yellow",                                             // DM32A2B1 (Yellow)
+    "BWA3_DM51A1",                                                  // DM51A1 Frag Grenade
     "rhs_mag_100Rnd_556x45_M855_cmag_mixed",                        // 100rnd C-Mag M855 (Mixed)
     "rhs_mag_100Rnd_556x45_M855_cmag",                              // 100rnd C-Mag M855
     "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed",                      // 100rnd C-Mag M855A1 (Mixed)
@@ -346,12 +355,19 @@ KPLIB_arsenalMagazines = [
     "rhsusf_mine_m49a1_10m_mag",                                    // M49A1 (10m)
     "rhsusf_mine_m49a1_3m_mag",                                     // M49A1 (3m)
     "rhsusf_mine_m49a1_6m_mag",                                     // M49A1 (6m)
-    "rhs_LaserFCSMag",                                              // Designator Batteries
-    "rhs_LaserMag_ai",                                              // Designator Batteries
-    "rhs_LaserMag",                                                 // Designator Batteries	
     "murshun_cigs_cigpack",                                         // Cig Pack
     "murshun_cigs_lighter",                                         // Lighter
     "murshun_cigs_matches",                                         // Matches
+    "tsp_breach_block_mag",                                         // Breaching block
+    "tsp_breach_block_auto_mag",                                    // Breaching block (Auto-Fuse)
+    "tsp_breach_linear_mag",                                        // Linear Charge
+    "tsp_breach_linear_auto_mag",                                   // Linear Charge (Auto-Fuse)
+    "tsp_breach_popper_mag",                                        // Lock-Popper
+    "tsp_breach_popper_auto_mag",                                   // Lock-Popper (Auto-Fuse)
+    "tsp_breach_package_mag",                                       // Packaged Charge
+    "tsp_breach_silhouette_mag",                                    // Silhoutte Charge
+    "tsp_breach_stick_mag",                                         // Stick Charge
+    "tsp_flashbang_m84",                                            // M84 tsp flashbang
 
     // Standard Vanilla Magazines, Grenades & Explosives
     "1Rnd_HE_Grenade_shell",                                        // 40 mm HE Grenade Round
@@ -644,9 +660,17 @@ KPLIB_arsenalItems = [
     "BWA3_optic_ZO4x30i",                                           // ZO 4x30i
     "BWA3_Vector",                                                  // Vector IV
     "BWA3_ItemNaviPad",                                             // NaviPad
-    "DRNP_RD",                                                      // Remote Designator
+    "tsp_lockpick",                                                 // Lock Pick Kit
+    "tsp_sling",                                                    // Weapon sling
+    "tsp_breach_shock",                                             // Shock Tube
+    "DRNP_RD",                                                      // Remote Designator (Portable)
     "DRNP_AR2P",                                                    // AR-2 (Portable)
     "DRNP_AL6P",                                                    // AL-6 (Portable)
+    "DRNP_AR2_battery",                                             // Portable Drone Battery
+    "Laserbatteries",                                               // Designator Batteries
+    "DRNP_Drone_mines",                                             // Drone EOD Charges
+    "SwitchBlade_300_Tube_Woodland",                                // Switchblade 300 (Woodland)
+    "SwitchBlade_600_Tube_Woodland",                                // Switchblade 600 (Woodland)
     "immersion_cigs_cigar0_nv",                                     // Cigar (NVG Slot)
     "murshun_cigs_cig0_nv",                                         // Cigarette (NVG Slot)	
     "JAS_GPNVG18_blk",                                              // GPNVG-18 (Black)
