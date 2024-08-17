@@ -183,7 +183,7 @@ KPLIB_arsenalMagazines = [
     "BWA3_CarlGustav_Illum",                                        // 84mm Illum Rocket
     "BWA3_CarlGustav_Smoke",                                        // 84mm Smoke Rocket
     "BWA3_DM31AT_Mag",                                              // DM31AT Mine
-    "bwa3_mells_spikeLR_1rnd_MELLS_csw"                             // MELLS SpikeLR
+    "bwa3_mells_spikeLR_1rnd_MELLS_csw",                            // MELLS SpikeLR
     "BWA3_Fliegerfaust_Mag",                                        // Fliegerfaust 2 Missile
     "BWA3_PzF3_DM32",                                               // Bunkerfaust Rocket
     "BWA3_PzF3_Tandem",                                             // Panzerfaust 3 IT Rocket
