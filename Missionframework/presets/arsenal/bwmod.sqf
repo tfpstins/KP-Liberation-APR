@@ -440,6 +440,9 @@ KPLIB_arsenalItems = [
     "BWA3_Uniform2_sleeves_Fleck",                                  // BW Uniform (Flecktarn, Sleeves)
     "BWA3_Uniform2_sleeves_Multi",                                  // BW Uniform (Multitarn, Sleeves)
     "BWA3_Uniform2_sleeves_Tropen",                                 // BW Uniform (Tropentarn, Sleeves)
+    "USP_G3C_CS_M81",                                               // Crye G3C CS (M81)
+    "USP_G3C_CS_CU_KP_MX_VQ_M81",                                   // Crye G3C (Rolled Sleeves) M81
+    "USP_G3C_CS_MCB",                                               // Crye G3C CS (MCB)	
     "USP_PCU_G3C_MX_MCT_M81",                                       // PCU/G3C MX (MCT-M81)
     "USP_TSHIRT_G3C_KP",                                            // Tshirt2/G3C KP (BLK)
     "USP_TSHIRT2_G3C_KP_MX_GRN_MCT",                                // Tshirt2/G3C KP/MX (GRN-MCT)
@@ -989,10 +992,10 @@ KPLIB_arsenalItems = [
     "ACE_Yardage450",                                               // Yardage 450
 
     // TFAR Items
-    "tf_anprc148jem",                                               // AN/PRC-148 JEM
-    "tf_anprc152",                                                  // AN/PRC-152
-    "tf_anprc154_1",                                                // AN/PRC-154
-    "tf_microdagr",                                                 // MicroDAGR Radio Programmer
+    "TFAR_anprc148jem",                                             // AN/PRC-148 JEM
+    "TFAR_anprc152",                                                // AN/PRC-152
+    "TFAR_anprc154",                                                // AN/PRC-154
+    "TFAR_microdagr",                                               // MicroDAGR Radio Programmer
 	
 	// cTab
     "ItemAndroid",                                                  // Galaxy S7 ATAK
