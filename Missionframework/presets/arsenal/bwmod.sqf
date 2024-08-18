@@ -76,6 +76,8 @@ KPLIB_arsenalWeapons = [
     "BWA3_G38K_tan",                                                // G38K (Tan)
     "BWA3_G38K",                                                    // G38K
     "BWA3_G82",                                                     // G82
+    "rhs_weap_M590_8RD",                                            // M590A1 (Long)
+    "rhs_weap_M590_5RD",                                            // M590A1  (Short)
     "BWA3_MG3",                                                     // MG3
     "BWA3_MG4",                                                     // MG4
     "BWA3_MG5_tan",                                                 // MG5 (Tan)
@@ -502,6 +504,11 @@ KPLIB_arsenalItems = [
     "FIR_JHMCS_II",                                                 // JHMCS II
     "FIR_JHMCS_Type2",                                              // JHMCS w/MBU-12/P
     "FIR_ScorpionHMCS",                                             // Scorpion HMCS
+    "H_Watchcap_blk",                                               // Beanie
+    "UK_3CB_H_Beanie_02_BLK",                                       // Beanie (Black)
+    "H_Watchcap_Camo",                                              // Beanie (Green)
+    "H_Watchcap_cbr",                                               // Beanie (Coyote)
+    "UK3CB_H_Beanie_02_BRN",                                        // Beanie (Brown)
 	
     // Facegear
     "BWA3_G_Combat_black",                                          // BW Combat Goggles (Black)
@@ -544,17 +551,21 @@ KPLIB_arsenalItems = [
     "G_Bandanna_Skull1",                                            // Bandanna (Skull)
     "G_Bandanna_Syndikat1",                                         // Bandanna (Skull/Syndikat)
     "G_Bandanna_Skull2",                                            // Bandanna (Skull/Ornamental)
-    "USP_BALACLAVA_M81",                                            // Bandanna (M81)
-    "USP_BALACLAVA_MCT",                                            // Bandanna (MCT)
-    "USP_BALACLAVA_RGR",                                            // Bandanna (RGR)
-    "USP_BALACLAVA_AOR2",                                           // Bandanna (AOR2)
-    "USP_BALACLAVA_BLK",                                            // Bandanna (BLK)
-    "USP_BALACLAVA_ESS_SMG1_AOR2",                                  // Bandanna/ESS/SMG (AOR2)
-    "USP_BALACLAVA_ESS_SMG1_M81",                                   // Bandanna/ESS/SMG (M81)
-    "USP_BALACLAVA_ESS_SMG1_MCT",                                   // Bandanna/ESS/SMG (MCT)
-    "USP_BALACLAVA_OAK_AOR2",                                       // Bandanna OAK (AOR2)
-    "USP_BALACLAVA_OAK_M81",                                        // Bandanna OAK (M81)
-    "USP_BALACLAVA_OAK_MCT",                                        // Bandanna OAK (MCT)
+    "USP_BALACLAVA_M81",                                            // Balaclava (M81)
+    "USP_BALACLAVA_MCT",                                            // Balaclava (MCT)
+    "USP_BALACLAVA_RGR",                                            // Balaclava (RGR)
+    "USP_BALACLAVA_CBR",                                            // Balaclava (CBR)
+    "USP_BALACLAVA_AOR2",                                           // Balaclava (AOR2)
+    "USP_BALACLAVA_BLK",                                            // Balaclava (BLK)
+    "USP_BALACLAVA_ESS_SMG1_AOR2",                                  // Balaclava/ESS/SMG (AOR2)
+    "USP_BALACLAVA_ESS_SMG1_M81",                                   // Balaclava/ESS/SMG (M81)
+    "USP_BALACLAVA_ESS_SMG1_MCT",                                   // Balaclava/ESS/SMG (MCT)
+    "USP_BALACLAVA_OAK_AOR2",                                       // Balaclava OAK (AOR2)
+    "USP_BALACLAVA_OAK_M81",                                        // Balaclava OAK (M81)
+    "USP_BALACLAVA_OAK_MCT",                                        // Balaclava OAK (MCT)
+    "USP_BALACLAVA2_CBR",                                           // Balaclava 2 (CBR)
+    "USP_BALACLAVA2_RGR",                                           // Balaclava 2 (RGR)
+    "USP_BALACLAVA2_BLK",                                           // Balaclava 2 (BLK)
     "USP_FM12_BLK",                                                 // Avon FM12 NBC (BLK)
     "USP_FM12_BLK3",                                                // Avon FM12 NBC (BLK-RED)
     "USP_GP21_BLK",                                                 // Tambowmash GP21 (BLK)
