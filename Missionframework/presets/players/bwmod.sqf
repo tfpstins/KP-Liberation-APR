@@ -109,6 +109,7 @@ KPLIB_b_vehHeavy = [
     ["Redd_Tank_Fuchs_1A4_Pi_Flecktarn",200,0,100],                     // Fuchs 1A4 Engineer	
     ["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",250,200,100],                // Weisel 1A4 MK20	
     ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",250,220,100],                 // Weisel 1A2 TOW
+    ["rnt_sppz_2a2_luchs_flecktarn",250,225,150],                       // Recon Tank Luchs 2A2 Woodland	
     ["Redd_Marder_1A5_Flecktarn",280,225,150],                          // Spz Marder 1A5 IFV
     ["BWA3_Puma_Fleck",300,225,150],                                    // Spz Puma IFV
     ["Redd_Tank_Gepard_1A2_Flecktarn",300,225,150],                     // Gepard 1A2
