@@ -28,7 +28,8 @@ KPLIB_whitelist_cmdrSlot = [
 KPLIB_whitelist_cmdrActions = [
             "76561199062959583",   
             "76561198196083931",  
-            "76561198983314685"   
+            "76561198983314685",
+            "76561199048170386"
 ];
 
 // Whitelist for BI support framework access.
