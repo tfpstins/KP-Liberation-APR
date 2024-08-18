@@ -107,11 +107,8 @@ KPLIB_b_vehHeavy = [
     ["Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn",200,60,100],              // Fuchs 1A4 Infantry (MG3/MILAN)
     ["Redd_Tank_Fuchs_1A4_San_Flecktarn",200,0,100],                    // Fuchs 1A4 (Medical)
     ["Redd_Tank_Fuchs_1A4_Pi_Flecktarn",200,0,100],                     // Fuchs 1A4 Engineer	
-    ["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",300,200,100],                // Weisel 1A4 MK20	
-    ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",300,220,100],                 // Weisel 1A2 TOW
-    ["UK3CB_B_M270_MLRS_Cluster_WDL",400,200,100],                      // MLRS (Cluster)
-    ["UK3CB_B_M270_MLRS_HE_WDL",450,200,100],                           // MLRS (HE)
-    ["rnt_sppz_2a2_luchs_flecktarn",250,225,150],                       // Recon Tank 2A2 "Luchs"(MG3/20MM)
+    ["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",250,200,100],                // Weisel 1A4 MK20	
+    ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",250,220,100],                 // Weisel 1A2 TOW
     ["Redd_Marder_1A5_Flecktarn",280,225,150],                          // Spz Marder 1A5 IFV
     ["BWA3_Puma_Fleck",300,225,150],                                    // Spz Puma IFV
     ["Redd_Tank_Gepard_1A2_Flecktarn",300,225,150],                     // Gepard 1A2
@@ -369,19 +366,14 @@ KPLIB_b_squadPara = [
 KPLIB_b_vehToUnlock = [
     "BWA3_Eagle_Fleck",                                                 // Eagle IV
     "BWA3_Eagle_FLW100_Fleck",                                          // Eagle IV (FLW 100)
-    "BWA3_Dingo2_FLW100_MG3_CG13_Fleck",                                // Dingo 2 GE A3.4B (MG3)
+    "Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn",                           // Fuchs 1A4 Infantry (MG3/MILAN)
     "BWA3_Dingo2_FLW200_GMW_CG13_Fleck",                                // Dingo 2 GE A3.4B (GMW)
-    "BWA3_Skorpion_Fleck",                                              // Mine Scattering System Skorpion	
-    "rhsusf_m113_usarmy_MK19",                                          // M113A3 (Mk19)
-    "UK3CB_B_M270_MLRS_Cluster_WDL",                                    // MLRS (Cluster)
-    "UK3CB_B_M270_MLRS_HE_WDL",                                         // MLRS (HE)	
     "BWA3_Puma_Fleck",                                                  // IFV Puma	
+    "Redd_Tank_Gepard_1A2_Flecktarn",                                   // Gepard 1A2
     "BWA3_Leopard2_Fleck",                                              // MBT Leopard 2A6M
     "BWA3_Panzerhaubitze2000_Fleck",                                    // Panzerhaubitze 2000
-	"rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "BWA3_Tiger_RMK_Universal",                                         // UH Tiger RMK (Universal)
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
-    "B_UAV_05_F",                                                       // UCAV Sentinel
     "Tornado_AWS_camo_ger",                                             // Panavia Tornado IDS (GER Camo)
     "FIR_F35B_MFG1"                                                     // F-35B Lightning II
 ];
