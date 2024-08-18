@@ -13,6 +13,7 @@
         - RHSUSAF - https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
         - 3CB - https://steamcommunity.com/workshop/filedetails/?id=1673456286
         - USP Gear and Weapons AIO - https://steamcommunity.com/sharedfiles/filedetails/?id=1795825073&searchtext=usp
+        - Breach Rewrite - https://steamcommunity.com/sharedfiles/filedetails/?id=3283645995
         - Tier One Weapons - https://steamcommunity.com/workshop/filedetails/?id=2268351256
         - ACE  - https://steamcommunity.com/workshop/filedetails/?id=463939057
         - TFAR - https://steamcommunity.com/sharedfiles/filedetails/?id=894678801
