@@ -1,8 +1,8 @@
 scriptName "counter_battle_group";
 
-if (isNil "infantry_weight") then {infantry_weight = 33;};
-if (isNil "armor_weight") then {armor_weight = 33;};
-if (isNil "air_weight") then {air_weight = 33;};
+if (isNil "infantry_weight") then {infantry_weight = 50;};
+if (isNil "armor_weight") then {armor_weight = 35;};
+if (isNil "air_weight") then {air_weight = 15;};
 
 sleep 1800;
 private _sleeptime = 0;
