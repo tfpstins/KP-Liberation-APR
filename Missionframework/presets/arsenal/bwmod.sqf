@@ -291,7 +291,7 @@ KPLIB_arsenalMagazines = [
     "rhssaf_30rnd_556x45_Tracers_G36",                              // 30rnd G36 M855A1 (Tracer)
     "rhssaf_30rnd_556x45_SPR_G36",                                  // 30rnd G36 Mk262
     "rhssaf_30rnd_556x45_SOST_G36",                                 // 30rnd G36 Mk318
-    ""UK3CB_HK33_30rnd_556x45_G",                                   // 30rd HK33 M855 (3x Green Tracer)
+    "UK3CB_HK33_30rnd_556x45_G",                                    // 30rd HK33 M855 (3x Green Tracer)
     "UK3CB_HK33_30rnd_556x45_R",                                    // 30rd HK33 M855 (3x Red Tracer)
     "UK3CB_HK33_30rnd_556x45_W",                                    // 30rd HK33 M855 (3x White Tracer)
     "UK3CB_HK33_30rnd_556x45_Y",                                    // 30rd HK33 M855 (3x Yellow Tracer)
