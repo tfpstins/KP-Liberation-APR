@@ -25,12 +25,14 @@ KPLIB_arsenalWeapons = [
     "BWA3_Bunkerfaust_Loaded",                                      // Bunkerfaust
     "BWA3_CarlGustav",                                              // Leuchtbüchse 84 mm
     "BWA3_Fliegerfaust",                                            // Fliegerfaust 2 Stinger
+    "rhs_weap_maaws",                                               // M3 MAAWS
     "BWA3_G27_AG40_tan",                                            // G27 AG40-2 (Tan)
     "BWA3_G27_AG40",                                                // G27 AG40-2
     "BWA3_G27_tan",                                                 // G27 (Tan)
     "BWA3_G27",                                                     // G27
     "BWA3_G28_Patrol",                                              // G28 E2 (Patrol)
     "BWA3_G28",                                                     // G28 E2 (Standard)
+    "UK3CB_G3A3_RIS",                                               // HK G3A3 (RIS)
     "BWA3_G29",                                                     // G29
     "BWA3_G36A1_AG40_green",                                        // G36A1 AG40-2 (Green)
     "BWA3_G36A1_AG40_tan",                                          // G36A1 AG40-2 (Tan)
@@ -65,6 +67,9 @@ KPLIB_arsenalWeapons = [
     "BWA3_G36KA4_green",                                            // G36KA4 (Green)
     "BWA3_G36KA4_tan",                                              // G36KA4 (Tan)
     "BWA3_G36KA4",                                                  // G36KA4
+    "rhs_weap_g36c",                                                // G36C
+    "rhs_weap_m4a1_blockII_KAC_wd",                                 // M4A1 Block II (Woodland/SOPMOD)
+    "UK3CB_AG36_KSK",                                               // HK G36C (KSK/GL)
     "BWA3_G38_AG40_tan",                                            // G38 AG40-2 (Tan)
     "BWA3_G38_AG40",                                                // G38 AG40-2
     "BWA3_G38_tan",                                                 // G38 (Tan)
@@ -88,6 +93,8 @@ KPLIB_arsenalWeapons = [
     "BWA3_P12",                                                     // P12	
     "BWA3_PzF3_Tandem_Loaded",                                      // Panzerfaust 3
     "BWA3_RGW90_Loaded",                                            // RGW 90
+    "UK3CB_HK33KA2_RIS",                                            // HK33A2 (RIS rail)
+    "UK3CB_HK33KA2_RIS_GL",                                         // HK33A2 (RIS/GL)
     "rhs_weap_hk416d10_LMT_d",                                      // HK416 D10 (SOPMOD Stock/Desert)
     "rhs_weap_hk416d10_LMT_wd",                                     // HK416 D10 (SOPMOD Stock/Woodland)
     "rhs_weap_hk416d10_LMT",                                        // HK416 D10 (SOPMOD Stock)
@@ -186,6 +193,9 @@ KPLIB_arsenalMagazines = [
     "BWA3_CarlGustav_HEDP",                                         // 84mm HEDP Rocket
     "BWA3_CarlGustav_Illum",                                        // 84mm Illum Rocket
     "BWA3_CarlGustav_Smoke",                                        // 84mm Smoke Rocket
+    "rhs_mag_maaws_HEAT",                                           // FFV751 HEAT
+    "rhs_mag_maaws_HE",                                             // FFV441 HE
+    "rhs_mag_maaws_HEDP",                                           // FFV502 HEDP
     "BWA3_DM31AT_Mag",                                              // DM31AT Mine
     "bwa3_mells_spikeLR_1rnd_MELLS_csw",                            // MELLS SpikeLR
     "BWA3_Fliegerfaust_Mag",                                        // Fliegerfaust 2 Missile
@@ -276,6 +286,22 @@ KPLIB_arsenalMagazines = [
     "Tier1_30Rnd_762x35_300BLK_SMK_PMAG_Tan",                       // 30rnd PMAG .300 Custom Combat TAC-TX
     "Tier1_30Rnd_762x35_300BLK_RNBT_PMAG",                          // 30rnd PMAG .300 RNBT(Tracer)
     "Tier1_30Rnd_762x35_300BLK_RNBT_PMAG_Tan",                      // 30rnd PMAG .300 RNBT(Tracer)
+    "rhssaf_30rnd_556x45_EPR_G36",                                  // 30rnd G36 M855A1
+    "rhssaf_30rnd_556x45_MDIM_G36",                                 // 30rnd G36 M855A1 (IR/DIM)
+    "rhssaf_30rnd_556x45_Tracers_G36",                              // 30rnd G36 M855A1 (Tracer)
+    "rhssaf_30rnd_556x45_SPR_G36",                                  // 30rnd G36 Mk262
+    "rhssaf_30rnd_556x45_SOST_G36",                                 // 30rnd G36 Mk318
+    ""UK3CB_HK33_30rnd_556x45_G",                                   // 30rd HK33 M855 (3x Green Tracer)
+    "UK3CB_HK33_30rnd_556x45_R",                                    // 30rd HK33 M855 (3x Red Tracer)
+    "UK3CB_HK33_30rnd_556x45_W",                                    // 30rd HK33 M855 (3x White Tracer)
+    "UK3CB_HK33_30rnd_556x45_Y",                                    // 30rd HK33 M855 (3x Yellow Tracer)
+    "UK3CB_HK33_30rnd_556x45",                                      // 30rd HK33 M855 (No Tracer)
+    "UK3CB_HK33_30rnd_556x45_GT",                                   // 30rd HK33 M855 (Green Tracer)
+    "UK3CB_HK33_30rnd_556x45_RT",                                   // 30rd HK33 M855 (Red Tracer)
+    "UK3CB_HK33_30rnd_556x45_WT",                                   // 30rd HK33 M855 (White Tracer)
+    "UK3CB_HK33_30rnd_556x45_YT",                                   // 30rd HK33 M855 (Yellow Tracer)
+    "UK3CB_G3_20rnd_762x51_GT",                                     // 20rnd G3 M62 Tracer (G)
+    "UK3CB_G3_20rnd_762x51_G",                                      // 20rnd G3 M80 1x Tracer (G)
     "rhsusf_mag_40Rnd_46x30_AP",                                    // 40rnd MP7 SX AP
     "rhsusf_mag_40Rnd_46x30_FMJ",                                   // 40rnd MP7 SX FMJ
     "rhsusf_mag_40Rnd_46x30_JHP",                                   // 40rnd MP7 SX JHP
@@ -625,6 +651,7 @@ KPLIB_arsenalItems = [
     "BWA3_muzzle_snds_QDSS_green",                                  // KAC QDSS NT4 (5.56mm, Green)
     "BWA3_muzzle_snds_QDSS_tan",                                    // KAC QDSS NT4 (5.56mm, Tan)
     "BWA3_muzzle_snds_QDSS",                                        // KAC QDSS NT4 (5.56mm)
+    "uk3cb_muzzle_snds_HK33",                                       // HK308 Suppressor
     "BWA3_muzzle_snds_Rotex_II",                                    // Rotex II (4.6mm)
     "BWA3_muzzle_snds_Rotex_IIA",                                   // Rotex IIA (7.62mm)
     "BWA3_muzzle_snds_Rotex_IIIC_green",                            // Rotex III Compact (5.56mm, Green)
