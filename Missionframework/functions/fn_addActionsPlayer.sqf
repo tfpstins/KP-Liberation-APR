@@ -441,7 +441,7 @@ _player addAction [
 _player addAction[
     ["<t color='#FF0000'>", localize "STR_GARBAGE_CLEAN_ACTION", "</t> <img size='2' image='res\ui_garbage.paa'/>"] joinString "",
     {
-    [player getVariable ["KPLIB_fobPos", [0, 0, 0]], KPLIB_range_fob * 0.9, player] call KPLIB_fnc_garbageClean;},
+    [_caller getVariable ["KPLIB_fobPos", [0, 0, 0]], KPLIB_range_fob * 0.9, _caller] call KPLIB_fnc_garbageClean;},
     nil,
     -850,
     false,
