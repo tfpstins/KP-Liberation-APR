@@ -111,7 +111,10 @@ KPLIB_o_battleGrpVehicles = [
     "LOP_ISTS_OPF_Offroad_M2",                                          // Offroad (M2)
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
+    "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
+    "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
     "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
     "LOP_ISTS_OPF_T34",                                                 // T-34-85M
     "LOP_ISTS_OPF_T55",                                                 // T55A
@@ -120,6 +123,8 @@ KPLIB_o_battleGrpVehicles = [
     "LOP_ISTS_OPF_T72BA",                                               // T72B
     "LOP_ISTS_OPF_ZSU234",                                              // ZSU-23-4V
     "LOP_ISTS_OPF_ZSU234",                                              // ZSU-23-4V
+    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
+    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
     "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
@@ -131,15 +136,17 @@ KPLIB_o_battleGrpVehiclesLight = [
     "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
-    "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
+    "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
     "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
+    "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
     "LOP_ISTS_OPF_T34",                                                 // T-34-85M
     "LOP_ISTS_OPF_ZSU234",                                              // ZSU-23-4V
+    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
     "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
