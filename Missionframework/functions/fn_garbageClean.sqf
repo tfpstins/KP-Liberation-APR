@@ -12,11 +12,21 @@ if (isNull _caller) exitWith {["Null object given"] call BIS_fnc_error; false};
 if (!canSuspend) exitWith {_this spawn KPLIB_fnc_garbageClean;};
 
 
-private _players = allPlayers - entities "HeadlessClient_F";
+
+private _unitSpawners = units teamPlayer select { _x getVariable ["spawner", false] };
 
 private _fnc_distCheck = {
-    params["_object", "_dist"];
-    if (_players inAreaArray [getPosATL _object, _dist, _dist] isEqualTo []) then { deleteVehicle _object };
+    params ["_object", "_dist"];
+    private _isInArea = false;
+    {
+        if (_object inAreaArray [getPosATL _x, _dist, _dist] isEqualTo [_object]) then {
+            _isInArea = true;
+        };
+    } forEach _unitSpawners;
+
+    if (!_isInArea) then {
+        deleteVehicle _object;
+    };
 };
 
 
@@ -39,7 +49,7 @@ private _fnc_distCheck = {
 // } forEach (vehicles select { _x getVariable ["ownerSide", sideUnknown] == teamPlayer });
 
 // ACE mod specific cleanup
-if (KPLIB_ace_hasACE) then {
+if (A3A_hasACE) then {
     { deleteVehicle _x } forEach (allMissionObjects "ACE_bodyBagObject");
     { deleteVehicle _x } forEach (allMissionObjects "UserTexture1m_F");
     { deleteVehicle _x } forEach (allMissionObjects "ace_cookoff_Turret_MBT_01");
@@ -57,25 +67,21 @@ if (isClass (configFile >> "CfgVehicles" >> "GRAD_envelope_short")) then {
     { [_x, 200] call _fnc_distCheck } forEach (allMissionObjects "GRAD_envelope_long");
 };
 
-// RHS Mod cleanup
-if (isClass (configFile/"CfgPatches"/"rhsgref_main")) then {//ToDo: these should be moved to owner mod detection and not the broad one as we may allow some rhs factions without all of rhs modset loaded
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_a10_acesII_seat");         // Ejection seat for A-10 and F-22
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_a10_canopy");              // other canopies delete on ground contact
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_k36d5_seat");              // AFRF ejection seat
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_vs1_seat");                // another dumb ejection seat
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_door_pilot");         // another garbage piece not being cleaned
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_door_gunner");        // another garbage piece not being cleaned
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_wing_left");          // another garbage piece not being cleaned
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_wing_right");         // another garbage piece not being cleaned
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_ka52_rps_rocket");         // ejection rocket? 
-    { deleteVehicle _x } forEach (allMissionObjects "rhs_ka52_blade");              // blade for ka52
-
-
+// RHS mod specific cleanup
+if (isClass (configFile / "CfgPatches" / "rhsgref_main")) then {
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_a10_acesII_seat");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_a10_canopy");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_k36d5_seat");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_vs1_seat");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_door_pilot");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_door_gunner");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_wing_left");
+    { deleteVehicle _x } forEach (allMissionObjects "rhs_mi28_wing_right");
 };
 
 
 [localize "STR_GARBAGE_CLEAN_DONE"] remoteExec ["hint", _caller];
 sleep 3;
-[""] remoteExecCall ["hintSilent", _caller];
+[""] remoteExecCall ["hintSilent", _targetunits];
 
 true
