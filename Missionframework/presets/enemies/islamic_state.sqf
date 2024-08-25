@@ -173,8 +173,6 @@ KPLIB_o_helicopters = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 KPLIB_o_planes = [
-    "UK3CB_ADA_O_L39_AA",                                               // L-39 Albatross (AA)
-    "UK3CB_ADA_O_L39_CAS"                                               // L-39 Albatross (CAS)
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
