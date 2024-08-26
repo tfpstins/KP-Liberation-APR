@@ -950,6 +950,7 @@ KPLIB_arsenalItems = [
     "U_B_T_FullGhillie_tna_F",                                      // Full Ghillie (Jungle) [NATO]
     "U_B_Wetsuit",                                                  // Wetsuit [NATO]
     "V_RebreatherB",                                                // Rebreather [NATO]
+    "Laserdesignator_03",                                           // Laser Designator (Olive)
 
     // ACE Items
     "ACE_acc_pointer_green",                                        // Laser Pointer (green)
