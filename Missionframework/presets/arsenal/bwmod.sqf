@@ -811,6 +811,7 @@ KPLIB_arsenalItems = [
     "murshun_cigs_cig0_nv",                                         // Cigarette (NVG Slot)	
     "JAS_GPNVG18_blk",                                              // GPNVG-18 (Black)
     "JAS_GPNVG18_Tan",                                              // GPNVG-18 (Tan)
+    "rhs_optic_maaws",                                              // M3 MAAWS Sight
     "rhsusf_acc_ACOG_anpvs27",                                      // M150 RCO + AN/PVS-27
     "rhsusf_acc_ACOG_d",                                            // TA31RCO (Desert)
     "rhsusf_acc_ACOG_MDO",                                          // SU-260/P (MOD)
