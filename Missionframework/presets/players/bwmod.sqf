@@ -138,7 +138,7 @@ KPLIB_b_vehStatic = [
     ["Redd_Milan_Static",45,100,0],                                     // MILAN TOW (AT)	
     ["BWA3_MELLS_static_Fleck",50,100,0],                               // MELLS TOW (AT)
     ["RHS_Stinger_AA_pod_USMC_WD",50,100,0],                            // Stinger (AA)
-    ["BWA3_MRS120_FleckBWA3_MRS120_Fleck",80,150,0],                    // Mortar 120mm	
+    ["BWA3_MRS120_Fleck",80,150,0],                                     // Mortar 120mm	
     ["RHS_M119_WD",100,200,0],                                          // M119A2
     ["rnt_mantis_radar",250,500,0],                                     // Mantis Sensor	
     ["rnt_mantis_base",250,500,0]                                       // Mantis GDF-020
