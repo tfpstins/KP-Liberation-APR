@@ -3719,7 +3719,8 @@ KPLIB_arsenalItems = [
     "BWA3_muzzle_snds_QDSS_green",                                  // KAC QDSS NT4 (5.56mm, Green)
     "BWA3_muzzle_snds_QDSS_tan",                                    // KAC QDSS NT4 (5.56mm, Tan)
     "BWA3_muzzle_snds_QDSS",                                        // KAC QDSS NT4 (5.56mm)
-    "uk3cb_muzzle_snds_HK33",                                       // HK308 Suppressor
+    "uk3cb_muzzle_snds_HK33",                                       // HK308 Suppressor(5.56mm)
+	"uk3cb_muzzle_snds_g3",                                         // HK308 Suppressor(7.62mm)
     "BWA3_muzzle_snds_Rotex_II",                                    // Rotex II (4.6mm)
     "BWA3_muzzle_snds_Rotex_IIA",                                   // Rotex IIA (7.62mm)
     "BWA3_muzzle_snds_Rotex_IIIC_green",                            // Rotex III Compact (5.56mm, Green)
@@ -4119,6 +4120,7 @@ KPLIB_arsenalBackpacks = [
     "BWA3_AssaultPack_Multi",                                       // Assault Pack (Multitarn)
     "BWA3_AssaultPack_Tropen_Medic",                                // Assault Pack (Tropentarn, Medic)
     "BWA3_AssaultPack_Tropen",                                      // Assault Pack (Tropentarn)
+    "UK3CB_CSAT_N_O_B_ENG_BLK",                                     // Carryall Backpack (Black)	
     "BWA3_Carryall_Fleck",                                          // Carryall Backpack (Flecktarn)
     "BWA3_Carryall_Multi",                                          // Carryall Backpack (Multitarn)
     "BWA3_Carryall_Tropen",                                         // Carryall Backpack (Tropentarn)
