@@ -114,7 +114,7 @@ KPLIB_b_vehHeavy = [
     ["BWA3_Puma_Fleck",300,225,150],                                    // Spz Puma IFV
     ["Redd_Tank_Gepard_1A2_Flecktarn",300,225,150],                     // Gepard 1A2
     ["BWA3_Skorpion_Fleck",250,225,150],                                // Mine Scattering System Skorpion
-    ["BWA3_Leopard2_Fleck",500,400,250],                                // MBT Leopard 2A6M
+    ["BWA3_Leopard2_Fleck",600,500,250],                                // MBT Leopard 2A6M
     ["BWA3_Panzerhaubitze2000_Fleck",600,1250,250]                      // Panzerhaubitze 2000
 ];
 
@@ -123,14 +123,15 @@ KPLIB_b_vehAir = [
     ["RHS_MELB_AH6M",200,200,100],                                      // AH-6M Pawnee
     ["BWA3_Tiger_RMK_Universal",750,750,250],                           // UH Tiger RMK (Universal)
     ["BWA3_NH90_TTH_Fleck",250,0,150],                                  // NH-90 TTH (Unarmed)
-    ["BWA3_NH90_TTH_M3M_Fleck",250,0,150],                              // NH-90 TTH (M3M)
+    ["BWA3_NH90_TTH_M3M_Fleck",250,150,150],                            // NH-90 TTH (M3M)
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
     ["B_UAV_05_F",500,500,200],                                         // UCAV Sentinel
-    ["Tornado_AWS_camo_ger",1250,1500,450],                             // Panavia Tornado IDS (GER Camo)	
-    ["FIR_F35B_MFG1",1500,1500,450],                                    // F-35B Lightning II
     ["RHS_AH64D",750,750,250],                                          // AH-64D Apache
     ["UK3CB_CW_US_B_LATE_UH60M",250,150,150],                           // UH-60M Blackhawk (Armed)
-    ["UK3CB_CW_US_B_LATE_UH60M2",250,0,150]                             // UH-60M Blackhawk (Unarmed)
+    ["UK3CB_CW_US_B_LATE_UH60M2",250,0,150],                            // UH-60M Blackhawk (Unarmed)
+    ["UK3CB_CW_US_B_LATE_UH60M2",250,0,150],                            // CH-47F (Cargo)
+    ["FIR_F35B_MFG2",1250,1250,450],                                    // F-35B Lightning II
+	["Tornado_AWS_camo_ger",1250,1500,450]                              // Panavia Tornado IDS (GER Camo)
 ];
 
 KPLIB_b_vehStatic = [
@@ -378,6 +379,5 @@ KPLIB_b_vehToUnlock = [
     "BWA3_Panzerhaubitze2000_Fleck",                                    // Panzerhaubitze 2000
     "BWA3_Tiger_RMK_Universal",                                         // UH Tiger RMK (Universal)
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
-    "Tornado_AWS_camo_ger",                                             // Panavia Tornado IDS (GER Camo)
-    "FIR_F35B_MFG1"                                                     // F-35B Lightning II
+    "Tornado_AWS_camo_ger"                                              // Panavia Tornado IDS (GER Camo)
 ];
