@@ -129,8 +129,7 @@ KPLIB_b_vehAir = [
     ["RHS_AH64D",750,750,250],                                          // AH-64D Apache
     ["UK3CB_CW_US_B_LATE_UH60M",250,150,150],                           // UH-60M Blackhawk (Armed)
     ["UK3CB_CW_US_B_LATE_UH60M2",250,0,150],                            // UH-60M Blackhawk (Unarmed)
-    ["UK3CB_CW_US_B_LATE_UH60M2",250,0,150],                            // CH-47F (Cargo)
-    ["FIR_F35B_MFG2",1250,1250,450],                                    // F-35B Lightning II
+    ["RHS_CH_47F_cargo",250,0,150],                                     // CH-47F (Cargo)
 	["Tornado_AWS_camo_ger",1250,1500,450]                              // Panavia Tornado IDS (GER Camo)
 ];
 
