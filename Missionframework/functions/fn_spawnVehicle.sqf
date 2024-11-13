@@ -2,7 +2,7 @@
     File: fn_spawnVehicle.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2019-12-03
-    Last Update: 2020-05-06
+    Last Update: 2023-11-14
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -27,7 +27,6 @@ params [
 
 if (_pos isEqualTo [0, 0, 0]) exitWith {["No or zero pos given"] call BIS_fnc_error; objNull};
 if (_classname isEqualTo "") exitWith {["Empty string given"] call BIS_fnc_error; objNull};
-if (!canSuspend) exitWith {_this spawn KPLIB_fnc_spawnVehicle};
 
 private _newvehicle = objNull;
 private _spawnpos = [];
@@ -41,20 +40,20 @@ if (_precise) then {
     while {_spawnPos isEqualTo []} do {
         _i = _i + 1;
         _spawnpos = (_pos getPos [random 150, random 360]) findEmptyPosition [10, 100, _classname];
-        if (_i isEqualTo 10) exitWith {};
+        if (_i isEqualTo 10) exitWith {_spawnPos = zeroPos};
     };
 };
 
-if (_spawnPos isEqualTo zeroPos) exitWith {
+if (_spawnPos isEqualTo []) exitWith {
     ["No suitable spawn position found."] call BIS_fnc_error;
     [format ["Couldn't find spawn position for %1 around position %2", _classname, _pos], "WARNING"] call KPLIB_fnc_log;
     objNull
 };
 
 // If it's a chopper, spawn it flying
-if (_classname in opfor_choppers) then {
+if (_classname in KPLIB_o_helicopters) then {
     _newvehicle = createVehicle [_classname, _spawnpos, [], 0, 'FLY'];
-    _newvehicle flyInHeight (80 + (random 120));
+    _newvehicle flyInHeight (100 + (random 120));
     _newvehicle allowDamage false;
 } else {
     _newvehicle = _classname createVehicle _spawnpos;
@@ -70,27 +69,36 @@ if (_classname in opfor_choppers) then {
     _newvehicle setVectorUp surfaceNormal position _newvehicle;
 };
 
+_newVehicle lock true;
 // Clear cargo, if enabled
 [_newvehicle] call KPLIB_fnc_clearCargo;
-
+_newvehicle addItemCargoGlobal ["toolkit", 1];
 // Process KP object init
 [_newvehicle] call KPLIB_fnc_addObjectInit;
 
 // Spawn crew of vehicle
-if (_classname in militia_vehicles) then {
+if (_classname in KPLIB_o_militiaVehicles) then {
     [_newvehicle] call KPLIB_fnc_spawnMilitiaCrew;
 } else {
-    private _grp = createGroup [GRLIB_side_enemy, true];
+    private _grp = createGroup [KPLIB_side_enemy, true];
     private _crew = units (createVehicleCrew _newvehicle);
     _crew joinSilent _grp;
-    sleep 0.1;
-    {_x addMPEventHandler ["MPKilled", {_this spawn kill_manager}];} forEach _crew;
+    {
+        _x addMPEventHandler ["MPKilled", {
+            params ["_unit", "_killer"];
+            ["KPLIB_manageKills", [_unit, _killer]] call CBA_fnc_localEvent;
+        }];
+    } forEach _crew;
 };
 
-// Add MPKilled and GetIn EHs and enable damage again
-_newvehicle addMPEventHandler ["MPKilled", {_this spawn kill_manager}];
+// Add Killed and GetIn EHs and enable damage again
+_newvehicle addMPEventHandler ["MPKilled", {
+    params ["_unit", "_killer"];
+    ["KPLIB_manageKills", [_unit, _killer]] call CBA_fnc_localEvent;
+}];
 sleep 0.1;
 _newvehicle allowDamage true;
 _newvehicle setDamage 0;
+_newVehicle lock false;
 
 _newvehicle

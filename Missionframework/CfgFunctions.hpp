@@ -3,7 +3,9 @@ class KPLIB {
         file = "functions";
 
         class addActionsFob             {};
+        class addActionsFullHeal        {};
         class addActionsPlayer          {};
+        class addArtyToSupport          {};
         class addObjectInit             {};
         class addRopeAttachEh           {};
         class allowCrewInImmobile       {};
@@ -24,6 +26,7 @@ class KPLIB {
         class crGetMulti                {};
         class crGlobalMsg               {};
         class doSave                    {};
+        class fullHeal                  {};
         class fillStorage               {};
         class forceBluforCrew           {};
         class getAdaptiveVehicle        {};
@@ -39,6 +42,7 @@ class KPLIB {
         class getLocationName           {};
         class getMilitaryId             {};
         class getMobileRespawns         {};
+        class getMobileRespawnName      {};
         class getNearbyPlayers          {};
         class getNearestBluforObjective {};
         class getNearestFob             {};
@@ -48,6 +52,7 @@ class KPLIB {
         class getOpforCap               {};
         class getOpforFactor            {};
         class getOpforSpawnPoint        {};
+        class getOpforSpawnPointSAM     {};
         class getPlayerCount            {};
         class getResistanceTier         {};
         class getSaveableParam          {};
@@ -62,9 +67,10 @@ class KPLIB {
         class handlePlacedZeusObject    {};
         class hasPermission             {};
         class initSectors               {};
-        class isBigtownActive           {};
+        class isCapitalActive           {};
         class isClassUAV                {};
         class isRadio                   {};
+        class lambs_enableReinforcements{};
         class log                       {};
         class potatoScan                {};
         class protectObject             {};

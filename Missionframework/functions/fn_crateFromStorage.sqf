@@ -2,7 +2,7 @@
     File: fn_crateFromStorage.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2017-03-27
-    Last Update: 2020-04-25
+    Last Update: 2020-05-10
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -24,7 +24,7 @@ params [
 ];
 
 // Validate parameters
-if !((toLower _cratetype) in KPLIB_crates) exitWith {["Invalid craty type given: %1", _cratetype] call BIS_fnc_error; false};
+if !((toLowerANSI _cratetype) in KPLIB_crates) exitWith {["Invalid craty type given: %1", _cratetype] call BIS_fnc_error; false};
 if (isNull _storage) exitWith {["Null object given"] call BIS_fnc_error; false};
 
 // Get correct storage positions
@@ -52,8 +52,11 @@ detach _crate;
 [_crate, true] call KPLIB_fnc_clearCargo;
 _crate setPos _unloadPos;
 [_crate, true] remoteExec ["enableRopeAttach"];
-if (KP_liberation_ace) then {[_crate, true, [0, 1.5, 0], 0] remoteExec ["ace_dragging_fnc_setCarryable"];};
-
+_crate lockInventory true;
+if (KPLIB_ace) then {
+    [_crate, true, [0, 1.5, 0], 0] remoteExec ["ace_dragging_fnc_setCarryable"];
+    _crate setVariable ["ace_cargo_noRename", true];
+};
 // Fill the possible gap in the storage area
 reverse _storedCrates;
 _i = 0;
@@ -65,7 +68,7 @@ _i = 0;
 
 // Update sector resources
 if (_update) then {
-    if ((_storage getVariable ["KP_liberation_storage_type", -1]) == 1) then {
+    if ((_storage getVariable ["KPLIB_storage_type", -1]) == 1) then {
         recalculate_sectors = true;
         publicVariable "recalculate_sectors";
     };

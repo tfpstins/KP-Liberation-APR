@@ -1,16 +1,16 @@
 params ["_sector"];
 
-if (KP_liberation_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf for %1 spawned on: %2 - Time: %3", markerText _sector, debug_source, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
+if (KPLIB_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf for %1 spawned on: %2 - Time: %3", markerText _sector, debug_source, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
 
-waitUntil {sleep 1; _sector in KP_liberation_asymmetric_sectors};
+waitUntil {sleep 1; _sector in KPLIB_asymmetric_sectors};
 
-private _buildings = (nearestObjects [(markerPos _sector), ["House"], 75]) select {(alive _x) && !((typeOf _x) in KP_liberation_cr_ign_buildings)};
+private _buildings = (nearestObjects [(markerPos _sector), ["House"], 75]) select {(alive _x) && !((typeOf _x) in KPLIB_cr_ign_buildings)};
 private _positions = [];
 {
     _positions = _positions + ([_x] call BIS_fnc_buildingPositions);
 } forEach _buildings;
 
-if (KP_liberation_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Found %1 suitable buildings in %2 - Time: %3", count _buildings, markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
+if (KPLIB_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Found %1 suitable buildings in %2 - Time: %3", count _buildings, markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
 
 private _position_indexes = [];
 private _position_count = count _positions;
@@ -32,18 +32,18 @@ private _idxposit = 0;
     _idxposit = _idxposit + 1;
 } forEach (units _grp);
 
-if (KP_liberation_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Units spawned in %1 - Time: %2", markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
+if (KPLIB_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Units spawned in %1 - Time: %2", markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
 
 private _attack = false;
 
-while {(_sector in KP_liberation_asymmetric_sectors) && (!isNull _grp)} do {
-    private _blufor_near = {alive _x && side _x == GRLIB_side_friendly} count ((getpos (leader _grp)) nearEntities [["LAND"], 140]);
+while {(_sector in KPLIB_asymmetric_sectors) && (!isNull _grp)} do {
+    private _blufor_near = {alive _x && side _x == KPLIB_side_player} count ((getpos (leader _grp)) nearEntities [["LAND"], 140]);
     if ((_blufor_near > 0) && !_attack) then {
         _attack = true;
         {
             _x setUnitPos "AUTO";
         } forEach (units _grp);
-        (units _grp) doFollow (leader _grp);
+        {doStop _x; _x doFollow leader _grp} foreach units _grp;
         _grp setBehaviour "COMBAT";
         _grp setCombatMode "RED";
         private _waypoint = _grp addWaypoint [markerpos _sector, 20];
@@ -59,16 +59,16 @@ while {(_sector in KP_liberation_asymmetric_sectors) && (!isNull _grp)} do {
     sleep 1;
 };
 
-if (KP_liberation_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Exit Loop in %1 - Time: %2", markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
+if (KPLIB_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Exit Loop in %1 - Time: %2", markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
 
 sleep 60;
 
 if (!isNull _grp) then {
     {
         if (alive _x) then {
-            deleteVehicle _x;
+            if (isNull objectParent _x) then {deleteVehicle _x} else {(objectParent _x) deleteVehicleCrew _x};
         };
     } forEach (units _grp);
 };
 
-if (KP_liberation_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Ambush dropped in %1 - Time: %2", markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
+if (KPLIB_asymmetric_debug > 0) then {[format ["asym_sector_ambush.sqf -> Ambush dropped in %1 - Time: %2", markerText _sector, diag_tickTime], "ASYMMETRIC"] remoteExecCall ["KPLIB_fnc_log", 2];};
