@@ -8,6 +8,11 @@ This fork is a uniquely modified version of [KP Liberation](https://github.com/K
 ### Required Add-ons
 - [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
 
+### Recommended Add-ons
+- [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=463939057)
+
+### Presets
+The included presets are outdated. We recommend using customizations to create your own presets. This fork serves as a base for customizing missions.
 
 ### About This Fork
 This project started as a fix for critical bugs and improvements needed in KP Liberation that had not been released since version 0.96.7a. Essentially, the internal version is v0.96.7a+ (currently, 0.96.8a+++). It is a compilation of elements from 0.96.8 that were in development and PRs that were not merged.
