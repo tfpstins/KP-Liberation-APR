@@ -8,12 +8,15 @@ _cfg = configFile >> "cfgVehicles";
 _vehtomark = [];
 
 _support_to_skip = [
+    KPLIB_o_fuelContainer,
+    KPLIB_o_ammoContainer,
     KPLIB_b_logiStation,
     KPLIB_b_airControl,
     "B_Slingload_01_Repair_F",
     "B_Slingload_01_Fuel_F",
     "B_Slingload_01_Ammo_F"
 ];
+_support_to_skip = _support_to_skip apply {toLowerANSI _x};
 
 {
     _vehtomark append _x;
@@ -25,7 +28,7 @@ while { true } do {
 
     _markedveh = [];
     {
-        if (alive _x && (toLower (typeof _x)) in _vehtomark && (count (crew _x)) == 0 && (_x distance2d startbase) > 500) then {
+        if (alive _x && (toLowerANSI (typeof _x)) in _vehtomark && (count (crew _x)) == 0 && (_x distance2d startbase) > 500) then {
             _markedveh pushback _x;
         };
     } foreach vehicles;

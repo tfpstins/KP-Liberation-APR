@@ -24,7 +24,7 @@
 */
 
 KPLIB_objectInits = [
-    // Set KP logo on white flag
+    // Set logo on white flag
     [
         ["Flag_White_F"],
         {_this setFlagTexture "res\flag_kp_co.paa";}
@@ -83,11 +83,31 @@ KPLIB_objectInits = [
         [KPLIB_b_smallStorage, KPLIB_b_largeStorage],
         {_this setVariable ["KPLIB_storage_type", 0, true];}
     ],
-
-    // Add ACE variables to corresponding building types
+    
+    // disable inventory action and ACE rename of resource crates
     [
-        [KPLIB_b_logiStation],
+        KPLIB_crates,
+        {
+            _this lockInventory true;
+            if (KPLIB_ace) then {
+                [_this, true, [0, 1.5, 0], 0] remoteExec ["ace_dragging_fnc_setCarryable"];
+                _this setVariable ["ace_cargo_noRename", true];
+            };
+        }
+    ],
+    
+    // Add ACE variables to corresponding building/vehicle types
+    [
+        KPLIB_repair_facilities + [KPLIB_b_logiStation],
         {_this setVariable ["ace_isRepairFacility", 1, true];}
+    ],
+    [
+        vehicle_repair_sources,
+        {_this setVariable ["ace_isRepairVehicle", 1, true];}
+    ],
+    [
+        vehicle_rearm_sources,
+        {_this setVariable ["ace_rearm_isSupplyVehicle", true, true];}
     ],
     [
         KPLIB_medical_facilities,
@@ -96,6 +116,20 @@ KPLIB_objectInits = [
     [
         KPLIB_medical_vehicles,
         {_this setVariable ["ace_medical_isMedicalVehicle", true, true];}
+    ],
+
+    // Add ACE refuel function to corresponding building/vehicle types when ace fuelCargo config is missing
+    [
+        vehicle_refuel_sources,
+        {
+            [_this] spawn {
+                params ["_fuelTruck"];
+                waitUntil {sleep 0.1; time > 0};
+                if (getNumber (configfile >> "CfgVehicles" >> (typeOf _fuelTruck) >> "ace_refuel_fuelCargo") <= 0) then {
+                    [_fuelTruck, 3000] remoteExecCall ["ace_refuel_fnc_makeSource", 0, _fuelTruck];
+                };
+            };
+        }
     ],
 
     // Hide Cover on big GM trucks
@@ -114,12 +148,54 @@ KPLIB_objectInits = [
     // Add valid vehicles to support module, if system is enabled
     [
         KPLIB_param_supportModule_artyVeh,
-        {if (KPLIB_param_supportModule > 0) then {KPLIB_param_supportModule_arty synchronizeObjectsAdd [_this];};}
+        {
+            if (KPLIB_param_supportModule > 0) then {
+                [_this] spawn {
+                    params ["_arty"];
+                    waitUntil {sleep 0.1; time > 0};
+                    [_arty] remoteExecCall ["KPLIB_fnc_addArtyToSupport", 0, _arty];
+                };
+            };
+        }
+    ],
+
+    // add fullheal action to huron/taru medical container (mobile fullHeal)
+    [
+        ["B_Slingload_01_Medevac_F", "Land_Pod_Heli_Transport_04_medevac_F"],
+        {
+            [_this] spawn {
+                params ["_medvacbox"];
+                waitUntil {sleep 0.1; time > 0};
+                [_medvacbox] remoteExecCall ["KPLIB_fnc_addActionsFullHeal", 0, _medvacbox];
+            };
+        }
+    ],
+
+    // Add KPLQ Radio to static radios
+    [
+        ["Land_FMradio_F", "Land_SurvivalRadio_F", "CUP_radio_b", "Radio", "Radio_Old"],
+        {
+            if (KPLIB_klpq) then {
+                [_this] spawn {
+                    params ["_radio"];
+                    waitUntil {sleep 0.1; time > 0};
+                    [_radio, false] remoteExecCall ["klpq_musicRadio_fnc_addRadio", 0, _radio];
+                };
+            };
+        }
+    ],
+
+    // Set MH47 Probe
+    [
+        ["CUP_B_MH47E_USA"],
+        {
+            [_this,nil,["Hide_Probe",0]] call BIS_fnc_initVehicle;
+        }
     ],
 
     // Disable autocombat (if set in parameters) and fleeing
     [
-        ["Man"],
+        ["CAManBase"],
         {
             if (!(KPLIB_param_autodanger) && {(side _this) isEqualTo KPLIB_side_player}) then {
                 _this disableAI "AUTOCOMBAT";

@@ -2,11 +2,11 @@ params ["_liberated_sector"];
 
 private _KPLIB_enemyReadiness_increase = 0;
 switch (true) do {
-    case (_liberated_sector in KPLIB_sectors_capital):    {_KPLIB_enemyReadiness_increase = floor (random 10) * KPLIB_param_difficulty;};
-    case (_liberated_sector in KPLIB_sectors_city):    {_KPLIB_enemyReadiness_increase = floor (random 6) * KPLIB_param_difficulty;};
-    case (_liberated_sector in KPLIB_sectors_military):   {_KPLIB_enemyReadiness_increase = 5 + (floor (random 11)) * KPLIB_param_difficulty;};
+    case (_liberated_sector in KPLIB_sectors_capital):    {_KPLIB_enemyReadiness_increase = 6 + (floor (random 6)) * KPLIB_param_difficulty;};
+    case (_liberated_sector in KPLIB_sectors_city):    {_KPLIB_enemyReadiness_increase = 6 + (floor (random 4)) * KPLIB_param_difficulty;};
+    case (_liberated_sector in KPLIB_sectors_military):   {_KPLIB_enemyReadiness_increase = 5 + (floor (random 12)) * KPLIB_param_difficulty;};
     case (_liberated_sector in KPLIB_sectors_factory):    {_KPLIB_enemyReadiness_increase = 3 + (floor (random 7)) * KPLIB_param_difficulty;};
-    case (_liberated_sector in KPLIB_sectors_tower):      {_KPLIB_enemyReadiness_increase = floor (random 4);};
+    case (_liberated_sector in KPLIB_sectors_tower):      {_KPLIB_enemyReadiness_increase = 3 + (floor (random 3)) * KPLIB_param_difficulty;};
 };
 
 KPLIB_enemyReadiness = KPLIB_enemyReadiness + _KPLIB_enemyReadiness_increase;
@@ -67,6 +67,6 @@ if (KPLIB_endgame == 0) then {
         }
         && {[] call KPLIB_fnc_getOpforCap < KPLIB_cap_battlegroup}
     ) then {
-        [_liberated_sector, (random 100) < 45] spawn spawn_battlegroup;
+        [_liberated_sector, (random 100) < 15] spawn spawn_battlegroup;
     };
 };

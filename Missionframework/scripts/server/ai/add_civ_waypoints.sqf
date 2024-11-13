@@ -1,8 +1,8 @@
 private _grp = _this select 0;
 private _basepos = getpos (leader _grp);
 
-while {(count (waypoints _grp)) != 0} do {deleteWaypoint ((waypoints _grp) select 0);};
-{_x doFollow leader _grp} foreach units _grp;
+{ deleteWaypoint _x } forEachReversed waypoints _grp;
+{doStop _x; _x doFollow leader _grp} foreach units _grp;
 
 private _wpPositions = [
     _basepos getPos [random 150, random 360],

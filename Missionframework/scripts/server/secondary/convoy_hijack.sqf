@@ -31,7 +31,7 @@ private _boxes_loaded = 0;
 while { _boxes_loaded < _boxes_amount } do {
     _boxes_loaded = _boxes_loaded + 1;
     sleep 0.5;
-    private _next_box = [KPLIB_b_crateAmmo, 100, _spawnpos getPos [15, 135]] call KPLIB_fnc_createCrate;
+    private _next_box = [selectRandom KPLIB_crates, 100, _spawnpos getPos [15, 135]] call KPLIB_fnc_createCrate;
     sleep 0.5;
     [_next_box, 50] call _load_box_fnc;
 };
@@ -56,8 +56,8 @@ _convoy_group setBehaviour "SAFE";
 _convoy_group setCombatMode "GREEN";
 _convoy_group setSpeedMode "LIMITED";
 
-while {(count (waypoints _convoy_group)) != 0} do {deleteWaypoint ((waypoints _convoy_group) select 0);};
-{_x doFollow leader _convoy_group} foreach units _convoy_group;
+{ deleteWaypoint _x } forEachReversed waypoints _convoy_group;
+{doStop _x; _x doFollow leader _convoy_group} foreach units _convoy_group;
 
 _waypoint = _convoy_group addWaypoint [_convoy_destinations select 1, 0];
 _waypoint setWaypointType "MOVE";
@@ -124,7 +124,7 @@ while { _mission_in_progress } do {
             private _troop_driver_group = createGroup [KPLIB_side_enemy, true];
             [ driver _troop_vehicle ] joinSilent _troop_driver_group;
             sleep 1;
-            while {(count (waypoints _troop_driver_group)) != 0} do {deleteWaypoint ((waypoints _troop_driver_group) select 0);};
+            { deleteWaypoint _x } forEachReversed waypoints _troop_driver_group;
             _waypoint = _troop_driver_group addWaypoint [getpos _troop_vehicle, 0];
             _waypoint setWaypointType "MOVE";
             sleep 3;

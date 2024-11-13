@@ -26,7 +26,7 @@ sleep 2;
 
 private _pilotUnits = units _pilotsGrp;
 {
-    [ _x, true ] spawn prisonner_ai;
+    [ _x, true] spawn prisonner_ai;
     _x setDir (random 360);
     sleep 0.5
 } foreach (_pilotUnits);
@@ -43,7 +43,7 @@ private _patrolcorners = [
     [_x, _patrolcorners select 0, _grppatrol, "PRIVATE", 0.5] call KPLIB_fnc_createManagedUnit;
 } foreach ([] call KPLIB_fnc_getSquadComp);
 
-while {(count (waypoints _grppatrol)) != 0} do {deleteWaypoint ((waypoints _grppatrol) select 0);};
+{ deleteWaypoint _x } forEachReversed waypoints _grppatrol;
 {
     private _nextcorner = _x;
     _waypoint = _grppatrol addWaypoint [_nextcorner,0];
@@ -55,7 +55,7 @@ while {(count (waypoints _grppatrol)) != 0} do {deleteWaypoint ((waypoints _grpp
 
 _waypoint = _grppatrol addWaypoint [(_patrolcorners select 0), 0];
 _waypoint setWaypointType "CYCLE";
-{_x doFollow (leader _grppatrol)} foreach units _grppatrol;
+{doStop _x; _x doFollow (leader _grppatrol)} foreach units _grppatrol;
 
 private _grpsentry = createGroup [KPLIB_side_enemy, true];
 private _nbsentry = 2 + (floor (random 3));
@@ -105,9 +105,13 @@ if ( _alive_crew_count == 0 ) then {
     [8] remoteExec ["remote_call_intel"];
     private _grp = createGroup [KPLIB_side_player, true];
     { [_x ] joinSilent _grp; } foreach _pilotUnits;
-    while {(count (waypoints _grp)) != 0} do {deleteWaypoint ((waypoints _grp) select 0);};
-    {_x doFollow (leader _grp)} foreach units _grp;
-    { [ _x ] spawn { sleep 600; deleteVehicle (_this select 0) } } foreach _pilotUnits;
+    { deleteWaypoint _x } forEachReversed waypoints _grp;
+    {doStop _x; _x doFollow leader _grp} foreach units _grp;
+    { [ _x ] spawn {
+        sleep 600;
+        if (isNull objectParent (_this # 0)) then {deleteVehicle (_this # 0)} else {(objectParent (_this # 0)) deleteVehicleCrew (_this # 0)};
+        };
+    } foreach _pilotUnits;
 };
 
 resources_intel = resources_intel + (10 * _alive_crew_count);

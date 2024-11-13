@@ -1,7 +1,7 @@
 scriptName "manage_one_patrol";
 
 params [ "_minimum_readiness", "_is_infantry" ];
-private [ "_headless_client" ];
+private [ "_headless_client", "_grp", "_squad"];
 
 waitUntil { !isNil "KPLIB_sectors_player" };
 waitUntil { !isNil "KPLIB_enemyReadiness" };
@@ -18,9 +18,12 @@ while { KPLIB_endgame == 0 } do {
 
     _grp = grpNull;
 
+    private _minSpawnRange = round (KPLIB_range_pointActivation * 1.5);
+    private _maxSpawnRange = round (KPLIB_range_pointActivation * 4);
+
     _spawn_marker = "";
     while { _spawn_marker == "" } do {
-        _spawn_marker = [2000,5000,true] call KPLIB_fnc_getOpforSpawnPoint;
+        _spawn_marker = [_minSpawnRange,_maxSpawnRange,true] call KPLIB_fnc_getOpforSpawnPoint;
         if ( _spawn_marker == "" ) then {
             sleep (150 + (random 150));
         };
@@ -29,6 +32,19 @@ while { KPLIB_endgame == 0 } do {
     _sector_spawn_pos = [(((markerpos _spawn_marker) select 0) - 500) + (random 1000),(((markerpos _spawn_marker) select 1) - 500) + (random 1000),0];
 
     if (_is_infantry) then {
+
+        private _minRange = round (KPLIB_range_pointActivation * 0.75);
+        private _maxRange = round (KPLIB_range_pointActivation * 2.5);
+
+        private _sectors_spawn = [];
+        {
+            if ((_sector_spawn_pos distance (markerpos _x) > _minRange) && (_sector_spawn_pos distance (markerpos _x) < _maxRange)) then {
+                _sectors_spawn pushBack _x;
+            };
+        } foreach (KPLIB_sectors_all - (KPLIB_sectors_player + KPLIB_sectors_active));
+        private _sector_spawn = selectRandom _sectors_spawn;
+        if (!isNil "_sector_spawn") then {_sector_spawn_pos = markerPos _sector_spawn};
+
         _grp = createGroup [KPLIB_side_enemy, true];
         _squad = [] call KPLIB_fnc_getSquadComp;
         {
@@ -44,10 +60,16 @@ while { KPLIB_endgame == 0 } do {
         };
 
         sleep 0.5;
-        _grp = group ((crew _vehicle_object) select 0);
+        private _crewmens = (crew _vehicle_object);
+        // wait leader and he is alive in vehicle
+        waitUntil {
+            sleep 1;
+            count _crewmens > 0
+        };
+        _grp = group (_crewmens select 0);
     };
 
-    [_grp] spawn patrol_ai;
+    [_grp] remoteExec ["patrol_ai", 2];
 
     _started_time = time;
     _patrol_continue = true;
