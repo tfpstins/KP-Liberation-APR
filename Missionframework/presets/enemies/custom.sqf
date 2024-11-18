@@ -6,45 +6,47 @@
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
-        Custom (default CSAT) enemy preset.
+        Custom enemy preset.
 
     Needed Mods:
-        - None
+        - RHS mods
+		- RHS Plus
+		- Devas Turkish Armed Forces
 
     Optional Mods:
         - None
 */
 
 // Enemy infantry classes
-KPLIB_o_officer = "O_officer_F";                                        // Officer
-KPLIB_o_squadLeader = "O_Soldier_SL_F";                                 // Squad Leader
-KPLIB_o_teamLeader = "O_Soldier_TL_F";                                  // Team Leader
-KPLIB_o_sentry = "O_Soldier_lite_F";                                    // Rifleman (Lite)
-KPLIB_o_rifleman = "O_Soldier_F";                                       // Rifleman
-KPLIB_o_riflemanLAT = "O_Soldier_LAT_F";                                // Rifleman (LAT)
-KPLIB_o_grenadier = "O_Soldier_GL_F";                                   // Grenadier
-KPLIB_o_machinegunner = "O_Soldier_AR_F";                               // Autorifleman
-KPLIB_o_heavyGunner = "O_HeavyGunner_F";                                // Heavy Gunner
-KPLIB_o_marksman = "O_soldier_M_F";                                     // Marksman
-KPLIB_o_sharpshooter = "O_Sharpshooter_F";                              // Sharpshooter
-KPLIB_o_sniper = "O_sniper_F";                                          // Sniper
-KPLIB_o_atSpecialist = "O_Soldier_AT_F";                                // AT Specialist
-KPLIB_o_aaSpecialist = "O_Soldier_AA_F";                                // AA Specialist
-KPLIB_o_medic = "O_medic_F";                                            // Combat Life Saver
-KPLIB_o_engineer = "O_engineer_F";                                      // Engineer
-KPLIB_o_paratrooper = "O_soldier_PG_F";                                 // Paratrooper
+KPLIB_o_officer = "DEVAS_U_Guard_Black_Hoodpad";                        // Officer
+KPLIB_o_squadLeader = "DEVAS_U_TeamLeader_D";                           // Squad Leader
+KPLIB_o_teamLeader = "DEVAS_U_TeamLeader_D";                            // Team Leader
+KPLIB_o_sentry = "DEVAS_U_Rifleman_D";                                  // Rifleman (Lite)
+KPLIB_o_rifleman = "DEVAS_U_Rifleman_D";                                // Rifleman
+KPLIB_o_riflemanLAT = "DEVAS_U_AT_D";                                   // Rifleman (LAT)
+KPLIB_o_grenadier = "DEVAS_U_TeamLeader_D";                             // Grenadier
+KPLIB_o_machinegunner = "DEVAS_U_AutomaticRifleman_D";                  // Autorifleman
+KPLIB_o_heavyGunner = "rhsusf_army_ocp_machinegunner";                  // Heavy Gunner
+KPLIB_o_marksman = "DEVAS_U_Sniper_D";                                  // Marksman
+KPLIB_o_sharpshooter = "DEVAS_U_Sniper_D";                              // Sharpshooter
+KPLIB_o_sniper = "DEVAS_U_Sniper_D_2";                                  // Sniper
+KPLIB_o_atSpecialist = "DEVAS_U_AT_D";                                  // AT Specialist
+KPLIB_o_aaSpecialist = "DEVAS_U_AA_D";                                  // AA Specialist
+KPLIB_o_medic = "DEVAS_U_Medic_D";                                      // Combat Life Saver
+KPLIB_o_engineer = "rhsusf_army_ocp_engineer";                          // Engineer
+KPLIB_o_paratrooper = "DEVAS_U_Rifleman_D";                             // Paratrooper
 
 // Enemy vehicles used by secondary objectives.
-KPLIB_o_mrap = "O_MRAP_02_F";                                           // Ifrit
-KPLIB_o_mrapArmed = "O_MRAP_02_hmg_F";                                  // Ifrit (HMG)
-KPLIB_o_transportHeli = "O_Heli_Transport_04_bench_F";                  // Mi-290 Taru (Bench)
-KPLIB_o_transportTruck = "O_Truck_03_covered_F";                        // Tempest Transport (Covered)
-KPLIB_o_transportTruckAmmo = "O_Truck_03_transport_F";                  // Tempest Transport (Open) -> Has to be able to transport resource crates!
-KPLIB_o_fuelTruck = "O_Truck_03_fuel_F";                                // Tempest Fuel
-KPLIB_o_ammoTruck = "O_Truck_03_ammo_F";                                // Tempest Ammo
-KPLIB_o_fuelContainer = "Land_Pod_Heli_Transport_04_fuel_F";            // Taru Fuel Pod
-KPLIB_o_ammoContainer = "Land_Pod_Heli_Transport_04_ammo_F";            // Taru Ammo Pod
-KPLIB_o_flag = "Flag_CSAT_F";                                           // Flag
+KPLIB_o_mrap = "Devas_Kirpi_Turret";                                    // BMC Kirpi
+KPLIB_o_mrapArmed = "Devas_Kirpi_MG3";                                  // BMC Kirpi (MG3)
+KPLIB_o_transportHeli = "DEVAS_CH47";                                   // CH-47F
+KPLIB_o_transportTruck = "Devas_Unimog1300L_SemiCovered_D";             // Unimog transport (Semi-closed)
+KPLIB_o_transportTruckAmmo = "Devas_Unimog1300L_Open_D";                // Unimog transport (Open) -> Has to be able to transport resource crates!
+KPLIB_o_fuelTruck = "FP_UAF_Truck_Fuel";                                // Fuel Truck
+KPLIB_o_ammoTruck = "FP_UAF_Truck_Ammo";                                // Ammo Truck
+KPLIB_o_fuelContainer = "B_Slingload_01_Fuel_F";                        // Fuel Container
+KPLIB_o_ammoContainer = "B_Slingload_01_Ammo_F";                        // Ammo Container
+KPLIB_o_flag = "DEVAS_TurkishFlag";                                     // Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
 Therefore, adding the same value twice or three times means they are more likely to be chosen more often. */
@@ -52,134 +54,139 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 KPLIB_o_militiaInfantry = [
-    "O_soldierU_F",                                                     // Rifleman (Lite)
-    "O_soldierU_F",                                                     // Rifleman (Lite)
-    "O_soldierU_F",                                                     // Rifleman
-    "O_soldierU_F",                                                     // Rifleman
-    "O_soldierU_LAT_F",                                                 // Rifleman (AT)
-    "O_soldierU_AR_F",                                                  // Autorifleman
-    "O_soldierU_M_F",                                                   // Marksman
-    "O_soldierU_medic_F",                                               // Medic
-    "O_engineer_U_F"                                                    // Engineer
+    "DEVAS_U_Rifleman_D",                                               // Rifleman (Lite)
+    "DEVAS_U_Rifleman_D",                                               // Rifleman (Lite)
+    "DEVAS_U_Rifleman_D",                                               // Rifleman
+    "DEVAS_U_AT_D",                                                     // Rifleman (AT)
+    "DEVAS_U_AT_D",                                                     // Rifleman (AT)
+    "DEVAS_U_AutomaticRifleman_D",                                      // Autorifleman
+    "DEVAS_U_Sniper_D",                                                 // Marksman
+    "DEVAS_U_Medic_D",                                                  // Medic
+    "rhsusf_army_ocp_engineer"                                          // Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 KPLIB_o_militiaVehicles = [
-    "O_LSV_02_armed_F"                                                  // Qilin (armed)
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)
+    "rhsusf_m113d_usarmy"                                               // M113A3 (M2)
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 KPLIB_o_armyVehicles = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (GMG)
-    "O_MRAP_02_gmg_F",                                                  // Ifrit (GMG)
-    "O_LSV_02_AT_F",                                                    // Qilin (AT)
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_04_cannon_F",                                                // T-140 Angara
-    "O_MBT_04_command_F"                                                // T-140K Angara
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)	
+    "Devas_Kirpi_Sarp",                                                 // Kirpi (SARP)
+    "Devas_Kirpi_Sarp",                                                 // Kirpi (SARP)
+    "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
+    "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)
+    "RHS_M2A2",                                                         // M2A2ODS
+    "RHS_M2A2",                                                         // M2A2ODS
+    "FP_Ger_Leopard",                                                   // Leopard 2A4
+    "FP_Ger_Leopard"                                                    // Leopard 2A4
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 KPLIB_o_armyVehiclesLight = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_LSV_02_AT_F",                                                    // Qilin (AT)
-    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "O_APC_Tracked_02_cannon_F"                                         // BTR-K Kamysh
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)	
+    "Devas_Kirpi_Sarp",                                                 // Kirpi (SARP)
+    "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)
+    "rhsusf_m113d_usarmy"                                               // M113A3 (M2)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 KPLIB_o_battleGrpVehicles = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_gmg_F",                                                  // Ifrit (GMG)
-    "O_MRAP_02_gmg_F",                                                  // Ifrit (GMG)
-    "O_LSV_02_AT_F",                                                    // Qilin (AT)
-    "O_Truck_03_transport_F",                                           // Tempest Transport
-    "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_02_cannon_F",                                                // T-100 Varsuk
-    "O_MBT_04_cannon_F",                                                // T-140 Angara
-    "O_MBT_04_command_F",                                               // T-140K Angara
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Transport_04_bench_F",                                      // Mi-290 Taru (Bench)
-    "O_Heli_Attack_02_dynamicLoadout_F"                                 // Mi-48 Kajman
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)	
+    "Devas_Kirpi_Sarp",                                                 // Kirpi (SARP)
+    "Devas_Kirpi_Sarp",                                                 // Kirpi (SARP)	
+    "Devas_Unimog1300L_SemiCovered_D",                                  // Unimog Transport (Semi-Covered)
+    "Devas_Unimog1300L_Covered_D",                                      // Unimog Transport (Covered)
+    "Devas_Unimog1300L_Covered_D",                                      // Unimog Transport (Covered)	
+    "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
+    "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)	
+    "RHS_M2A2",                                                         // M2A2ODS
+    "RHS_M2A2",                                                         // M2A2ODS	
+    "FP_Ger_Leopard",                                                   // Leopard 2A4
+    "FP_Ger_Leopard",                                                   // Leopard 2A4	
+    "DEVAS_AH1",                                                        // AH-1W
+    "DEVAS_AH1",                                                        // AH-1W
+    "DEVAS_UH60",                                                       // UH-60
+    "DEVAS_UH60",                                                       // UH-60	
+    "DEVAS_CH47"                                                        // CH-47F
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
-KPLIB_o_battleGrpVehiclesLight = [
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_MRAP_02_hmg_F",                                                  // Ifrit (HMG)
-    "O_Truck_03_transport_F",                                           // Tempest Transport
-    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "O_APC_Tracked_02_cannon_F",                                        // BTR-K Kamysh
-    "O_APC_Tracked_02_AA_F",                                            // ZSU-39 Tigris
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Transport_04_bench_F"                                       // Mi-290 Taru (Bench)
+KPLIB_o_battleGrpVehiclesLight = [    
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)
+    "Devas_Unimog1300L_SemiCovered_D",                                  // Unimog Transport (Semi-Covered)
+    "Devas_Unimog1300L_SemiCovered_D",                                  // Unimog Transport (Semi-Covered)	
+    "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
+    "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
+    "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)
+    "DEVAS_AH1",                                                        // AH-1W
+    "DEVAS_UH60"                                                        // UH-60
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur. */
 KPLIB_o_troopTransports = [
-    "O_Truck_03_transport_F",                                           // Tempest Transport
-    "O_Truck_03_covered_F",                                             // Tempest Transport (Covered)
-    "O_APC_Wheeled_02_rcws_F",                                          // MSE-3 Marid
-    "O_Heli_Transport_04_bench_F",                                      // Mi-290 Taru (Bench)
-    "O_Heli_Light_02_dynamicLoadout_F"                                  // Po-30 Orca (Armed)
+    "Devas_Unimog1300L_SemiCovered_D",                                  // Unimog Transport (Semi-Covered)	
+    "Devas_Unimog1300L_Covered_D",                                      // Unimog Transport (Covered)
+    "Devas_Kirpi_MG3",                                                  // Kirpi (MG3)	
+    "Devas_Kirpi_Sarp",                                                 // Kirpi (SARP)	
+    "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
+    "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)	
+    "DEVAS_UH60",                                                       // UH-60
+    "DEVAS_CH47"                                                        // CH-47F
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 KPLIB_o_helicopters = [
-    "O_Heli_Transport_04_bench_F",                                      // Mi-290 Taru (Bench)
-    "O_Heli_Light_02_dynamicLoadout_F",                                 // Po-30 Orca (Armed)
-    "O_Heli_Attack_02_dynamicLoadout_F"                                 // Mi-48 Kajman
+    "DEVAS_UH60",                                                       // UH-60
+    "DEVAS_CH47",                                                       // CH-47F	
+    "DEVAS_AH1"                                                         // AH-1W
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 KPLIB_o_planes = [
-    "O_Plane_CAS_02_dynamicLoadout_F",                                  // To-199 Neophron (CAS)
-    "O_Plane_Fighter_02_F"                                              // To-201 Shikra
+    "DEVAS_F4E_2020",                                                   // F-4E-2020 Terminator (CAS)
+    "FIR_F16C_Polish_CFT"                                               // F-16C Fighting Falcon
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_HMG = [
-    "O_HMG_01_F",
-    "O_HMG_01_high_F"
+    "RHS_M2StaticMG_MiniTripod_WD",                                     // M2 Tripod Low
+    "RHS_M2StaticMG_WD"                                                 // M2 Tripod High
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_GMG = [
-    "O_GMG_01_F",
-    "O_GMG_01_high_F"
+    "RHS_MK19_TriPod_WD"                                                // Mk19 Tripod
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_AT = [
-    "O_static_AT_F"
+    "RHS_TOW_TriPod_USMC_D",                                            // M41A4 TOW
+	"rhs_Kornet_9M133_2_vdv"                                            // 9K133-1 (Kornet-M)
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_AA = [
-    "O_static_AA_F"
+    "RHS_Stinger_AA_pod_WD",                                            // FIM-92F (DMS)
+	"RHS_ZU23_VDV"                                                      // ZU23-2
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_MORTAR = [
-    "O_Mortar_01_F"
+    "RHS_M252_D",                                                       // M252
+	"RHS_M119_D"                                                        // M119A2
 ];
 
 // Enemy SAM turrets that will be spawned in the back country
 KPLIB_o_turrets_SAM = [
-    ["B_SAM_System_01_F"], 
-    ["B_SAM_System_02_F"], 
-    ["O_SAM_System_04_F", "O_Radar_System_02_F"]
+    ["rhsgref_cdf_b_zsu234"],
+    ["rhsgref_cdf_b_zsu234"],	
+	["FP_Ger_Wiesel_AA"],
+    ["B_Radar_System_01_F","B_SAM_System_03_F"]
 ];
