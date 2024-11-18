@@ -9,7 +9,7 @@
         Custom civilian preset.
 
     Needed Mods:
-        - PROJECT OPFOR
+        -
 
     Optional Mods:
         - None
@@ -17,37 +17,37 @@
 
 // Civilian classnames.
 KPLIB_c_units = [
-    "LOP_CHR_Civ_Assistant",
-    "LOP_CHR_Civ_Citizen_03",
-    "LOP_CHR_Civ_Citizen_04",
-    "LOP_CHR_Civ_Doctor_01",
-    "LOP_CHR_Civ_Policeman_01",
-    "LOP_CHR_Civ_Functionary_02",
-    "LOP_CHR_Civ_Functionary_01",
-    "LOP_CHR_Civ_Priest_01",
-    "LOP_CHR_Civ_Profiteer_02",
-    "LOP_CHR_Civ_Profiteer_04",
-    "LOP_CHR_Civ_Rocker_04",
-    "LOP_CHR_Civ_Rocker_03",
-    "LOP_CHR_Civ_Worker_02",
-    "LOP_CHR_Civ_SchoolTeacher",
-    "LOP_CHR_Civ_Villager_03",
-    "LOP_CHR_Civ_Worker_03",
-    "LOP_CHR_Civ_Woodlander_03",
-    "LOP_CHR_Civ_Worker_04",
-    "LOP_CHR_Civ_Worker_01",
-    "LOP_CHR_Civ_Worker_02",
-    "LOP_CHR_Civ_Woodlander_01"
+    "C_man_p_beggar_F_euro",
+    "C_Man_casual_1_F_euro",
+    "C_Man_casual_4_v2_F_euro",
+    "C_Man_casual_6_v2_F_euro",
+    "C_Man_casual_5_v2_F_euro",
+    "C_Man_casual_9_F_euro",
+    "C_Man_casual_7_F_euro",
+    "C_Man_casual_8_F_euro",
+    "C_Man_formal_1_F_euro",
+    "C_Man_formal_2_F_euro",
+    "C_Man_formal_3_F_euro",
+    "C_Man_formal_4_F_euro",
+    "C_Man_smart_casual_1_F_euro",
+    "C_Man_smart_casual_2_F_euro",
+    "C_man_sport_1_F_euro",
+    "C_man_sport_3_F_euro",
+    "C_scientist_02_informal_F",
+    "C_scientist_02_formal_F",
+    "C_scientist_01_formal_F",
+    "C_man_polo_4_F_euro",
+    "C_man_polo_1_F_euro"
 ];
 
 // Civilian vehicle classnames.
 KPLIB_c_vehicles = [
-    "LOP_CHR_Civ_Offroad",
-    "LOP_CHR_Civ_Hatchback",
-    "LOP_CHR_Civ_Landrover",
-	"C_Offroad_01_repair_F",
-    "LOP_CHR_Civ_UAZ",
-    "LOP_CHR_Civ_UAZ_Open",
-    "LOP_CHR_Civ_Ural",
-    "LOP_CHR_Civ_Ural_open"
+    "C_Offroad_01_F",
+    "C_Offroad_01_repair_F",
+    "C_SUV_01_F",
+	"C_Offroad_02_unarmed_F",
+    "C_Hatchback_01_sport_F",
+    "C_Van_02_medevac_F",
+    "C_Tractor_01_F",
+    "C_Van_01_box_F"
 ];
