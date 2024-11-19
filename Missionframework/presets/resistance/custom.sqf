@@ -18,20 +18,22 @@
 /* Classnames of the guerilla faction which is friendly or hostile, depending on the civil reputation
 Standard loadout of the units will be replaced with a scripted one, which depends on the guerilla strength, after spawn */
 KPLIB_r_units = [
-    "UK3CB_CCM_I_RIF_3",
-    "UK3CB_CCM_I_ENG",
-    "UK3CB_CCM_I_OFF",
-    "UK3CB_CCM_I_MD",
-    "UK3CB_CCM_I_SNI",
-    "UK3CB_CCM_I_AT",
-    "UK3CB_CCM_I_AR",
-    "UK3CB_CCM_I_COM"
+    "rhsgref_nat_commander",
+    "rhsgref_nat_rifleman_aks74",
+    "rhsgref_nat_medic",
+    "rhsgref_nat_machinegunner",
+    "rhsgref_nat_militiaman_kar98k",
+    "rhsgref_nat_grenadier_rpg",
+    "rhsgref_nat_specialist_aa",
+    "rhsgref_nat_saboteur"
 ];
 
 // Armed vehicles
 KPLIB_r_vehicles = [
-    "UK3CB_CCM_I_UAZ_Dshkm",
-    "UK3CB_CCM_I_Hilux_Dshkm"
+    "rhsgref_nat_uaz_dshkm",
+    "rhsgref_nat_uaz_spg9",
+	"FP_MEIG_Offroad_HMG",
+	"FP_MEIG_Offroad_AT"
 ];
 
 /* Guerilla Equipment
@@ -41,64 +43,52 @@ There are 3 tiers for every category. If the strength of the guerillas will incr
 ["Weaponclassname","Magazineclassname","magazine amount","optic","tripod"]
 You can leave optic and tripod empty with "" */
 KPLIB_r_weapons_1 = [
-    ["rhs_weap_aks74u","rhs_30Rnd_545x39_7N6M_AK",4,"",""],
-    ["rhs_weap_Izh18","rhsgref_1Rnd_Slug",12,"",""],
-    ["rhs_weap_m38","rhsgref_5Rnd_762x54_m38",4,"",""],
-    ["rhs_weap_savz61","rhsgref_20rnd_765x17_vz61",4,"",""]
+    ["rhs_weap_aks74","rhs_30Rnd_545x39_7N6M_AK",6,"",""],
+    ["rhs_weap_m4_carryhandle","rhs_mag_30Rnd_556x45_M855_Stanag",6,"",""],
+    ["rhs_weap_kar98k","rhsgref_5Rnd_792x57_kar98k",8,"",""]
 ];
 
 KPLIB_r_weapons_2 = [
-    ["rhs_weap_aks74n_npz","rhs_30Rnd_545x39_7N6M_AK",5,"rhs_acc_ekp8_18",""],
-    ["rhs_weap_m21a_pr","rhsgref_30rnd_556x45_m21",5,"rhs_acc_okp7_picatinny",""],
+    ["rhs_weap_aks74n","rhs_30Rnd_545x39_7N6M_AK",6,"rhs_acc_ekp8_02",""],
+    ["rhs_weap_m4","rhs_mag_30Rnd_556x45_M855_Stanag",6,"rhsusf_acc_eotech_xps3",""],
     ["rhs_weap_rpk74m","rhs_45Rnd_545X39_7N6M_AK",5,"rhs_acc_1p29",""],	
-    ["rhs_weap_svdp_npz","rhs_10Rnd_762x54mmR_7N1",6,"rhs_acc_dh520x56",""]
+    ["rhs_weap_svdp","rhs_10Rnd_762x54mmR_7N1",6,"rhs_acc_pso1m21",""]
 ];
 
 KPLIB_r_weapons_3 = [
-    ["BWA3_G36A1","BWA3_30Rnd_556x45_G36",6,"BWA3_optic_NSA80",""],
-    ["rhs_weap_aks74n_npz","rhs_30Rnd_545x39_7N6M_AK",5,"rhs_acc_ekp8_18",""],	
-    ["BWA3_MG4","BWA3_200Rnd_556x45",4,"BWA3_optic_ZO4x30",""],
-    ["BWA3_MP7","BWA3_20Rnd_46x30_MP7",6,"BWA3_optic_MicroT2",""],
-    ["rhs_weap_svdp_wd_npz","rhs_10Rnd_762x54mmR_7N1",6,"rhs_acc_dh520x56",""]
+    ["rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855_Stanag",6,"rhsusf_acc_ACOG",""],
+    ["rhs_weap_ak74m_npz","rhs_30Rnd_545x39_7N10_AK",5,"rhsusf_acc_ACOG",""],	
+    ["rhs_weap_rpk74m_npz","rhs_45Rnd_545X39_7N10_AK",4,"rhsusf_acc_ELCAN",""],
+    ["rhsusf_weap_MP7A2_desert","rhsusf_mag_40Rnd_46x30_FMJ",6,"rhsusf_acc_mrds",""],
+    ["rhs_weap_svdp","rhs_10Rnd_762x54mmR_7N1",6,"rhs_acc_pso1m21",""]
 ];
 
 // Uniforms
 KPLIB_r_uniforms_1 = [
+    "U_BG_Guerrilla_6_1",
     "U_BG_Guerilla1_1",
-    "U_BG_Guerilla1_2_F",
-    "U_BG_Guerilla2_2",
-    "U_BG_Guerilla2_1",
-    "U_BG_Guerilla2_3",
     "U_BG_Guerilla3_1",
     "U_BG_leader"
 ];
 
 KPLIB_r_uniforms_2 = [
-    "U_I_C_Soldier_Bandit_1_F",
-    "U_I_C_Soldier_Bandit_2_F",
-    "U_I_C_Soldier_Bandit_3_F",
-    "U_I_C_Soldier_Bandit_4_F",
-    "U_I_C_Soldier_Bandit_5_F",
-    "U_BG_Guerilla2_1",
-    "U_BG_Guerilla2_2",
-    "U_BG_Guerilla2_3",
-    "U_BG_Guerilla3_1",
-    "U_C_HunterBody_grn",
-    "U_C_Mechanic_01_F",
-    "U_I_C_Soldier_Para_1_F",
-    "U_I_G_resistanceLeader_F"
+    "rhsgref_uniform_altis_lizard_olive",
+    "rhsgref_uniform_woodland",
+    "rhsgref_uniform_woodland_olive",
+    "rhsgref_uniform_altis_lizard",
+    "rhsgref_uniform_tigerstripe",
+    "rhsgref_uniform_ERDL",
+    "rhsgref_uniform_flecktarn"
 ];
 
 KPLIB_r_uniforms_3 = [
-    "U_BG_Guerilla1_1",
-    "U_BG_Guerilla1_2_F",
-    "U_BG_Guerrilla_6_1",
-    "U_BG_leader",
-    "U_I_C_Soldier_Para_1_F",
-    "U_I_C_Soldier_Para_2_F",
-    "U_I_C_Soldier_Para_3_F",
-    "U_I_C_Soldier_Para_4_F",
-    "U_I_C_Soldier_Camo_F"
+    "rhsgref_uniform_altis_lizard_olive",
+    "rhsgref_uniform_woodland",
+    "rhsgref_uniform_woodland_olive",
+    "rhsgref_uniform_altis_lizard",
+    "rhsgref_uniform_tigerstripe",
+    "rhsgref_uniform_ERDL",
+    "rhsgref_uniform_flecktarn"
 ];
 
 // Vests
@@ -106,29 +96,25 @@ KPLIB_r_vests_1 = [
     "rhs_chicom",
     "rhsgref_chicom",
     "rhs_chicom_khk",
-    "UK3CB_V_CW_Chestrig",
-    "UK3CB_V_CW_Chestrig_2_Small"
+    "rhs_lifchik_NCO",
+    "rhs_lifchik_vog"
 ];
 
 KPLIB_r_vests_2 = [
-    "UK3CB_TKA_B_V_TacVest_Tan",
-    "UK3CB_ADA_B_V_TacVest_WDL",
-    "UK3CB_V_Chestrig_2_Small_OLI",
-    "UK3CB_V_Chestrig_TKA_OLI",
-    "UK3CB_V_Chestrig_OLI"
+    "rhs_6sh92",
+    "rhs_6sh92_vog",
+    "rhs_6sh92_digi",
+    "rhs_6sh92_digi_vog",
+    "rhs_6sh92_digi_vog_headset"
 ];
 
 KPLIB_r_vests_3 = [
-    "UK3CB_TKA_B_V_GA_LITE_WDL",
-    "UK3CB_TKP_B_V_GA_LITE_BLK",
-    "UK3CB_TKA_B_V_GA_HEAVY_WDL",
-    "UK3CB_TKP_B_V_GA_HEAVY_BLK",
-    "rhs_vydra_3m",
-    "UK3CB_TKA_B_V_TacVest_Tan",
-    "UK3CB_ADA_B_V_TacVest_WDL",
-    "UK3CB_V_Chestrig_2_Small_OLI",
-    "UK3CB_V_Chestrig_TKA_OLI",
-    "UK3CB_V_Chestrig_OLI"	
+    "rhs_6b23_6sh92",
+    "rhs_6b23_6sh92_headset",
+    "rhs_6b23_6sh92_radio",
+    "rhs_6b23_6sh92_vog",
+    "rhs_6b23_medic",
+	"rhs_6b23_vydra_3m"
 ];
 
 // Headgear
@@ -194,3 +180,4 @@ KPLIB_r_facegear = [
     "G_Bandanna_aviator",
     "G_Bandanna_blk"
 ];
+
