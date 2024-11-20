@@ -285,8 +285,8 @@ KPLIB_b_vehSupport = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
-	["RHS_Ural_Repair_VDV_01",150,0,200],                               // Ural (Repair)
-    ["RHS_Ural_Fuel_MSV_01",125,0,200],                                 // Ural (Fuel)
+	["RHS_Ural_Repair_VDV_01",150,0,75],                               // Ural (Repair)
+    ["RHS_Ural_Fuel_MSV_01",125,0,75],                                 // Ural (Fuel)
     ["rhs_kamaz5350_ammo_msv",125,200,75],                              // Kamaz (Ammo)
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
