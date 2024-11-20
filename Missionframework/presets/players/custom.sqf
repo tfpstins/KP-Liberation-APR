@@ -12,15 +12,12 @@
         - None
 
     Optional Mods:
-        - BWMod
-        - CUP Vehicles
-        - CUP Weapons
-        - F-15C
-        - F/A-18
-        - RHSUSAF
-        - USAF Fighters Pack
-        - USAF Main Pack
-        - USAF Utility Pack
+        - RHS Mods
+        - RHS PLus
+        - Mig29 Enhanced
+        - Su-35 Flanker E
+        - FIR AWS
+        - Su-25 Grach FIR
 */
 
 /*
