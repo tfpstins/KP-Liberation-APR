@@ -9,12 +9,18 @@
         Custom (default NATO) player preset.
 
     Needed Mods:
-        - RHS Mods
-        - RHS PLus
-        - Mig29 Enhanced
-        - Su-35 Flanker E
-        - FIR AWS
-        - Su-25 Grach FIR
+        - None
+
+    Optional Mods:
+        - BWMod
+        - CUP Vehicles
+        - CUP Weapons
+        - F-15C
+        - F/A-18
+        - RHSUSAF
+        - USAF Fighters Pack
+        - USAF Main Pack
+        - USAF Utility Pack
 */
 
 /*
@@ -123,8 +129,6 @@ KPLIB_b_vehHeavy = [
 ];
 
 KPLIB_b_vehAir = [
-    ["mavik_3_BLU",0,0,0],                                              // Mavik 3
-	["mavik_3T_BLU",0,0,0],                                             // Mavik 3T
     ["FP_Spetsnaz_Alpha_Ka60",225,0,125],                               // Ka-60
     ["RHS_Mi8mt_vdv",250,200,200],                                      // Mi-8MT(Armed)
     ["RHS_Mi8mt_Cargo_vdv",250,0,200],                                  // Mi-8MT (Cargo)
@@ -279,8 +283,8 @@ KPLIB_b_vehSupport = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
-	["RHS_Ural_Repair_VDV_01",150,0,75],                               // Ural (Repair)
-    ["RHS_Ural_Fuel_MSV_01",125,0,75],                                 // Ural (Fuel)
+	["RHS_Ural_Repair_VDV_01",150,0,200],                               // Ural (Repair)
+    ["RHS_Ural_Fuel_MSV_01",125,0,200],                                 // Ural (Fuel)
     ["rhs_kamaz5350_ammo_msv",125,200,75],                              // Kamaz (Ammo)
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
@@ -379,4 +383,27 @@ KPLIB_b_squadPara = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 KPLIB_b_vehToUnlock = [
+    "FP_Spetsnaz_Alpha_UAZ_AGS30",                             // UAZ Pickup (AGS-30)
+	"FP_Spetsnaz_Alpha_UAZ_Metis",                             // UAZ Pickup (Metis)
+	"rhs_tigr_sts_msv",                                        // GAZ Tigr STS
+	"RHS_BM21_MSV_01",                                         // BM21 Missile Truck
+	"rhs_bmp3m_msv",                                           // BMP-3
+	"O_BMPT",                                                  // BMPT Terminator-2
+	"rhs_btr80_msv",                                           // BTR-80
+	"FP_Spetsnaz_Alpha_BTR80A",                                // BTR-80A
+	"rhs_zsu234_aa",                                           // ZSU-23-4V
+	"rhs_t72be_tv",                                            // T-72B3
+	"rhs_t80uk",                                               // T-80UK
+	"rhs_t90a_tv",                                             // T-90
+	"rhs_t90sm_tv",                                            // T-90SM
+	"rhs_t14_tv",                                              // T-14 Armata
+	"rhs_2s3_tv",                                              // 2S3M1 Artillery Tank
+	"RHS_Mi8mtv3_Cargo_vdv",                                   // Mi-8MTV3 (Cargo)
+	"RHS_Mi8MTV3_heavy_vdv",                                   // Mi-8MTV3 (Heavy)
+	"RHS_Ka52_vvsc",                                           // Ka-52 Light Attack Heli
+	"FP_Spetsnaz_Alpha_Mi24_Super_Hind",                       // Mi-24 Super Hind
+	"FP_Spetsnaz_Alpha_Drones_YABHON",                         // YABHON-R3
+	"FIR_Su25SM3_Camo_VVSVer",                                 // Su-25SM3 Grach
+	"JS_JC_SU35_rhs",                                          // Su-35 Flanker
+	"RHS_T50_vvs_blueonblue"                                   // Su-57 Felon
 ];
