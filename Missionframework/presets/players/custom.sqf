@@ -9,9 +9,6 @@
         Custom (default NATO) player preset.
 
     Needed Mods:
-        - None
-
-    Optional Mods:
         - RHS Mods
         - RHS PLus
         - Mig29 Enhanced
