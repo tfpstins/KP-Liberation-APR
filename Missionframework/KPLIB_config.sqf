@@ -53,7 +53,7 @@
     29 = SFP (Desert)
     30 = LDF (Contact DLC)
 */
-KPLIB_presetPlayer = 4;
+KPLIB_presetPlayer = 0;
 
 /*
     ----- Enemy preset -----
@@ -79,7 +79,7 @@ KPLIB_presetPlayer = 4;
     19 = CUP British Armed Forces (Desert)
     20 = CUP British Armed Forces (Woodland)
 */
-KPLIB_presetEnemy = 4;
+KPLIB_presetEnemy = 0;
 
 /*
     ----- Resistance preset -----
@@ -121,7 +121,7 @@ KPLIB_presetCivilians = 0;
     8  = SFP arsenal preset
     9  = BWMod arsenal preset
 */
-KPLIB_presetArsenal = 9;
+KPLIB_presetArsenal = 1;
 
 
 /*
@@ -134,10 +134,10 @@ KPLIB_presetArsenal = 9;
 */
 
 // Player side.
-KPLIB_side_player = WEST;
+KPLIB_side_player = EAST;
 
 // Enemy side.
-KPLIB_side_enemy = EAST;
+KPLIB_side_enemy = WEST;
 
 // Resistance side.
 KPLIB_side_resistance = RESISTANCE;
@@ -225,7 +225,7 @@ KPLIB_cap_enemySide = 180;
 KPLIB_cap_battlegroup = 150;
 
 // Cap for enemy patrols.
-KPLIB_cap_patrol = 150;
+KPLIB_cap_patrol = 100;
 
 // Size of enemy battlegroups.
 KPLIB_battlegroup_size = 6;
