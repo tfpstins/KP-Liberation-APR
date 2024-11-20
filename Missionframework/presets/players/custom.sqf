@@ -12,6 +12,15 @@
         - None
 
     Optional Mods:
+        - BWMod
+        - CUP Vehicles
+        - CUP Weapons
+        - F-15C
+        - F/A-18
+        - RHSUSAF
+        - USAF Fighters Pack
+        - USAF Main Pack
+        - USAF Utility Pack
 */
 
 /*
@@ -120,6 +129,8 @@ KPLIB_b_vehHeavy = [
 ];
 
 KPLIB_b_vehAir = [
+    ["mavik_3_BLU",0,0,0],                                              // Mavik 3
+	["mavik_3T_BLU",0,0,0],                                             // Mavik 3T
     ["FP_Spetsnaz_Alpha_Ka60",225,0,125],                               // Ka-60
     ["RHS_Mi8mt_vdv",250,200,200],                                      // Mi-8MT(Armed)
     ["RHS_Mi8mt_Cargo_vdv",250,0,200],                                  // Mi-8MT (Cargo)
@@ -131,7 +142,8 @@ KPLIB_b_vehAir = [
     ["rhs_pchela1t_vvsc",400,300,200],                                  // Pchela 1-T
     ["FIR_Su25SM3_Camo_VVSVer",1500,1000,400],                          // Su-25SM3 Grach (CAS)
     ["SAFP_mig29sm_OPFOR",1250,1250,450],                               // Mig-29SM
-    ["RHS_T50_vvs_blueonblue",1800,2000,500]                            // Su-57 Felon
+	["JS_JC_SU35_rhs",1500,1250,450],                                   // Su-35 Flanker
+    ["RHS_T50_vvs_blueonblue",1800,2000,400]                            // Su-57 Felon
 ];
 
 KPLIB_b_vehStatic = [
