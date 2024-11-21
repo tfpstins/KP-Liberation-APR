@@ -119,10 +119,10 @@ KPLIB_b_vehHeavy = [
     ["FP_Spetsnaz_Alpha_BTR80A",240,80,125],                            // BTR-80A
     ["rhs_zsu234_aa",300,250,200],                                      // ZSU-23-4V
     ["rhs_t72ba_tv",400,300,200],                                       // T-72B (obr. 1984g.)
-    ["rhs_t72be_tv",450,300,200],                                       // T-72B3 (obr. 2016g.)
     ["rhs_t80a",450,300,200],                                           // T-80
-    ["rhs_t80uk",460,350,225],                                          // T-80UK
-    ["rhs_t90a_tv",480,350,225],                                        // T-90 (obr.2006g.)
+    ["rhs_t90a_tv",450,300,225],                                        // T-90 (obr.2006g.)
+    ["rhs_t80uk",460,300,250],                                          // T-80UK	
+    ["rhs_t72be_tv",480,300,250],                                       // T-72B3 (obr. 2016g.)	
     ["rhs_t90sm_tv",500,400,250],                                       // T-90SM
     ["rhs_t14_tv",480,400,250],                                         // T-14 Armata
     ["rhs_2s3_tv",600,1250,300]                                         // 2S3M1 Artillery Tank
@@ -383,27 +383,17 @@ KPLIB_b_squadPara = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 KPLIB_b_vehToUnlock = [
-    "FP_Spetsnaz_Alpha_UAZ_AGS30",                             // UAZ Pickup (AGS-30)
-	"FP_Spetsnaz_Alpha_UAZ_Metis",                             // UAZ Pickup (Metis)
-	"rhs_tigr_sts_msv",                                        // GAZ Tigr STS
-	"RHS_BM21_MSV_01",                                         // BM21 Missile Truck
-	"rhs_bmp3m_msv",                                           // BMP-3
 	"O_BMPT",                                                  // BMPT Terminator-2
-	"rhs_btr80_msv",                                           // BTR-80
 	"FP_Spetsnaz_Alpha_BTR80A",                                // BTR-80A
-	"rhs_zsu234_aa",                                           // ZSU-23-4V
 	"rhs_t72be_tv",                                            // T-72B3
 	"rhs_t80uk",                                               // T-80UK
-	"rhs_t90a_tv",                                             // T-90
 	"rhs_t90sm_tv",                                            // T-90SM
 	"rhs_t14_tv",                                              // T-14 Armata
-	"rhs_2s3_tv",                                              // 2S3M1 Artillery Tank
 	"RHS_Mi8mtv3_Cargo_vdv",                                   // Mi-8MTV3 (Cargo)
 	"RHS_Mi8MTV3_heavy_vdv",                                   // Mi-8MTV3 (Heavy)
 	"RHS_Ka52_vvsc",                                           // Ka-52 Light Attack Heli
 	"FP_Spetsnaz_Alpha_Mi24_Super_Hind",                       // Mi-24 Super Hind
 	"FP_Spetsnaz_Alpha_Drones_YABHON",                         // YABHON-R3
-	"FIR_Su25SM3_Camo_VVSVer",                                 // Su-25SM3 Grach
 	"JS_JC_SU35_rhs",                                          // Su-35 Flanker
 	"RHS_T50_vvs_blueonblue"                                   // Su-57 Felon
 ];
