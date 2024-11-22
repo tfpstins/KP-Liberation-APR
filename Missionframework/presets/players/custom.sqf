@@ -138,7 +138,7 @@ KPLIB_b_vehAir = [
     ["FP_Spetsnaz_Alpha_Mi24_Super_Hind",750,750,250],                  // Mi-24 Super Hind
     ["FP_Spetsnaz_Alpha_Drones_YABHON",400,400,200],                    // YABHON-R3
     ["rhs_pchela1t_vvsc",400,300,200],                                  // Pchela 1-T
-    ["FIR_Su25SM3_Camo_VVSVer",1500,1000,400],                          // Su-25SM3 Grach (CAS)
+    ["FIR_Su25SM3_Camo_VVSVer",1000,1000,400],                          // Su-25SM3 Grach (CAS)
     ["SAFP_mig29sm_OPFOR",1250,1250,450],                               // Mig-29SM
 	["JS_JC_SU35_rhs",1500,1250,450],                                   // Su-35 Flanker
     ["RHS_T50_vvs_blueonblue",1800,2000,400]                            // Su-57 Felon
