@@ -389,6 +389,7 @@ KPLIB_arsenalMagazines = [
 	
 	// Misc Ammo
 	"Laserbatteries",                                      				// Designator Batteries
+	"DRNP_AR2_battery",                                      			// Portably drone battery
 	"Item_Mavic",                                      					// Mavic 3
 	"Item_Mavic3T"                                      				// Mavic 3T
 ];
@@ -1670,6 +1671,9 @@ KPLIB_arsenalItems = [
     // ACE TSP Misc
 	"ACE_RangeTable_82mm",                                          	// 82 mm Rangetable
 	"ACE_artilleryTable",												// Artillery Rangetable
+	"DRNP_AL6P",														// AL-6 (Portable)
+	"DRNP_Drone_mines",													// Drone EOD Charges
+	"DRNP_RD",															// Remote Designator (Portable)	
 	"ACE_ATragMX",                                                  	// ATragMX
 	"ACE_CableTie",                                                 	// Cable Tie
 	"ACE_Canteen",														// Canteen
