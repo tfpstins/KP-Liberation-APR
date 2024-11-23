@@ -21,7 +21,7 @@
 		- cTab NSWDG Edition - https://steamcommunity.com/sharedfiles/filedetails/?id=2511318948
 */
 
-GRLIB_arsenal_weapons = [
+KPLIB_arsenal_weapons = [
 	// Primaries
 	"rhs_weap_ak74m",                            	        			// AK-74M
 	"rhs_weap_ak74m_npz",                            	        		// AK-74M (B-13)
@@ -178,7 +178,7 @@ GRLIB_arsenal_weapons = [
 	"tsp_meleeWeapon_splittingaxe"                            	        // Splitting Axe
 ];
 
-GRLIB_arsenal_magazines = [
+KPLIB_arsenal_magazines = [
 
 	// Magazines (Primary)
 	"rhs_10Rnd_762x39mm",                                      			// 10rnd AK-103 57-N-231
@@ -391,7 +391,7 @@ GRLIB_arsenal_magazines = [
 	"Item_Mavic3T"                                      				// Mavic 3T
 ];
 
-GRLIB_arsenal_items = [
+KPLIB_arsenal_items = [
 
     // Standard Items
     "ItemCompass",                                                  	// Compass
@@ -1733,7 +1733,7 @@ GRLIB_arsenal_items = [
     "TFAR_microdagr"                                                	// MicroDAGR Radio Programmer
 ];
 
-GRLIB_arsenal_backpacks = [
+KPLIB_arsenal_backpacks = [
 	"AGE_Backpack_Ares_Olive",                                      	// Ares Backpack (Olive)
 	"AGE_Banger_Backpouches_MultiCam",                                  // Banger Backpouches (Multicam)
 	"AGE_Banger_Backpouches_Olive",                                     // Banger Backpouches (Olive)
