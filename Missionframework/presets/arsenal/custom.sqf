@@ -123,6 +123,7 @@ KPLIB_arsenalWeapons = [
 	"srifle_DMR_01_black_F",                            	       	    // SVU (Black)
 	"rhs_weap_t5000",													// T-5000
 	"KA_VSSK",                            	    					    // VSSK 12.7x55 mm
+	"sgun_Mp153_black_F",                                               // Mp-153 Tactical
 
 	// Ace CSW (Launcher Slot)
 	"ace_compat_rhs_afrf3_2b14_carry",                            	    // [CSW] 2B14 Tube Bag
@@ -305,6 +306,8 @@ KPLIB_arsenalMagazines = [
 	"rhs_45Rnd_545X39_AK_Green",
 	"rhs_100Rnd_762x54mmR_7N13",
 	"rhs_30Rnd_762x39mm_polymer",
+	"8Rnd_12Gauge_Pellets",
+	"8Rnd_12Gauge_Slug",
 
 
 	// Magazines (Secondary)
@@ -386,7 +389,6 @@ KPLIB_arsenalMagazines = [
 	
 	// Misc Ammo
 	"Laserbatteries",                                      				// Designator Batteries
-	"DRNP_AR2_battery",                                      			// Portably drone battery
 	"Item_Mavic",                                      					// Mavic 3
 	"Item_Mavic3T"                                      				// Mavic 3T
 ];
@@ -401,8 +403,7 @@ KPLIB_arsenalItems = [
 	"ACE_Altimeter",                                                	// Altimeter Watch
     "ToolKit",                                                      	// Toolkit
 	"FIR_PDU",															// PDU
-	"O-UavTerminal",													// UAV Terminal [CSAT]
-	"B-UavTerminal",													// UAV Terminal [NATO]
+	"O_UavTerminal",													// UAV Terminal [CSAT]
 
 	// ACE Medical
 	"ACE_adenosine",													// Adenosine Autoinjector
@@ -431,8 +432,6 @@ KPLIB_arsenalItems = [
 	
 	// Binoculars
 	"Binocular",                                           				// Binoculars
-	"Laserdesignator_01_khk_F",                                         // Laser Designator (Khaki)
-	"Laserdesignator_03",                                           	// Laser Designator (Olive)
 	"Laserdesignator",                                           		// Laser Designator (Sand)
 	"rhs_pdu4",                                           				// PDU-4
 	"Rangefinder",                                           			// Rangefinder
@@ -1670,8 +1669,6 @@ KPLIB_arsenalItems = [
 
     // ACE TSP Misc
 	"ACE_RangeTable_82mm",                                          	// 82 mm Rangetable
-	"DRNP_AL6P",														// AL-6 (Portable)
-	"DRNP_AR2P",														// AR-2 (Portable)
 	"ACE_artilleryTable",												// Artillery Rangetable
 	"ACE_ATragMX",                                                  	// ATragMX
 	"ACE_CableTie",                                                 	// Cable Tie
@@ -1679,7 +1676,6 @@ KPLIB_arsenalItems = [
 	"ACE_DAGR",                                                     	// DAGR
 	"ACE_DefusalKit",                                               	// Defusal Kit
 	"ItemcTab",															// DK10 Tablet
-	"DRNP_Drone_mines",													// Drone EOD Charges
 	"ACE_EarPlugs",                                                 	// Earplugs
 	"ACE_EntrenchingTool",                                          	// Entrenching Tool
 	"ACE_Flashlight_MX991",                                         	// Fulton MX-991
@@ -1704,7 +1700,6 @@ KPLIB_arsenalItems = [
 	"tsp_paperclip",													// Paperclip
 	"ACE_PlottingBoard",												// Plotting Board
 	"ACE_RangeCard",                                                	// Range Card
-	"DRNP_RD",															// Remote Designator (Portable)
 	"ACE_rope12",                                                   	// Rope 12.2 meters
 	"ACE_rope15",                                                   	// Rope 15.2 meters
 	"ACE_rope27",                                                   	// Rope 27.4 meters
