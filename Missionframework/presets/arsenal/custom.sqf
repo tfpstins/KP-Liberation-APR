@@ -166,7 +166,7 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
-[
+
 	// Magazines (Primary)
 	"rhs_10Rnd_762x39mm",                                      			// 10rnd AK-103 57-N-231
 	"rhs_10Rnd_762x39mm_89",                                      		// 10rnd AK-103 57-N-231(89)
@@ -372,6 +372,7 @@ GRLIB_arsenal_magazines = [
 ];
 
 GRLIB_arsenal_items = [
+
     // Standard Items
     "ItemCompass",                                                  	// Compass
     "ItemGPS",                                                      	// GPS
@@ -1624,7 +1625,7 @@ GRLIB_arsenal_items = [
 	"AGE_Muzzle_FA556AR_Black",											// FA556AR Suppressor (Black)
 	"AGE_Muzzle_FA762SS_Black",											// FA762SS Suppressor (Black)
 	"AGE_Muzzle_FA762SS_Camo",											// FA762SS Suppressor (Camo)
-	"AGE_MP9_Silencer"													// MP9 Silencer	
+	"AGE_MP9_Silencer",													// MP9 Silencer	
 	"rhs_acc_pbs1",														// PBS-1
 	"KA_PBS_1_Silencer_PP19",											// PBS-1 9x18mm Silencer	
 	"KA_Vityaz_PBS_1_Silencer",											// PBS-1 9x19mm Silencer
