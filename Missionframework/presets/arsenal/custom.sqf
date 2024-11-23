@@ -87,12 +87,21 @@ GRLIB_arsenal_weapons = [
 	"AK105_B30_B31C_CTR_RVG_camoA",                            	        // AK105 Zenitco B30\B31C\CTR RVG(Desert Camo)
 	"rhs_weap_aks74u",                            	        			// AKS-74U
 	"rhs_weap_aks74un",                            	        			// AKS-74UN
+    "rhs_weap_ak74m",                            	        			// AK-74N
+	"rhs_weap_ak74n_gp25",                            	        		// AK-74N (GP-25)
+	"rhs_weap_ak74n_gp25_npz",                            	        	// AK-74N (GP-25/NPZ)
+	"rhs_weap_ak74n_npz",                            	                // AK-74N (NPZ)
+	"rhs_weap_ak74n_2",                            	                    // AK-74N (Plum)
+	"rhs_weap_ak74n_2_npz",                            	        	    // AK-74N (Plum/B-13)
+	"rhs_weap_ak74n_2_gp25",                            	            // AK-74N (Plum/GP25)
+    "rhs_weap_ak74n_2_gp25_npz",                                        // AK-74N (Plum/B-13/GP25)
 	"FP_AK12_v2",                            	        				// AKU-12
 	"FP_AK12_v4",                            	       					// CSAT AKU-12
 	"KA_ASh_12",                            	       					// ASh-12 12.7x55mm
 	"KA_ASh_12_GP30",                            	      				// ASh-12 GP30 12.7x55mm
 	"AGE_MP9",                            	        					// MP9
 	"rhs_weap_pkp",                            	        				// PKP
+    "LMG_FP_PKP",                                                       // PKP Orkun's Armory edition
 	"KA_PP19",															// PP19 BIZON-2 9x18mm
 	"KA_PP19_MTK83",													// PP19 BIZON-2 MTK83 9x18mm
 	"KA_Vityaz",                            	       					// PP19-01 Vityaz 9x19mm
@@ -176,6 +185,10 @@ GRLIB_arsenal_magazines = [
 	"rhs_10Rnd_762x39mm_89",                                      		// 10rnd AK-103 57-N-231(89)
 	"rhs_10Rnd_762x39mm_tracer",                                      	// 10rnd AK-103 57-N-231P (Tracer)
 	"rhs_10Rnd_762x39mm_U",                                      		// 10rnd AK-103 57-N-231U (Subsonic)
+    "rhs_10rnd_9x39mm_SP5",                                             // 10rnd AS Val SP5
+    "rhs_10rnd_9x39mm_SP6",                                             // 10rnd AS Val SP6
+    "rhs_20rnd_9x39mm_SP5",                                             // 20rnd AS Val SP5
+    "rhs_20rnd_9x39mm_SP6",                                             // 20rnd AS Val SP6
 	"rhs_10Rnd_762x54mmR_7N1",                                      	// 10rnd SVD 7N1
 	"rhs_10Rnd_762x54mmR_7N14",	                                      	// 10rnd SVD 7N14
 	"10Rnd_762x54_Mag",													// 7.62 mm 10Rnd Mag
@@ -235,6 +248,9 @@ GRLIB_arsenal_magazines = [
 	"75rnd_762x39_AK12_Arid_Mag_F",
 	"rhssaf_30Rnd_762x39_M82_api",
 	"KA_5Rnd_STs_130_Ball",
+    "150Rnd_762x51_Box",
+    "150Rnd_762x54_Box",
+    "150Rnd_762x51_Box_Tracer",
 	"150Rnd_762x54_Box_Tracer",
 	"30Rnd_762x39_AK12_Mag_F",
 	"30rnd_762x39_AK12_Lush_Mag_F",
