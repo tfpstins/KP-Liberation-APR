@@ -1098,7 +1098,11 @@ GRLIB_arsenal_items = [
 	"G_Bandanna_oli",													// Bandana (Olive)
 	"G_Bandanna_tan",													// Bandana (Tan)
 	"G_Bandanna_Vampire_01",											// Bandana (Vampire)
-	"G_Bandanna_Skull1",												// Bandana (Skull)	
+	"G_Bandanna_Skull1",												// Bandana (Skull)
+    "FP_Shemag_Goggles_OD",
+    "FP_Shemag_Goggles_Tan",
+    "FaceWear_Balaclava",
+    "FaceWear_Bandana_Skull",
 	"AGE_Goggles_ComTacs",												// ComTacs
 	"AGE_GatorzEyepro_Black",											// Gatorz Eyepro (Black)
 	"AGE_GatorzEyepro_Red",												// Gatorz Eyepro (Red)
@@ -1354,11 +1358,13 @@ GRLIB_arsenal_items = [
 	"AGE_ANPVS14_H_EP",													// AN-PVS14 (H/EP)
 	"AGE_ANPVS14_H_Armband_O",											// AN-PVS14/Armband (H/Orange)
 	"AGE_ANPVS14_H_Armband_Y",											// AN-PVS14/Armband (H/Yellow)
+    "XJ_PVS31D",
+    "Xj_PVS31_wide",
+    "Xj_PVS31E_wide",
 	"AGE_Armband_O",													// Armband (Orange)
 	"AGE_Armband_Y",													// Armband (Yellow)
 	"murshun_cigs_cig0_nv",												// Cigarette (NVG Slot)
 	"FGPNVG18_a",														// GPNVG-18
-	"scrim_nvg",														// Helmet Camo
 	"JAM_NV_Gloves_Leather_blk",										// Leather Gloves (Black)
 	"JAM_NV_Poncho_01_grn",												// Poncho (Cape, Green)
 	"AGE_RhinoMount_H",													// Rhino NVG Mount (H)
