@@ -151,7 +151,7 @@ KPLIB_o_helicopters = [
 // Enemy fixed-wings that will need to spawn in the air.
 KPLIB_o_planes = [
     "DEVAS_F4E_2020",                                                   // F-4E-2020 Terminator (CAS)
-    "FIR_F16C_Polish_CFT"                                               // F-16C Fighting Falcon
+    "DEVAS_F16C_Blk40_151"                                              // F-16C Fighting Falcon
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
@@ -174,7 +174,7 @@ KPLIB_o_turrets_AT = [
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_AA = [
     "RHS_Stinger_AA_pod_WD",                                            // FIM-92F (DMS)
-	"RHS_ZU23_VDV"                                                      // ZU23-2
+	"FP_UAF_Turret_ZU23"                                                // ZU23-2
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
