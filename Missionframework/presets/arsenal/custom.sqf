@@ -186,24 +186,25 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_9x19mm_7n31_20",                                      		// 20rnd PP-2000 7N31
 	"rhs_mag_9x19mm_7n21_44",                                      		// 40rnd PP-2000 7N21
 	"rhs_mag_9x19mm_7n31_44",                                      		// 40rnd PP-2000 7N31
-	"rhs_30Rnd_545x39_AK_green",                                      	// 
-	"rhs_30Rnd_545x39_7N10_desert_AK",                                  // 
-	"rhs_60Rnd_545X39_7U1_AK",                                      	// 
-	"rhs_30Rnd_762x39mm",                                      			// 
-	"rhs_30Rnd_762x39mm_bakelite_89",                                   // 
-	"30Rnd_9x21_Mag_SMG_02",                                      		// 
-	"rhs_30Rnd_545x39_7N10_2mag_plum_AK",                               // 
-	"rhs_45Rnd_545X39_7N6_AK",                                      	// 
-	"rhs_60Rnd_545X39_7N22_AK",                                      	// 
-	"30rnd_762x39_AK12_Arid_Mag_F",                                     // 
-	"rhs_75Rnd_762x39mm_89",                                      		// 
-	"AGE_30Rnd_762x39mm_PMag",                                      	// 
-	"30Rnd_9x21_Yellow_Mag",                                      		// 
-	"rhs_30Rnd_545x39_7N6M_plum_AK",                                    // 
-	"rhs_30Rnd_545x39_7N22_desert_AK",                                  // 
-	"30Rnd_762x39_Mag_Tracer_F",                                      	// 
-	"75rnd_762x39_AK12_Mag_Tracer_F",                                   // 
-	"rhs_mag_m576","rhs_mag_m4009",                                     // 
+	"rhs_30Rnd_545x39_AK_green",                                      	// 30rnd 5.45x39mm AK (Green)
+	"rhs_30Rnd_545x39_7N10_desert_AK",                                  // 30rnd 7N10 AK (Desert)
+	"rhs_60Rnd_545X39_7U1_AK",                                      	// 60rnd 5.45x39 7U1 
+	"rhs_30Rnd_762x39mm",                                      			// 30rnd 7.62x39mm
+	"rhs_30Rnd_762x39mm_bakelite_89",                                   // 30rnd 7.62x39mm (Bakelite)
+	"30Rnd_9x21_Mag_SMG_02",                                      		// 30rnd 9x21mm
+	"rhs_30Rnd_545x39_7N10_2mag_plum_AK",                               // 30rnd 7N10 (Plum)
+	"rhs_45Rnd_545X39_7N6_AK",                                      	// 45rnd 7N6
+	"rhs_60Rnd_545X39_7N22_AK",                                      	// 60rnd 7N22
+	"30rnd_762x39_AK12_Arid_Mag_F",                                     // 30rnd 7.62x39mm (Arid)
+	"rhs_75Rnd_762x39mm_89",                                      		// 75rnd 
+	"AGE_30Rnd_762x39mm_PMag",                                      	// 30rnd 7.62x39mm PMAG
+	"30Rnd_9x21_Yellow_Mag",                                      		// 30rnd 9x21mm Yellow
+	"rhs_30Rnd_545x39_7N6M_plum_AK",                                    // 30rnd 7N6M (Plum)
+	"rhs_30Rnd_545x39_7N22_desert_AK",                                  // 30rnd 7N22 (Desert)
+	"30Rnd_762x39_Mag_Tracer_F",                                      	// 30rnd 7.62x39mm (Tracer)
+	"75rnd_762x39_AK12_Mag_Tracer_F",                                   // 75rnd 7.62x39mm (Tracer)
+	"rhs_mag_m576",                                                     // 
+    "rhs_mag_m4009",                                                    // 
 	"KA_5Rnd_STs_130PT2_Solid_Bronze_SPR",                              // 
 	"AGE_30Rnd_762x39mm_PMag_C",                                      	// 
 	"rhs_30Rnd_545x39_7N6M_green_AK",                                   // 
@@ -968,90 +969,90 @@ GRLIB_arsenal_items = [
 	"rhsusf_opscore_bk",											// 
 	"rhsusf_opscore_bk_pelt",											// 
 	"AGE_ComTacs_Facemask",											// 
-	"AGE_ComTacs",											// 
-	"rhs_Booniehat_digi",											// 
-	"rhs_beret_vdv1",											// 
-	"rhs_beret_vdv2",											// 
-	"rhs_beret_vdv3",											// 
-	"rhs_beret_vdv_early",											// 
-	"rhs_beret_milp",											// 
-	"rhs_beret_mvd",											// 
-	"rhs_beret_mp2",											// 
-	"rhs_beret_mp1",											// 
-	"AGE_Beret_Alpha_Red",											// 
-	"H_Watchcap_camo",											// 
-	"H_Watchcap_khk",											// 
-	"H_Watchcap_cbr",											// 
-	"H_Watchcap_blk",											// 
-	"rhs_altyn",											// 
-	"AGE_Altyn_Olive_VU",											// 
-	"AGE_Altyn_Olive_C_VU",											// 
-	"rhs_altyn_novisor_ess_bala",											// 
-	"AGE_Altyn_Olive",											// 
-	"AGE_Altyn_Olive_C",											// 
-	"AGE_Altyn_Olive_C_V",											// 
-	"AGE_Altyn_Olive_V",											// 
-	"rhs_altyn_visordown",											// 
-	"rhs_altyn_bala",											// 
+	"AGE_ComTacs",											            // 
+	"rhs_Booniehat_digi",											    // 
+	"rhs_beret_vdv1",											        // 
+	"rhs_beret_vdv2",											        // 
+	"rhs_beret_vdv3",											        // 
+	"rhs_beret_vdv_early",											    // 
+	"rhs_beret_milp",											        // 
+	"rhs_beret_mvd",											        // 
+	"rhs_beret_mp2",											        // 
+	"rhs_beret_mp1",											        // 
+	"AGE_Beret_Alpha_Red",										 	    // 
+	"H_Watchcap_camo",											        // 
+	"H_Watchcap_khk",											        // 
+	"H_Watchcap_cbr",											        // 
+	"H_Watchcap_blk",											        // 
+	"rhs_altyn",											            // 
+	"AGE_Altyn_Olive_VU",											    // 
+	"AGE_Altyn_Olive_C_VU",											    // 
+	"rhs_altyn_novisor_ess_bala",										// 
+	"AGE_Altyn_Olive",											        // 
+	"AGE_Altyn_Olive_C",											    // 
+	"AGE_Altyn_Olive_C_V",											    // 
+	"AGE_Altyn_Olive_V",											    // 
+	"rhs_altyn_visordown",											    // 
+	"rhs_altyn_bala",											        // 
 	"rhs_altyn_novisor_bala",											// 
-	"rhs_altyn_novisor",											// 
-	"AGE_Altyn_Black",											// 
-	"AGE_Altyn_Black_C",											// 
-	"AGE_Altyn_Black_C_V",											// 
-	"AGE_Altyn_Black_C_VU",											// 
-	"AGE_Altyn_Black_V",											// 
-	"AGE_Altyn_Black_VU",											// 
+	"rhs_altyn_novisor",											    // 
+	"AGE_Altyn_Black",											        // 
+	"AGE_Altyn_Black_C",											    // 
+	"AGE_Altyn_Black_C_V",											    // 
+	"AGE_Altyn_Black_C_VU",											    // 
+	"AGE_Altyn_Black_V",											    // 
+	"AGE_Altyn_Black_VU",											    // 
 	"rhs_altyn_novisor_ess",											// 
-	"AGE_ACH_Olive_C",											// 
+	"AGE_ACH_Olive_C",											        // 
 	"rhs_6b7_1m_bala1_olive",											// 
 	"rhs_6b7_1m_bala2_olive",											// 
-	"rhs_6b7_1m_olive",											// 
-	"rhs_6b7_1m_ess",											// 
-	"rhs_6b7_1m_ess_bala",											// 
-	"rhs_6b7_1m_emr_ess",											// 
+	"rhs_6b7_1m_olive",											        // 
+	"rhs_6b7_1m_ess",											        // 
+	"rhs_6b7_1m_ess_bala",											    // 
+	"rhs_6b7_1m_emr_ess",											    // 
 	"rhs_6b7_1m_emr_ess_bala",											// 
-	"rhs_6b7_1m_bala2_emr",											// 
-	"rhs_6b7_1m_bala1_emr",											// 
-	"rhs_6b7_1m_emr",											// 
-	"rhs_6b7_1m_bala2",											// 
-	"rhs_6b7_1m_bala1",											// 
-	"rhs_6b7_1m",											// 
-	"rhs_6b47_ess",											// 
-	"rhs_6b47_emr",											// 
-	"rhs_6b47_emr_1",											// 
-	"rhs_6b47_emr_2",											// 
-	"rhs_6b47_6B50",											// 
-	"rhs_6b47_ess_bala",											// 
-	"rhs_6b47_6m2",											// 
-	"rhs_6b47_6m2_1",											// 
-	"rhs_6b47_bare_d",											// 
-	"rhs_6b47_bala",											// 
-	"rhs_6b47_bare",											// 
-	"rhs_6b47",											// 
-	"rhs_6b28",											// 
-	"rhs_6b28_bala",											// 
-	"rhs_6b28_ess_bala",											// 
-	"rhs_6b28_green_ess",											// 
+	"rhs_6b7_1m_bala2_emr",											    // 
+	"rhs_6b7_1m_bala1_emr",											    // 
+	"rhs_6b7_1m_emr",											        // 
+	"rhs_6b7_1m_bala2",											        // 
+	"rhs_6b7_1m_bala1",											        // 
+	"rhs_6b7_1m",											            // 
+	"rhs_6b47_ess",											            // 
+	"rhs_6b47_emr",											            // 
+	"rhs_6b47_emr_1",											        // 
+	"rhs_6b47_emr_2",											        // 
+	"rhs_6b47_6B50",											        // 
+	"rhs_6b47_ess_bala",											    // 
+	"rhs_6b47_6m2",											            // 
+	"rhs_6b47_6m2_1",											        // 
+	"rhs_6b47_bare_d",											        // 
+	"rhs_6b47_bala",											        // 
+	"rhs_6b47_bare",											        // 
+	"rhs_6b47",										                	// 
+	"rhs_6b28",											                // 
+	"rhs_6b28_bala",											        // 
+	"rhs_6b28_ess_bala",											    // 
+	"rhs_6b28_green_ess",											    // 
 	"rhs_6b28_green_ess_bala",											// 
-	"rhs_6b28_green",											// 
-	"rhs_6b28_green_bala",											// 
-	"rhs_6b28_ess",											// 
-	"rhs_6b27m_digi",											// 
+	"rhs_6b28_green",											        // 
+	"rhs_6b28_green_bala",											    // 
+	"rhs_6b28_ess",											            // 
+	"rhs_6b27m_digi",											        // 
 	"rhs_6b27m_digi_ess_bala",											// 
-	"rhs_6b27m_digi_bala",											// 
-	"rhs_6b27m_digi_ess",											// 
-	"rhs_6b26_digi",											// 
-	"rhs_6b26_digi_bala",											// 
-	"rhs_6b26_digi_ess",											// 
+	"rhs_6b27m_digi_bala",											    // 
+	"rhs_6b27m_digi_ess",											    // 
+	"rhs_6b26_digi",											        // 
+	"rhs_6b26_digi_bala",											    // 
+	"rhs_6b26_digi_ess",											    // 
 	"rhs_6b26_digi_ess_bala",											// 
-	"rhs_6b27m_green",											// 
-	"rhs_6b27m_green_bala",											// 
-	"rhs_6b27m_green_ess",											// 
+	"rhs_6b27m_green",											        // 
+	"rhs_6b27m_green_bala",										     	// 
+	"rhs_6b27m_green_ess",											    // 
 	"rhs_6b27m_green_ess_bala",											// 
-	"rhs_6b26_ess_green",											// 
+	"rhs_6b26_ess_green",											    // 
 	"rhs_6b26_ess_bala_green",											// 
-	"rhs_6b26_green",											// 
-	"rhs_6b26_bala_green",											// 
+	"rhs_6b26_green",										            // 
+	"rhs_6b26_bala_green",											    // 
 
     // Facegear
 	"rhs_facewear_6m2",													// 6M2
