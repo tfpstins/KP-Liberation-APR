@@ -64,6 +64,7 @@ KPLIB_medical_vehicles = [
     "O_Truck_03_medical_F",
     "RHS_UH60M_MEV_d",
     "rhs_gaz66_ap2_vmf",
+	"rhs_gaz66_ap2_msv",
     "RHS_UH60M_MEV",
     "RHS_UH60M_MEV2_d",
     "RHS_UH60M_MEV2",
@@ -182,6 +183,7 @@ KPLIB_aiResupplySources = [
     "O_T_Truck_03_ammo_ghex_F",
     "O_Truck_03_ammo_F",
     "rhs_gaz66_ammo_msv",
+	"rhs_kamaz5350_ammo_msv",
     "rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
     "rhsusf_M1239_M2_Deploy_socom_d",
     "rhsusf_M1239_MK19_Deploy_socom_d",
@@ -294,6 +296,7 @@ vehicle_rearm_sources = [
     "O_T_Truck_03_ammo_ghex_F",
     "O_Truck_03_ammo_F",
     "rhs_gaz66_ammo_msv",
+	"rhs_kamaz5350_ammo_msv",
     "rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
     "rhsusf_M1239_M2_Deploy_socom_d",
     "rhsusf_M1239_MK19_Deploy_socom_d",
@@ -348,6 +351,7 @@ vehicle_refuel_sources = [
     "O_T_Truck_03_fuel_ghex_F",
     "O_Truck_03_fuel_F",
     "RHS_Ural_Fuel_VDV_01",
+	"RHS_Ural_Fuel_MSV_01",
     "rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
     "rhsusf_M1239_M2_Deploy_socom_d",
     "rhsusf_M1239_MK19_Deploy_socom_d",
@@ -406,7 +410,9 @@ boats_names = [
     "B_Lifeboat",
     "vn_b_boat_05_01",
 	"B_W_Boat_Transport_01_F",
-	"B_T_Boat_Armed_01_minigun_F"
+	"B_T_Boat_Armed_01_minigun_F",
+	"FP_Spetsnaz_Alpha_RHIB",
+	"FP_Spetsnaz_Alpha_Speedboat"
 ];
 
 // Classnames of artillery vehicles, which should be added to the support module
