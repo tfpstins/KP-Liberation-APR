@@ -101,6 +101,10 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_rpk74m",                            	        			// RPK-74M
 	"rhs_weap_rpk74m_npz",                            	        		// RPK-74M (B-13)
 	"KA_SR2M",                            	        					// SR-2M Veresk 9x21mm Gyurza
+    "rhs_weap_asval",                                                   // AS Val
+    "rhs_weap_asval_grip",                                              // AS Val (Grip)
+    "rhs_weap_asval_grip_npz",                                          // AS Val (Grip/NPZ)
+    "rhs_weap_asval_npz",                                               // AS Val (NPZ)
 	"rhs_weap_svdp",                            	    				// SVDM
 	"rhs_weap_svdp_npz",                            	        		// SVDM (NPZ)
 	"rhs_weap_svdp_wd",                            	        			// SVDM (Camo)
