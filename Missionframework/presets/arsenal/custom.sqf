@@ -1107,6 +1107,12 @@ GRLIB_arsenal_items = [
 	"JAM_G_Gloves_Leather_blk",											// Leather Gloves (Black)
 	"JAM_G_Poncho_01_grn",												// Poncho (Cape, Green)
 	"rhs_scarf",														// Scarf
+    "VSM_beard_Blonde_hair",
+    "VSM_beard_2_hair",
+    "VSM_beard_Ginger_hair",
+    "VSM_beard_Brwn2",
+    "VSM_beard_DarkGrey_hair",
+    "VSM_beard_LightGrey_hair",
 
     // Vests
 	"rhs_6b45",															// 6B45
@@ -1350,12 +1356,6 @@ GRLIB_arsenal_items = [
 	"AGE_ANPVS14_H_Armband_Y",											// AN-PVS14/Armband (H/Yellow)
 	"AGE_Armband_O",													// Armband (Orange)
 	"AGE_Armband_Y",													// Armband (Yellow)
-	"CL_armbands_NO",													// Armband Orange Small
-	"CL_armbands_NOM",													// Armband Orange Medium
-	"CL_armbands_NOL",													// Armband Orange Large
-	"CL_armbands_NW",													// Armband White Small
-	"CL_armbands_NWM",													// Armband White Medium
-	"CL_armbands_NWL",													// Armband White Large
 	"murshun_cigs_cig0_nv",												// Cigarette (NVG Slot)
 	"FGPNVG18_a",														// GPNVG-18
 	"scrim_nvg",														// Helmet Camo
