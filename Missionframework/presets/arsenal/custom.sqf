@@ -187,8 +187,6 @@ GRLIB_arsenal_magazines = [
 	"rhs_10Rnd_762x39mm_U",                                      		// 10rnd AK-103 57-N-231U (Subsonic)
     "rhs_10rnd_9x39mm_SP5",                                             // 10rnd AS Val SP5
     "rhs_10rnd_9x39mm_SP6",                                             // 10rnd AS Val SP6
-    "rhs_20rnd_9x39mm_SP5",                                             // 20rnd AS Val SP5
-    "rhs_20rnd_9x39mm_SP6",                                             // 20rnd AS Val SP6
 	"rhs_10Rnd_762x54mmR_7N1",                                      	// 10rnd SVD 7N1
 	"rhs_10Rnd_762x54mmR_7N14",	                                      	// 10rnd SVD 7N14
 	"10Rnd_762x54_Mag",													// 7.62 mm 10Rnd Mag
@@ -198,7 +196,8 @@ GRLIB_arsenal_magazines = [
 	"KA_20Rnd_STs_130PT_SPR",                                      		// 20Rnd STs-130PT SPR 12.7x55 mm
 	"KA_20Rnd_STs_130PT2_Solid_Bronze_SPR",								// 20Rnd STs-130PT2 SPR Solid Bronze 12.7x55 mm
 	"KA_20Rnd_STs_130VPS_AP",                                      		// 20Rnd STs-130VPS AP 12.7x55 mm
-
+    "rhs_20rnd_9x39mm_SP5",                                             // 20rnd AS Val SP5
+    "rhs_20rnd_9x39mm_SP6",                                             // 20rnd AS Val SP6
 	"rhs_mag_9x19mm_7n21_20",                                      		// 20rnd PP-2000 7N21
 	"rhs_mag_9x19mm_7n31_20",                                      		// 20rnd PP-2000 7N31
 	"rhs_mag_9x19mm_7n21_44",                                      		// 40rnd PP-2000 7N21
