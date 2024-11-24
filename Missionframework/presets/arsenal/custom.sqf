@@ -148,6 +148,7 @@ KPLIB_arsenalWeapons = [
 	"rhs_weap_rpg18",                            	      			    // RPG-18
 	"rhs_weap_rpg26",                            	       				// RPG-26
 	"RPG_30K",                            	    					    // RPG 30
+	"launch_RPG32_black_F",                                             // RPG-32
 	"rhs_weap_rshg2",                            	      			    // RShG-2
 	
 	// Pistols
