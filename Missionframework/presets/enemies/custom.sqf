@@ -167,8 +167,7 @@ KPLIB_o_turrets_GMG = [
 
 // Enemy defence turrets that will be spawned in sectors.
 KPLIB_o_turrets_AT = [
-    "RHS_TOW_TriPod_USMC_D",                                            // M41A4 TOW
-	"rhs_Kornet_9M133_2_vdv"                                            // 9K133-1 (Kornet-M)
+    "RHS_TOW_TriPod_D"                                                  // M41A4 TOW
 ];
 
 // Enemy defence turrets that will be spawned in sectors.
