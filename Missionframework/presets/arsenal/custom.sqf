@@ -109,6 +109,7 @@ KPLIB_arsenalWeapons = [
 	"rhs_weap_pp2000_folded",                            	       	    // PP-2000 (Folded)
 	"rhs_weap_rpk74m",                            	        			// RPK-74M
 	"rhs_weap_rpk74m_npz",                            	        		// RPK-74M (B-13)
+	"arifle_RPK_F",                                                     // RPK
 	"KA_SR2M",                            	        					// SR-2M Veresk 9x21mm Gyurza
     "rhs_weap_asval",                                                   // AS Val
     "rhs_weap_asval_grip",                                              // AS Val (Grip)
@@ -214,7 +215,6 @@ KPLIB_arsenalMagazines = [
 	"rhs_45Rnd_545X39_7N6_AK",                                      	// 45rnd 7N6
 	"rhs_60Rnd_545X39_7N22_AK",                                      	// 60rnd 7N22
 	"30rnd_762x39_AK12_Arid_Mag_F",                                     // 30rnd 7.62x39mm (Arid)
-	"rhs_75Rnd_762x39mm_89",                                      		// 75rnd 
 	"AGE_30Rnd_762x39mm_PMag",                                      	// 30rnd 7.62x39mm PMAG
 	"30Rnd_9x21_Yellow_Mag",                                      		// 30rnd 9x21mm Yellow
 	"rhs_30Rnd_545x39_7N6M_plum_AK",                                    // 30rnd 7N6M (Plum)
@@ -234,7 +234,6 @@ KPLIB_arsenalMagazines = [
 	"rhs_100Rnd_762x54mmR",
 	"150Rnd_762x54_Box",
 	"30Rnd_762x39_Mag_F",
-	"rhs_75Rnd_762x39mm",
 	"KA_64Rnd_9x18_PMM_FMJ_Mag",										// 64Rnd 9x18mm FMJ Mag
 	"KA_64Rnd_9x18_PMM_Subsonic_Mag",									// 64Rnd 9x18mm Subsonic Mag
 	"KA_5Rnd_STs_130PT_SPR",
@@ -257,6 +256,8 @@ KPLIB_arsenalMagazines = [
 	"30rnd_762x39_AK12_Lush_Mag_F",
 	"75rnd_762x39_AK12_Lush_Mag_F",
 	"rhs_30Rnd_762x39mm_bakelite_tracer",
+	"rhs_75Rnd_762x39mm",                                               // 75rnd RPK 57-N-231	
+	"rhs_75Rnd_762x39mm_89",                                      		// 75rnd RPK 57-N-231(89)	
 	"rhs_75Rnd_762x39mm_tracer",
 	"KA_5Rnd_STs_130VPS_AP",
 	"SCM_96Rnd_545x39_RPK_Mag",
