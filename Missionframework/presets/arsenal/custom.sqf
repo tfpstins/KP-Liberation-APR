@@ -214,47 +214,33 @@ KPLIB_arsenalMagazines = [
 	"rhs_30Rnd_545x39_7N10_2mag_plum_AK",                               // 30rnd 7N10 (Plum)
 	"rhs_45Rnd_545X39_7N6_AK",                                      	// 45rnd 7N6
 	"rhs_60Rnd_545X39_7N22_AK",                                      	// 60rnd 7N22
-	"30rnd_762x39_AK12_Arid_Mag_F",                                     // 30rnd 7.62x39mm (Arid)
 	"AGE_30Rnd_762x39mm_PMag",                                      	// 30rnd 7.62x39mm PMAG
 	"30Rnd_9x21_Yellow_Mag",                                      		// 30rnd 9x21mm Yellow
 	"rhs_30Rnd_545x39_7N6M_plum_AK",                                    // 30rnd 7N6M (Plum)
 	"rhs_30Rnd_545x39_7N22_desert_AK",                                  // 30rnd 7N22 (Desert)
-	"30Rnd_762x39_Mag_Tracer_F",                                      	// 30rnd 7.62x39mm (Tracer)
-	"75rnd_762x39_AK12_Mag_Tracer_F",                                   // 75rnd 7.62x39mm (Tracer)
 	"rhs_mag_m576",                                                     // 
     "rhs_mag_m4009",                                                    // 
 	"KA_5Rnd_STs_130PT2_Solid_Bronze_SPR",                              // 
 	"AGE_30Rnd_762x39mm_PMag_C",                                      	// 
 	"rhs_30Rnd_545x39_7N6M_green_AK",                                   // 
 	"rhs_30Rnd_545x39_7N10_AK",                                      	// 
-	"30rnd_762x39_AK12_Lush_Mag_Tracer_F",                              // 
-	"30Rnd_545x39_Mag_F",                                      			// 
 	"rhs_30Rnd_545x39_7N6_green_AK",                                    // 
 	"rhs_30Rnd_545x39_7N10_camo_AK",
 	"rhs_100Rnd_762x54mmR",
 	"150Rnd_762x54_Box",
-	"30Rnd_762x39_Mag_F",
 	"KA_64Rnd_9x18_PMM_FMJ_Mag",										// 64Rnd 9x18mm FMJ Mag
 	"KA_64Rnd_9x18_PMM_Subsonic_Mag",									// 64Rnd 9x18mm Subsonic Mag
 	"KA_5Rnd_STs_130PT_SPR",
-	"30Rnd_545x39_Mag_Green_F",
 	"rhs_30Rnd_545x39_AK_plum_green",
 	"rhs_30Rnd_545x39_7N22_camo_AK",
 	"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
 	"rhs_100Rnd_762x54mmR_green",
-	"30Rnd_762x39_AK12_Mag_Tracer_F",
-	"75Rnd_762x39_Mag_Tracer_F",
-	"75rnd_762x39_AK12_Lush_Mag_Tracer_F",
-	"75rnd_762x39_AK12_Arid_Mag_F",
 	"rhssaf_30Rnd_762x39_M82_api",
 	"KA_5Rnd_STs_130_Ball",
     "150Rnd_762x51_Box",
     "150Rnd_762x54_Box",
     "150Rnd_762x51_Box_Tracer",
 	"150Rnd_762x54_Box_Tracer",
-	"30Rnd_762x39_AK12_Mag_F",
-	"30rnd_762x39_AK12_Lush_Mag_F",
-	"75rnd_762x39_AK12_Lush_Mag_F",
 	"rhs_30Rnd_762x39mm_bakelite_tracer",
 	"rhs_75Rnd_762x39mm",                                               // 75rnd RPK 57-N-231	
 	"rhs_75Rnd_762x39mm_89",                                      		// 75rnd RPK 57-N-231(89)	
@@ -266,8 +252,6 @@ KPLIB_arsenalMagazines = [
 	"rhs_45Rnd_545X39_7N6M_AK",
 	"rhs_45Rnd_545X39_7N10_AK",
 	"rhs_45Rnd_545X39_7N22_AK",
-	"30Rnd_762x39_Mag_Green_F",
-	"30Rnd_762x39_Mag_Tracer_Green_F",
 	"KA_5Rnd_STs_130U_PPA",
 	"rhs_30Rnd_545x39_7N6_AK",
 	"rhs_45Rnd_545X39_7U1_AK",
@@ -282,26 +266,20 @@ KPLIB_arsenalMagazines = [
 	"rhs_30Rnd_762x39mm_bakelite",
 	"30Rnd_9x21_Mag",
 	"rhs_5Rnd_338lapua_t5000",
-	"30Rnd_545x39_Mag_Tracer_F",
 	"rhs_30Rnd_545x39_7U1_AK",
 	"rhs_30Rnd_545x39_7N10_plum_AK",
-	"75Rnd_762x39_Mag_F",
 	"KA_30Rnd_9x19_7N31_AP_Mag",
 	"KA_30Rnd_9x19_JHP_Subsonic_Mag",
 	"30Rnd_9x21_Green_Mag",
 	"SCM_96Rnd_545x39_RPK_Mag_Tracer",
 	"rhs_30Rnd_545x39_7N6M_AK",
 	"rhs_30Rnd_545x39_7N10_2mag_AK",
-	"30rnd_762x39_AK12_Arid_Mag_Tracer_F",
-	"75rnd_762x39_AK12_Arid_Mag_Tracer_F",
 	"rhs_30Rnd_762x39mm_bakelite_U",
 	"rhs_30Rnd_762x39mm_polymer_tracer",
-	"30Rnd_545x39_Mag_Tracer_Green_F",
 	"rhs_30Rnd_545x39_7N22_AK",
 	"rhs_60Rnd_545X39_AK_Green",
 	"rhs_100Rnd_762x54mmR_7N26",
 	"rhs_100Rnd_762x54mmR_7BZ3",
-	"75rnd_762x39_AK12_Mag_F",
 	"rhs_30Rnd_762x39mm_U",
 	"rhssaf_30Rnd_762x39mm_M78_tracer",
 	"rhs_30Rnd_545x39_7N22_plum_AK",
