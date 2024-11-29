@@ -54,11 +54,11 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 KPLIB_o_militiaInfantry = [
-    "DEVAS_U_Rifleman_D",                                               // Rifleman (Lite)
-    "DEVAS_U_Rifleman_D",                                               // Rifleman (Lite)
+    "DEVAS_U_Rifleman_D",                                               // Rifleman
     "DEVAS_U_Rifleman_D",                                               // Rifleman
     "DEVAS_U_AT_D",                                                     // Rifleman (AT)
     "DEVAS_U_AT_D",                                                     // Rifleman (AT)
+    "DEVAS_U_AA_D",                                                     // Rifleman (AA)
     "DEVAS_U_AutomaticRifleman_D",                                      // Autorifleman
     "DEVAS_U_Sniper_D",                                                 // Marksman
     "DEVAS_U_Medic_D",                                                  // Medic
@@ -81,8 +81,8 @@ KPLIB_o_armyVehicles = [
     "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)
     "RHS_M2A2",                                                         // M2A2ODS
     "RHS_M2A2",                                                         // M2A2ODS
-    "FP_Ger_Leopard",                                                   // Leopard 2A4
-    "FP_Ger_Leopard"                                                    // Leopard 2A4
+    "Devas_Leopard2A4_W",                                               // Leopard 2A4
+    "Devas_Leopard2A4_W"                                                // Leopard 2A4
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -107,8 +107,8 @@ KPLIB_o_battleGrpVehicles = [
     "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)	
     "RHS_M2A2",                                                         // M2A2ODS
     "RHS_M2A2",                                                         // M2A2ODS	
-    "FP_Ger_Leopard",                                                   // Leopard 2A4
-    "FP_Ger_Leopard",                                                   // Leopard 2A4	
+    "Devas_Leopard2A4_W",                                               // Leopard 2A4
+    "Devas_Leopard2A4_W",                                               // Leopard 2A4	
     "DEVAS_AH1",                                                        // AH-1W
     "DEVAS_AH1",                                                        // AH-1W
     "DEVAS_UH60",                                                       // UH-60
