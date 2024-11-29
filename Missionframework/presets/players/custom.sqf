@@ -89,14 +89,14 @@ KPLIB_b_infantry = [
 
 KPLIB_b_vehLight = [
     ["O_T_Quadbike_01_ghex_F",50,0,25],                                 // Quad Bike
-    ["FP_Spetsnaz_Alpha_UAZ_Pickup",75,0,50],                           // UAZ Pickup
-    ["FP_Spetsnaz_Alpha_UAZ_Kord",75,40,50],                            // UAZ Pickup (Kord)
-    ["FP_Spetsnaz_Alpha_UAZ_AGS30",75,40,50],                           // UAZ Pickup (AGS30)	
-    ["FP_Spetsnaz_Alpha_UAZ_Metis",75,60,50],                           // UAZ Pickup (Metis)
-    ["ARHANR22_P_UCG_W",100,0,50],                                      // Wolf Pickup
-    ["ARHANR22_P_UCG_W2",100,0,50],                                     // Wolf Pickup (Closed)
+    ["FP_Spetsnaz_Alpha_UAZ_Pickup",50,0,45],                           // UAZ Pickup
+    ["FP_Spetsnaz_Alpha_UAZ_Kord",50,40,45],                            // UAZ Pickup (Kord)
+    ["FP_Spetsnaz_Alpha_UAZ_AGS30",50,50,45],                           // UAZ Pickup (AGS30)	
+    ["FP_Spetsnaz_Alpha_UAZ_Metis",50,60,45],                           // UAZ Pickup (Metis)
+    ["ARHANR22_P_UCG_W",60,0,50],                                       // Wolf Pickup
+    ["ARHANR22_P_UCG_W2",60,0,50],                                      // Wolf Pickup (Closed)
     ["rhs_tigr_m_msv",100,0,50],                                        // GAZ Tigr M
-    ["rhs_tigr_sts_msv",100,80,50],                                     // GAZ Tigr STS
+    ["rhs_tigr_sts_msv",100,60,50],                                     // GAZ Tigr STS
     ["rhs_gaz66o_msv",120,0,60],                                        // GAZ-66 (Open)
     ["rhs_gaz66o_flat_msv",120,0,60],                                   // GAZ-66 (Open/Flatbed)
     ["rhs_gaz66_zu23_msv",120,50,60],                                   // GAZ-66 (ZU-23-2)
@@ -105,7 +105,7 @@ KPLIB_b_vehLight = [
     ["rhs_kamaz5350_open_msv",125,0,75],                                // Kamaz Transport (Open)
     ["rhs_kamaz5350_msv",125,0,75],                                     // Kamaz Transport (Covered)
     ["rhs_kamaz5350_flatbed_msv",125,0,75],                             // Kamaz (Open/Flatbed)
-    ["RHS_BM21_MSV_01",125,1200,75],                                    // BM-21 Rocket Launcher Truck
+    ["RHS_BM21_MSV_01",200,1500,200],                                   // BM-21 Rocket Launcher Truck
     ["FP_Spetsnaz_Alpha_RHIB",100,0,25],                                // RHIB
     ["FP_Spetsnaz_Alpha_Speedboat",200,80,75]                           // Speedboat Minigun
 ];
@@ -119,10 +119,10 @@ KPLIB_b_vehHeavy = [
     ["FP_Spetsnaz_Alpha_BTR80A",240,80,125],                            // BTR-80A
     ["rhs_zsu234_aa",300,250,200],                                      // ZSU-23-4V
     ["rhs_t72ba_tv",400,300,200],                                       // T-72B (obr. 1984g.)
-    ["rhs_t80a",450,300,200],                                           // T-80
+    ["rhs_t80a",450,300,200],                                           // T-80A
     ["rhs_t90a_tv",450,300,225],                                        // T-90 (obr.2006g.)
-    ["rhs_t80uk",460,300,250],                                          // T-80UK	
-    ["rhs_t72be_tv",480,300,250],                                       // T-72B3 (obr. 2016g.)	
+    ["rhs_t72be_tv",460,300,250],                                       // T-72B3 (obr. 2016g.)	
+    ["rhs_t80uk",480,300,250],                                          // T-80 UK 	
     ["rhs_t90sm_tv",500,400,250],                                       // T-90SM
     ["rhs_t14_tv",480,400,250],                                         // T-14 Armata
     ["rhs_2s3_tv",600,1250,300]                                         // 2S3M1 Artillery Tank
@@ -130,18 +130,19 @@ KPLIB_b_vehHeavy = [
 
 KPLIB_b_vehAir = [
     ["FP_Spetsnaz_Alpha_Ka60",225,0,125],                               // Ka-60
+	["FP_Spetsnaz_Alpha_Ka60_Armed",225,200,125],                       // Ka-60 (Armed)
     ["RHS_Mi8mt_vdv",250,200,200],                                      // Mi-8MT(Armed)
     ["RHS_Mi8mt_Cargo_vdv",250,0,200],                                  // Mi-8MT (Cargo)
     ["RHS_Mi8mtv3_Cargo_vdv",250,400,200],                              // Mi-8MTV3 (Cargo)
     ["RHS_Mi8MTV3_heavy_vdv",250,500,200],                              // Mi-8MTV3 (Heavy)	
-    ["RHS_Ka52_vvsc",450,500,200],                                      // Ka-52 Light Attack Heli
+    ["RHS_Ka52_vvsc",500,500,200],                                      // Ka-52 Light Attack Heli
     ["FP_Spetsnaz_Alpha_Mi24_Super_Hind",750,750,250],                  // Mi-24 Super Hind
-    ["FP_Spetsnaz_Alpha_Drones_YABHON",400,400,200],                    // YABHON-R3
-    ["rhs_pchela1t_vvsc",400,300,200],                                  // Pchela 1-T
-    ["FIR_Su25SM3_Camo_VVSVer",1000,1000,400],                          // Su-25SM3 Grach (CAS)
-    ["SAFP_mig29sm_OPFOR",1250,1250,450],                               // Mig-29SM
-	["JS_JC_SU35_rhs",1500,1250,450],                                   // Su-35 Flanker
-    ["RHS_T50_vvs_blueonblue",1800,2000,400]                            // Su-57 Felon
+    ["FP_Spetsnaz_Alpha_Drones_YABHON",400,300,200],                    // YABHON-R3
+    ["rhs_pchela1t_vvsc",400,0,200],                                    // Pchela 1-T
+    ["FIR_Su25SM3_Camo_VVSVer",900,900,400],                            // Su-25SM3 Grach (CAS)
+    ["SAFP_mig29sm_OPFOR",1000,1000,400],                               // Mig-29SM
+	["JS_JC_SU35_rhs",1250,1500,450],                                   // Su-35 Flanker
+    ["RHS_T50_vvs_blueonblue",1800,2000,500]                            // Su-57 Felon
 ];
 
 KPLIB_b_vehStatic = [
