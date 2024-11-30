@@ -23,14 +23,14 @@ KPLIB_o_squadLeader = "DEVAS_U_TeamLeader_D";                           // Squad
 KPLIB_o_teamLeader = "DEVAS_U_TeamLeader_D";                            // Team Leader
 KPLIB_o_sentry = "DEVAS_U_Rifleman_D";                                  // Rifleman (Lite)
 KPLIB_o_rifleman = "DEVAS_U_Rifleman_D";                                // Rifleman
-KPLIB_o_riflemanLAT = "DEVAS_U_AT_D";                                   // Rifleman (LAT)
+KPLIB_o_riflemanLAT = "rhsusf_army_ocp_riflemanat";                     // Rifleman (LAT)
 KPLIB_o_grenadier = "DEVAS_U_TeamLeader_D";                             // Grenadier
 KPLIB_o_machinegunner = "DEVAS_U_AutomaticRifleman_D";                  // Autorifleman
 KPLIB_o_heavyGunner = "rhsusf_army_ocp_machinegunner";                  // Heavy Gunner
 KPLIB_o_marksman = "DEVAS_U_Sniper_D";                                  // Marksman
 KPLIB_o_sharpshooter = "DEVAS_U_Sniper_D";                              // Sharpshooter
 KPLIB_o_sniper = "DEVAS_U_Sniper_D_2";                                  // Sniper
-KPLIB_o_atSpecialist = "DEVAS_U_AT_D";                                  // AT Specialist
+KPLIB_o_atSpecialist = "rhsusf_army_ocp_javelin";                       // AT Specialist
 KPLIB_o_aaSpecialist = "DEVAS_U_AA_D";                                  // AA Specialist
 KPLIB_o_medic = "DEVAS_U_Medic_D";                                      // Combat Life Saver
 KPLIB_o_engineer = "rhsusf_army_ocp_engineer";                          // Engineer
@@ -56,8 +56,8 @@ Think of them like garrison or military police forces, which are more meant to c
 KPLIB_o_militiaInfantry = [
     "DEVAS_U_Rifleman_D",                                               // Rifleman
     "DEVAS_U_Rifleman_D",                                               // Rifleman
-    "DEVAS_U_AT_D",                                                     // Rifleman (AT)
-    "DEVAS_U_AT_D",                                                     // Rifleman (AT)
+    "rhsusf_army_ocp_riflemanat",                                       // Rifleman (AT)
+    "rhsusf_army_ocp_riflemanat",                                       // Rifleman (AT)
     "DEVAS_U_AA_D",                                                     // Rifleman (AA)
     "DEVAS_U_AutomaticRifleman_D",                                      // Autorifleman
     "DEVAS_U_Sniper_D",                                                 // Marksman
