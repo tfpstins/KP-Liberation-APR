@@ -113,7 +113,6 @@ KPLIB_b_vehLight = [
 KPLIB_b_vehHeavy = [
     ["rhs_bmp2d_msv",200,40,100],                                       // BMP-2D
     ["rhs_bmp3m_msv",200,60,100],                                       // BMP-3
-    ["O_BMPT",280,80,100],                                              // BMPT Terminator-2
     ["rhs_btr70_msv",200,75,125],                                       // BTR-70
     ["rhs_btr80_msv",220,75,125],                                       // BTR-80
     ["FP_Spetsnaz_Alpha_BTR80A",240,80,125],                            // BTR-80A
@@ -124,7 +123,6 @@ KPLIB_b_vehHeavy = [
     ["rhs_t72be_tv",460,300,250],                                       // T-72B3 (obr. 2016g.)	
     ["rhs_t80uk",480,300,250],                                          // T-80 UK 	
     ["rhs_t90sm_tv",500,400,250],                                       // T-90SM
-    ["rhs_t14_tv",480,400,250],                                         // T-14 Armata
     ["rhs_2s3_tv",600,1250,300]                                         // 2S3M1 Artillery Tank
 ];
 
@@ -384,12 +382,10 @@ KPLIB_b_squadPara = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 KPLIB_b_vehToUnlock = [
-	"O_BMPT",                                                  // BMPT Terminator-2
 	"FP_Spetsnaz_Alpha_BTR80A",                                // BTR-80A
 	"rhs_t72be_tv",                                            // T-72B3
 	"rhs_t80uk",                                               // T-80UK
 	"rhs_t90sm_tv",                                            // T-90SM
-	"rhs_t14_tv",                                              // T-14 Armata
 	"RHS_Mi8mtv3_Cargo_vdv",                                   // Mi-8MTV3 (Cargo)
 	"RHS_Mi8MTV3_heavy_vdv",                                   // Mi-8MTV3 (Heavy)
 	"RHS_Ka52_vvsc",                                           // Ka-52 Light Attack Heli
