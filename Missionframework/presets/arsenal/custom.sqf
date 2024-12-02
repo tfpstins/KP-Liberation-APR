@@ -191,9 +191,7 @@ KPLIB_arsenalMagazines = [
     "rhs_10rnd_9x39mm_SP5",                                             // 10rnd AS Val SP5
     "rhs_10rnd_9x39mm_SP6",                                             // 10rnd AS Val SP6
 	"rhs_10Rnd_762x54mmR_7N1",                                      	// 10rnd SVD 7N1
-	"rhs_10Rnd_762x54mmR_7N14",	                                      	// 10rnd SVD 7N14
-	"10Rnd_762x54_Mag",													// 7.62 mm 10Rnd Mag
-	
+	"rhs_10Rnd_762x54mmR_7N14",	                                      	// 10rnd SVD 7N14	
 	"KA_20Rnd_STs_130_Ball",                                      		// 20Rnd STs-130 Ball 12.7x55 mm
 	"KA_20Rnd_STs_130U_PPA",											// 20Rnd STs-130U PPA 12.7x55 mm
 	"KA_20Rnd_STs_130PT_SPR",                                      		// 20Rnd STs-130PT SPR 12.7x55 mm
@@ -227,7 +225,6 @@ KPLIB_arsenalMagazines = [
 	"rhs_30Rnd_545x39_7N6_green_AK",                                    // 
 	"rhs_30Rnd_545x39_7N10_camo_AK",
 	"rhs_100Rnd_762x54mmR",
-	"150Rnd_762x54_Box",
 	"KA_64Rnd_9x18_PMM_FMJ_Mag",										// 64Rnd 9x18mm FMJ Mag
 	"KA_64Rnd_9x18_PMM_Subsonic_Mag",									// 64Rnd 9x18mm Subsonic Mag
 	"KA_5Rnd_STs_130PT_SPR",
@@ -237,10 +234,6 @@ KPLIB_arsenalMagazines = [
 	"rhs_100Rnd_762x54mmR_green",
 	"rhssaf_30Rnd_762x39_M82_api",
 	"KA_5Rnd_STs_130_Ball",
-    "150Rnd_762x51_Box",
-    "150Rnd_762x54_Box",
-    "150Rnd_762x51_Box_Tracer",
-	"150Rnd_762x54_Box_Tracer",
 	"rhs_30Rnd_762x39mm_bakelite_tracer",
 	"rhs_75Rnd_762x39mm",                                               // 75rnd RPK 57-N-231	
 	"rhs_75Rnd_762x39mm_89",                                      		// 75rnd RPK 57-N-231(89)	
@@ -366,6 +359,26 @@ KPLIB_arsenalMagazines = [
 	"RPG32_HE_F",                                      					// RPG-42 HE Rocket
 	"rhs_rpg7_TBG7V_mag",                                      			// TBG-7V
 	"rhs_rpg7_type69_airburst_mag",                                     // Type-69 Airburst
+	
+	// Ace CSW Ammo
+	"ace_compat_rhs_afrf3_mag_9M131F",                                  // [CSW]9M131F
+	"ace_compat_rhs_afrf3_mag_9M131M",                                  // [CSW]9M131M
+	"ace_compat_rhs_afrf3_mag_9m133",                                   // [CSW]9M133
+	"ace_compat_rhs_afrf3_mag_9m1331",                                  // [CSW]9M133-1
+	"ace_compat_rhs_afrf3_mag_9m133f",                                  // [CSW]9M133F
+	"ace_compat_rhs_afrf3_mag_9m133m2",                                 // [CSW]9M133M2
+	"ace_compat_rhs_afrf3_mag_OG9V",                                    // [CSW]HE-FRAG OG9V
+	"ace_compat_rhs_afrf3_mag_OG9VM",                                   // [CSW]HE-FRAG OG9VM
+	"ace_compat_rhs_afrf3_mag_PG9N",                                    // [CSW]HEAT PG9N
+	"ace_compat_rhs_afrf3_mag_PG9V",                                    // [CSW]HEAT PG9V
+	"ace_compat_rhs_afrf3_mag_PG9VNT",                                  // [CSW]HEAT PG9VNT
+	"ace_compat_rhs_afrf3_mag_VOG30_30",                                // [CSW]VOG-30
+	"ace_csw_50Rnd_127x108_mag",                                        // [CSW]12.7 x 108mm HMG Belt
+	"ACE_1Rnd_82mm_Mo_HE_Guided",                                       // [CSW]82mm Guided HE Round
+	"ACE_1Rnd_82mm_Mo_HE",                                              // [CSW]82mm HE Round
+	"ACE_1Rnd_82mm_Mo_Illum",                                           // [CSW]82mm Illumination Round
+	"ACE_1Rnd_82mm_Mo_HE_LaserGuided",                                  // [CSW]82mm Laser-guided HE Round
+	"ACE_1Rnd_82mm_Mo_Smoke",                                           // [CSW]82mm Smoke round
 	
 	// Misc Ammo
 	"Laserbatteries",                                      				// Designator Batteries
