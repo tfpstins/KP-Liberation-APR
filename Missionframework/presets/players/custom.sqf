@@ -93,26 +93,25 @@ KPLIB_b_vehLight = [
     ["FP_Spetsnaz_Alpha_UAZ_Kord",50,40,45],                            // UAZ Pickup (Kord)
     ["FP_Spetsnaz_Alpha_UAZ_AGS30",50,50,45],                           // UAZ Pickup (AGS30)	
     ["FP_Spetsnaz_Alpha_UAZ_Metis",50,60,45],                           // UAZ Pickup (Metis)
-    ["ARHANR22_P_UCG_W",60,0,50],                                       // Wolf Pickup
-    ["ARHANR22_P_UCG_W2",60,0,50],                                      // Wolf Pickup (Closed)
     ["rhs_tigr_m_msv",100,0,50],                                        // GAZ Tigr M
     ["rhs_tigr_sts_msv",100,60,50],                                     // GAZ Tigr STS
     ["rhs_gaz66o_msv",120,0,60],                                        // GAZ-66 (Open)
     ["rhs_gaz66o_flat_msv",120,0,60],                                   // GAZ-66 (Open/Flatbed)
     ["rhs_gaz66_zu23_msv",120,50,60],                                   // GAZ-66 (ZU-23-2)
     ["rhs_gaz66_r142_msv",120,0,60],                                    // GAZ-66 (Comms)	
-    ["rhs_gaz66_ap2_msv",120,0,60],                                     // GAZ-66 (MEDEVAC)
+    ["FP_PMC_OG_R_Zamak_Medical",120,0,60],                             // Zamak (MEDEVAC)
     ["rhs_kamaz5350_open_msv",125,0,75],                                // Kamaz Transport (Open)
     ["rhs_kamaz5350_msv",125,0,75],                                     // Kamaz Transport (Covered)
     ["rhs_kamaz5350_flatbed_msv",125,0,75],                             // Kamaz (Open/Flatbed)
+    ["RHS_Ural_Zu23_MSV_01",200,800,200],                               // Ural-4320 (ZU-23-2)	
     ["RHS_BM21_MSV_01",200,1500,200],                                   // BM-21 Rocket Launcher Truck
     ["FP_Spetsnaz_Alpha_RHIB",100,0,25],                                // RHIB
     ["FP_Spetsnaz_Alpha_Speedboat",200,80,75]                           // Speedboat Minigun
 ];
 
 KPLIB_b_vehHeavy = [
-    ["rhs_bmp2d_msv",200,40,100],                                       // BMP-2D
-    ["rhs_bmp3m_msv",200,60,100],                                       // BMP-3
+    ["rhs_bmp2d_msv",200,60,100],                                       // BMP-2D
+    ["rhs_bmp3m_msv",200,140,100],                                      // BMP-3
     ["rhs_btr70_msv",200,75,125],                                       // BTR-70
     ["rhs_btr80_msv",220,75,125],                                       // BTR-80
     ["FP_Spetsnaz_Alpha_BTR80A",240,80,125],                            // BTR-80A
@@ -276,6 +275,8 @@ KPLIB_b_vehSupport = [
     [KPLIB_b_airControl,1000,0,0],
     [KPLIB_b_slotHeli,250,0,0],
     [KPLIB_b_slotPlane,500,0,0],
+	[rhs_3Ya40_1_single,2,0,0],
+	[rhs_7ya37_1_single,5,0,0],
     ["ACE_medicalSupplyCrate_advanced",50,0,0],
     ["ACE_Box_82mm_Mo_HE",50,40,0],
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],
