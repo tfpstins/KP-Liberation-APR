@@ -9,18 +9,15 @@
         Custom (default NATO) player preset.
 
     Needed Mods:
-        - None
+        - RHS Mods
+		- RHS Plus
+		- Su-35 Flanker
+		- FIR AWS
+		- FIR Su-25 Grach
+		- Mig29 SM Enhanced
 
     Optional Mods:
-        - BWMod
-        - CUP Vehicles
-        - CUP Weapons
-        - F-15C
-        - F/A-18
-        - RHSUSAF
-        - USAF Fighters Pack
-        - USAF Main Pack
-        - USAF Utility Pack
+
 */
 
 /*
@@ -387,7 +384,6 @@ KPLIB_b_vehToUnlock = [
 	"rhs_t72be_tv",                                            // T-72B3
 	"rhs_t80uk",                                               // T-80UK
 	"rhs_t90sm_tv",                                            // T-90SM
-	"RHS_Mi8mtv3_Cargo_vdv",                                   // Mi-8MTV3 (Cargo)
 	"RHS_Mi8MTV3_heavy_vdv",                                   // Mi-8MTV3 (Heavy)
 	"RHS_Ka52_vvsc",                                           // Ka-52 Light Attack Heli
 	"FP_Spetsnaz_Alpha_Mi24_Super_Hind",                       // Mi-24 Super Hind
