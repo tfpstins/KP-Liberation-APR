@@ -65,6 +65,7 @@ KPLIB_medical_vehicles = [
     "RHS_UH60M_MEV_d",
     "rhs_gaz66_ap2_vmf",
 	"rhs_gaz66_ap2_msv",
+	"FP_PMC_OG_R_Zamak_Medical",
     "RHS_UH60M_MEV",
     "RHS_UH60M_MEV2_d",
     "RHS_UH60M_MEV2",
