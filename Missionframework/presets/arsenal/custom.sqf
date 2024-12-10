@@ -1064,8 +1064,11 @@ KPLIB_arsenalItems = [
 	"rhs_6b26_ess_green",											    // 
 	"rhs_6b26_ess_bala_green",											// 
 	"rhs_6b26_green",										            // 
-	"rhs_6b26_bala_green",											    // 
-
+	"rhs_6b26_bala_green",											    //
+    "H_Cap_oli",                                                        //
+    "H_Cap_tan",                                                        //
+    "H_Cap_headphones",                                                 //
+	
     // Facegear
 	"rhs_facewear_6m2",													// 6M2
 	"rhs_facewear_6m2_1",												// 6M2-1	
@@ -1110,6 +1113,9 @@ KPLIB_arsenalItems = [
     "VSM_beard_Brwn2",
     "VSM_beard_DarkGrey_hair",
     "VSM_beard_LightGrey_hair",
+	"VSM_beard_Blonde",
+    "VSM_beard_2",
+    "VSM_beard_Brwn1",
 
     // Vests
 	"rhs_6b45",															// 6B45
