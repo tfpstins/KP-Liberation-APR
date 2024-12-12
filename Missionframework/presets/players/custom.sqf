@@ -130,6 +130,7 @@ KPLIB_b_vehAir = [
     ["RHS_Mi8mtv3_Cargo_vdv",250,400,200],                              // Mi-8MTV3 (Cargo)
     ["RHS_Mi8MTV3_heavy_vdv",250,500,200],                              // Mi-8MTV3 (Heavy)	
     ["RHS_Ka52_vvsc",500,500,200],                                      // Ka-52 Light Attack Heli
+	["rhs_mi28n_vvs",600,600,200],                                      // Mi-28N
     ["FP_Spetsnaz_Alpha_Mi24_Super_Hind",750,750,250],                  // Mi-24 Super Hind
     ["FP_Spetsnaz_Alpha_Drones_YABHON",400,300,200],                    // YABHON-R3
     ["rhs_pchela1t_vvsc",400,0,200],                                    // Pchela 1-T
@@ -257,6 +258,7 @@ KPLIB_b_objectsDeco = [
     ["Land_ClutterCutter_large_F",0,0,0],
 	["Land_CzechHedgehog_01_old_F",0,0,0],
 	["Land_DragonsTeeth_01_4x2_old_redwhite_F",0,0,0],
+	["Land_QuayConcrete_01_20m_wall_F",0,0,0],
     ["FIR_Baseplate",0,0,0]	                                
 ];
 
