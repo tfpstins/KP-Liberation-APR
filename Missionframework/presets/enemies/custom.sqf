@@ -54,7 +54,7 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 KPLIB_o_militiaInfantry = [
-    "DEVAS_U_Rifleman_D",                                               // Rifleman
+    "DEVAS_U_TeamLeader_D",                                             // Team Leader
     "DEVAS_U_Rifleman_D",                                               // Rifleman
     "rhsusf_army_ocp_riflemanat",                                       // Rifleman (AT)
     "rhsusf_army_ocp_riflemanat",                                       // Rifleman (AT)
@@ -113,7 +113,8 @@ KPLIB_o_battleGrpVehicles = [
     "DEVAS_AH1",                                                        // AH-1W
     "DEVAS_UH60",                                                       // UH-60
     "DEVAS_UH60",                                                       // UH-60	
-    "DEVAS_CH47"                                                        // CH-47F
+    "DEVAS_CH47",                                                       // CH-47F
+    "DEVAS_CH47"                                                        // CH-47F	
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -124,8 +125,10 @@ KPLIB_o_battleGrpVehiclesLight = [
     "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
     "rhsusf_m113d_usarmy",                                              // M113A3 (M2)
     "rhsusf_m113d_usarmy_MK19",                                         // M113A3 (Mk19)
+    "RHS_M2A2",                                                         // M2A2ODS	
     "DEVAS_AH1",                                                        // AH-1W
-    "DEVAS_UH60"                                                        // UH-60
+    "DEVAS_UH60",                                                       // UH-60
+    "DEVAS_CH47"                                                        // CH-47F	
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
