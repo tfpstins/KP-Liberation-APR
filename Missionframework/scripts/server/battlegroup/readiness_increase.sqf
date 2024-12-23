@@ -16,6 +16,6 @@ while {true} do {
             stats_readiness_earned = stats_readiness_earned + 0.25;
         };
     };
-    if (KPLIB_enemyReadiness > 100.0 && KPLIB_param_difficulty < 2) then {KPLIB_enemyReadiness = 100.0};
+    if (KPLIB_enemyReadiness > 100.0 && KPLIB_param_difficulty < 6) then {KPLIB_enemyReadiness = 100.0};
     sleep (180 + random (180));
 };
