@@ -18,7 +18,7 @@ params ["_unit", "_killer"];
         if (count _nearby_bigtown > 0) then {
             KPLIB_enemyReadiness = KPLIB_enemyReadiness + (0.5 * KPLIB_param_difficulty);
             stats_readiness_earned = stats_readiness_earned + (0.5 * KPLIB_param_difficulty);
-            if (KPLIB_enemyReadiness > 100.0 && KPLIB_param_difficulty < 2) then {KPLIB_enemyReadiness = 100.0};
+            if (KPLIB_enemyReadiness > 100.0 && KPLIB_param_difficulty < 6) then {KPLIB_enemyReadiness = 100.0};
         };
 
         // Weights adjustments depending on what vehicle the BLUFOR killer used
