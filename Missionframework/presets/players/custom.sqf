@@ -134,10 +134,10 @@ KPLIB_b_vehAir = [
     ["FP_Spetsnaz_Alpha_Mi24_Super_Hind",750,750,250],                  // Mi-24 Super Hind
     ["FP_Spetsnaz_Alpha_Drones_YABHON",400,300,200],                    // YABHON-R3
     ["rhs_pchela1t_vvsc",400,0,200],                                    // Pchela 1-T
-    ["FIR_Su25SM3_Camo_VVSVer",900,900,400],                            // Su-25SM3 Grach (CAS)
-    ["SAFP_mig29sm_OPFOR",1000,1000,400],                               // Mig-29SM
-	["JS_JC_SU35_rhs",1250,1500,450],                                   // Su-35 Flanker
-    ["RHS_T50_vvs_blueonblue",1800,2000,500]                            // Su-57 Felon
+    ["FIR_Su25SM3_Camo_VVSVer",700,750,400],                            // Su-25SM3 Grach (CAS)
+    ["SAFP_mig29sm_OPFOR",700,750,400],                                 // Mig-29SM
+	["JS_JC_SU35_rhs",750,700,450],                                     // Su-35 Flanker
+    ["RHS_T50_vvs_blueonblue",800,750,450]                              // Su-57 Felon
 ];
 
 KPLIB_b_vehStatic = [
@@ -274,9 +274,9 @@ KPLIB_b_vehSupport = [
     [KPLIB_b_airControl,1000,0,0],
     [KPLIB_b_slotHeli,250,0,0],
     [KPLIB_b_slotPlane,500,0,0],
-	["rhs_3Ya40_1_single",2,0,0],
-	["rhs_7ya37_1_single",5,0,0],
-    ["ACE_medicalSupplyCrate_advanced",50,0,0],
+	["rhs_3Ya40_1_single",0,0,0],
+	["rhs_7ya37_1_single",0,0,0],
+    ["ACE_medicalSupplyCrate_advanced",0,0,0],
     ["ACE_Box_82mm_Mo_HE",50,40,0],
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
